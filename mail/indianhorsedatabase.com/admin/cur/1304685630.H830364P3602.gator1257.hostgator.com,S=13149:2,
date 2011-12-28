@@ -1,0 +1,299 @@
+Return-path: <service@paypal.nl>
+Envelope-to: admin@indianhorsedatabase.com
+Delivery-date: Fri, 06 May 2011 07:40:30 -0500
+Received: from mx1.phx.paypal.com ([66.211.168.231]:47504 helo=mx0.phx.paypal.com)
+	by gator1257.hostgator.com with esmtp (Exim 4.69)
+	(envelope-from <service@paypal.nl>)
+	id 1QIKKc-0000vK-0t
+	for admin@indianhorsedatabase.com; Fri, 06 May 2011 07:40:30 -0500
+DomainKey-Signature: s=dkim; d=paypal.nl; c=nofws; q=dns;
+  h=Received:Date:Message-Id:Subject:X-MaxCode-Template:To:
+   From:X-Email-Type-Id:X-XPT-XSL-Name:Content-Type:
+   MIME-Version;
+  b=JB1ntrnF5OUYvzeQS6pbC7U38YRu66+CK5KstxShfhGs4jQdO6yg2R1s
+   c3J8RKo8BP9+U0rL/5J4lWfNeAazO1bXDwuDWN7ujveoVpHECqknzjq0R
+   JY9UBwdHd2S7lzI52YH5D+Krzws4yHP+8AfjmYBprEYSUjZh7kivdPzq+
+   M=;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+  d=paypal.nl; i=service@paypal.nl; q=dns/txt; s=dkim;
+  t=1304685630; x=1336221630;
+  h=from:sender:reply-to:subject:date:message-id:to:cc:
+   mime-version:content-transfer-encoding:content-id:
+   content-description:resent-date:resent-from:resent-sender:
+   resent-to:resent-cc:resent-message-id:in-reply-to:
+   references:list-id:list-help:list-unsubscribe:
+   list-subscribe:list-post:list-owner:list-archive;
+  z=From:=20"service@paypal.nl"=20<service@paypal.nl>
+   |Subject:=20Profile=20Canceled|Date:=20Fri,=2006=20May=20
+   2011=2005:40:29=20-0700|Message-Id:=20<1304685629.10193@p
+   aypal.com>|To:=20IHD=20<admin@indianhorsedatabase.com>
+   |MIME-Version:=201.0;
+  bh=AhOEWvVoBFcAUuLZ5h02eamzGw+RTeNoQhXXcy9Kw4U=;
+  b=yjEEIt1q7rhL2v09Tk/Jq2JDzJdf7WqzaSHc+q7yjXb5nh+/K1EJjBP1
+   tAlBwzUQEUBNeZ3ahBBwfYwmzFEiMt5TbGczucw70UGANkXwuiIXsM8LQ
+   N7K1CQbYPIzTa0Z4runar/y7c++eBGXNht7FtAL37LLShfQyjCbn2ltC5
+   I=;
+Received: (qmail 10193 invoked by uid 993); 6 May 2011 12:40:29 -0000
+Date: Fri, 06 May 2011 05:40:29 -0700
+Message-Id: <1304685629.10193@paypal.com>
+Subject: Profile Canceled
+X-MaxCode-Template: 
+  email-recurringpayment-merchantprofile-cancelled-merchant
+To: IHD <admin@indianhorsedatabase.com>
+From: "service@paypal.nl" <service@paypal.nl>
+X-Email-Type-Id: PP1203
+X-XPT-XSL-Name: 
+  email_pimp/default/en_US/merchant/recurringpayments/MerchantProfileCanceledByMerchant.xsl
+Content-Type: multipart/alternative;
+  boundary=--NextPart_048F8BC8A2197DE2036A
+MIME-Version: 1.0
+
+----NextPart_048F8BC8A2197DE2036A
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=windows-1252
+
+Dear IHD,
+
+You successfully canceled the following PayPal Recurring Payment profile. =
+We will no longer bill the buyer. If you did not request this =
+cancellation, contact PayPal Customer Support toll-free at 1-888-221-1161.
+
+
+-----------------------------------
+Profile ID:=20
+-----------------------------------
+I-K4EPT5PCF1NH
+
+
+-----------------------------------
+For:=20
+-----------------------------------
+Membership IHD - test
+
+-----------------------------------
+Buyer Name:=20
+-----------------------------------
+Beau Bikker
+
+-----------------------------------
+Buyer Email:=20
+-----------------------------------
+beaubikker=40gmail.com
+
+
+-----------------------------------
+Payment Details
+-----------------------------------
+
+
+
+-----------------------------------
+Start Date:=20
+-----------------------------------
+6 Apr 2011
+
+-----------------------------------
+Payment Cycle:=20
+-----------------------------------
+Monthly
+
+-----------------------------------
+Amount Per Cycle:=20
+-----------------------------------
+=800,01 EUR
+
+-----------------------------------
+Last Payment Date:=20
+-----------------------------------
+6 May 2011
+
+-----------------------------------
+Last Payment Amount:=20
+-----------------------------------
+=800,01 EUR
+
+
+Kind regards,=20
+
+The PayPal Team
+
+Please do not reply to this email. This mailbox is not monitored and you =
+will not receive a response. For assistance, log in to your PayPal account =
+and click the Help link in the top right corner of any PayPal page.
+
+----------------------------------------------------------------
+Copyright =A9 1999-2011 PayPal. All rights reserved.
+
+PayPal (Europe) S.=E0 r.l. & Cie, S.C.A.
+Soci=E9t=E9 en Commandite par Actions
+Registered Office: 5th Floor 22-24 Boulevard Royal L-2449, Luxembourg
+RCS Luxembourg B 118 349
+
+PPID PP1203=20
+
+----NextPart_048F8BC8A2197DE2036A
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=windows-1252
+
+<html><head title=3D=22PayPal=22/><body><div class=3D=22ppmail=22><style =
+type=3D=22text/css=22>BODY, TD =7Bfont-family: =
+verdana,arial,helvetica,sans-serif;font-size: 12px;color: =23000000;=7D
+
+LI =7Bline-height: 120%;=7D
+UL.smallBorder =7Bmargin:10px 5px 10px 20px;=7D
+LI.smallBorderLi =7Bmargin:0px 0px 5px 0px;=7D
+UL.Narrow =7Bmargin:10px 5px 0px 40px;=7D
+HR.dotted =7Bwidth: 100%; margin-top: 0px; margin-bottom: 0px; =
+border-left: =23fff; border-right: =23fff; border-top: =23fff; =
+border-bottom: 2px dotted =23ccc;=7D
+=2EsmallEmphasis =7Bfont-family: =
+verdana,arial,helvetica,sans-serif;font-size: 11px;font-weight: =
+bold;color: =23000000;=7D
+=2Erefund =7Bfont-family: verdana,arial,helvetica,sans-serif;font-size: =
+10pt;font-weight: bold;color: =23000000;=7D
+=2EserifBig =7Bfont-family: serif;font-size: 20px;font-weight: bold;color: =
+=23000000;=7D
+=2Eserif=7Bfont-family: serif;font-size: 16px;color: =23000000;=7D
+=2EsansSerif=7Bfont-family: verdana,arial,helvetica,sans-serif; font-size: =
+16px;color: =23000000;=7D
+=2Eheading =7Bfont-family: verdana,arial,helvetica,sans-serif;font-size: =
+18px;font-weight: bold;color: =23003366;=7D
+=2EsubHeadingEoa =7Bfont-family: =
+verdana,arial,helvetica,sans-serif;font-size: 15px;font-weight: =
+bold;color: =23000000;=7D
+=2EsubHeading =7Bfont-family: =
+verdana,arial,helvetica,sans-serif;font-size: 16px;font-weight: =
+bold;color: =23003366;=7D
+=2EsidebarText =7Bfont-family: =
+verdana,arial,helvetica,sans-serif;font-size: 11px;color: =23003366;=7D
+=2EsidebarTextBold =7Bfont-family: =
+verdana,arial,helvetica,sans-serif;font-size: 11px;font-weight: =
+bold;color: =23003366;=7D
+=2ExptFooter =7Bfont-family: verdana,arial,helvetica,sans-serif;font-size: =
+11px;color: =23aaaaaa;=7D
+=2Ebutton =7Bfont-size: 13px; font-family: =
+verdana,arial,helvetica,sans-serif; font-weight: 400; border-style:outset; =
+color:=23000000; background-color: =23cccccc;=7D
+=2Esmaller =7Bfont-family: verdana,arial,helvetica,sans-serif;font-size: =
+10px;color: =23000000;=7D
+=2EsmallerSidebar =7Bfont-family: =
+verdana,arial,helvetica,sans-serif;font-size: 10px;color: =23003366;=7D
+=2Eemphasis =7Bfont-weight: 700;=7D
+table=23invoice, table=23invoice_controls, table=23invoice_note =
+=7B=09width: 600px;=7D
+table=23invoice_note =7Bmargin-top:10px; margin-bottom:10px;=7D
+table=23invoice_controls =7Btext-align: right;=7D
+table=23invoice =7Bborder-collapse: collapse; border:1px solid =23aaa; =7D
+table=23invoice td =7Bfont-size:11px; border:1px solid =
+=23ccc;=09padding:2px;=7D
+table=23invoice td.field_label_right, table=23invoice =
+td.field_label_right_error =7Bfont-weight:bold;=09text-align:right;=7D
+table=23invoice td.field_label_right_error, table=23invoice =
+td.field_label_error =7Bcolor:red;=7D
+table=23invoice tr.title td =7Bfont-weight:bold; line-height:20px; =
+text-align:left; background-color: =23ccddee;=7D
+table=23invoice input.readonly =7Bborder:0; text-align:right;=7D
+table=23invoice input.readonly_currency =7Bborder:0; width:10px;=7D
+=2Efield_error, .field_error input.readonly_currency =
+=7Bbackground-color:=23FF3333;=7D
+=2Ecurrency_highlight =7Bbackground-color: =23ffffcc;=7D
+=2Etax =7Bfont-weight: 400; float: left;=7D
+table=23invoice td span.curr =7Bfloat: left;=7D
+table=23invoice td.currency =7Bborder-right:1px solid =23fff;=7D
+table=23invoice td.calc =7Bfont-weight:bold; text-align:right;=7D
+=2EinlineBlue =7Bcolor: =2300f;=7D
+=2Esmall =7Bfont-size: 11px; font-weight: 400;=7D
+HR.solid =7Bwidth: 100%; margin-top: 5px; margin-bottom: 0px; border-left: =
+=23fff; border-right: =23fff; border-top: =23fff; border-bottom: 2px solid =
+=23999;=7D
+=2Elarge =7Bfont-size: 17px;=7D=20
+=2EsmallVerdanaGrey=7Bfont-family: verdana; font-size: 10px; color: =
+=23999999;=7D=20
+=2EsmallVerdana =7Bfont-family: verdana; font-size: 10px; color =
+:=23000000;=7D=20
+=2EsmallArial =7Bfont-family: arial; font-size: 13px; =7D=20
+=2EsmallArialBlue =7Bfont-family: verdana; font-size: 9px; color: =
+=230000FF;=7D=20
+=2EsmallVerdanaGreen=7Bfont-family: verdana; font-size: 10px; color: =
+=23666666;=7D=20
+=2Esmaller =7Bfont-size: 10px; color: gray;=7D=20
+=2Elarger =7Bfont-size: 18px; font-family: arial; font-weight: 600; =7D =20
+=2ElongTableValue=7Bword-break:break-all;=7D=20
+=2ElongSideBarText=7Bword-break: normal;=7D=20
+=2EgeCompliantName=7Bfont-family: =
+verdana,arial,helvetica,sans-serif;font-size: 12px;font-weight: normal; =
+color: =23003366;=7D=20
+=2EcontentHeading =7Bfont-family: =
+verdana,arial,helvetica,sans-serif;font-size: 14px;font-weight: =
+bold;color: =23003366;=7D
+p.getVerify =7Bfont-family: verdana,arial,helvetica,sans-serif;font-size: =
+17px;font-weight: bold;color: =23003366;=7D
+=23ImageCaption=7Bfont-family:verdana;font-size:11px;font-weight:bold;margi=
+n:0px;padding:0px;color:=23666666;=7D
+=23ImagePoints=7Bfont-family:verdana;font-size:12px;margin:0px;padding:0px;=
+color:=23666666;=7D
+table.stepBox, table.stepBox td =7B margin: 0; padding: 0;=7D
+table.stepBox td =7B  margin: 0;  padding: 10px 0px 0px 0px; font-size: =
+11px  =21important;=7D
+table.stepBox td.step1 =7Bfloat: left; width: 150px;  text-align: center;=7D
+table.stepBox td.step2 =7B  float: left;  width: 170px;  text-align: =
+center;  padding: 10px 0px 0px 20px;=7D
+table.stepBox td.step3 =7B  float: left;  width: 150px;  text-align: =
+center;  padding: 10px 0px 0px 20px;=7D
+p.lower  =7B clear: both; padding: 10px 0px 0px 0px;=7D
+=23Recipientitemdetails .longTableValue=7Bword-break:keep-all;=7D
+</style>
+
+<table align=3D=22center=22 border=3D=220=22 cellpadding=3D=220=22 =
+cellspacing=3D=220=22 width=3D=22600=22><tr valign=3D=22top=22><td><a =
+href=3D=22https://www.paypal.com/nl=22><img =
+src=3D=22http://images.paypal.com/en_US/i/logo/email_logo.gif=22 =
+border=3D=220=22 alt=3D=22PayPal=22/></a></td></tr></table><table =
+align=3D=22center=22 border=3D=220=22 cellpadding=3D=220=22 =
+cellspacing=3D=220=22 width=3D=22100%=22><tr><td =
+background=3D=22http://images.paypal.com/en_US/i/scr/bg_clk.gif=22 =
+width=3D=22100%=22><img alt=3D=22=22 border=3D=220=22 height=3D=2229=22 =
+src=3D=22http://images.paypal.com/en_US/i/scr/pixel.gif=22 =
+width=3D=221=22/></td></tr><tr><td><img alt=3D=22=22 border=3D=220=22 =
+height=3D=2210=22 =
+src=3D=22http://images.paypal.com/en_US/i/scr/pixel.gif=22 =
+width=3D=221=22/></td></tr></table><table align=3D=22center=22 =
+border=3D=220=22 cellpadding=3D=220=22 cellspacing=3D=220=22 =
+width=3D=22100%=22><tr><td/></tr></table><table align=3D=22center=22 =
+border=3D=220=22 cellpadding=3D=220=22 cellspacing=3D=220=22 =
+width=3D=22600=22><tr valign=3D=22top=22><td width=3D=22100%=22><span>Dear =
+IHD,</span><br/><br/><p>You successfully canceled the following PayPal =
+Recurring Payment profile. We will no longer bill the buyer. If you did =
+not request this cancellation, contact PayPal Customer Support toll-free =
+at 1-888-221-1161.<br/><br/><span class=3D=22emphasis=22>Profile ID: =
+</span>I-K4EPT5PCF1NH<br/><br/><span class=3D=22emphasis=22>For: =
+</span>Membership IHD - test<br/><span class=3D=22emphasis=22>Buyer Name: =
+</span>Beau Bikker<br/><span class=3D=22emphasis=22>Buyer Email: =
+</span>beaubikker=40gmail.com<br/><br/><span =
+class=3D=22emphasis=22>Payment Details</span><br/><br/><span =
+class=3D=22emphasis=22>Start Date: </span>6 Apr 2011<br/><span =
+class=3D=22emphasis=22>Payment Cycle: </span>Monthly<br/><span =
+class=3D=22emphasis=22>Amount Per Cycle: </span>=800,01 EUR<br/><span =
+class=3D=22emphasis=22>Last Payment Date: </span>6 May 2011<br/><span =
+class=3D=22emphasis=22>Last Payment Amount: </span>=800,01 =
+EUR<br/><br/></p>Kind regards, <br/><br/>The PayPal Team<br/><br/><p =
+class=3D=22xptFooter=22>Please do not reply to this email. This mailbox is =
+not monitored and you will not receive a response. For assistance, <a =
+href=3D=22https://www.paypal.com/nl/cgi-bin/?cmd=3D_login-run=22>log =
+in</a> to your PayPal account and click the Help link in the top right =
+corner of any PayPal page. <br/><br class=3D=22h10=22/>To receive email =
+notifications in plain text instead of HTML, <a =
+href=3D=22https://www.paypal.com/nl/PREFS-NOTI=22>update your =
+preferences</a>.</p><br/><br/><hr/><span class=3D=22xptFooter=22>Copyright =
+=A9 1999-2011 PayPal. All rights reserved.<br/><br/>PayPal (Europe) S.=E0 =
+r.l. &amp; Cie, S.C.A.<br/>Soci=E9t=E9 en Commandite par =
+Actions<br/>Registered Office: 5th Floor 22-24 Boulevard Royal L-2449, =
+Luxembourg<br/>RCS Luxembourg B 118 349</span><br/><br/><span><span =
+class=3D=22xptFooter ppid=22>PayPal Email ID PP1203</span></span><img =
+height=3D=221=22 width=3D=221=22 =
+src=3D=22https://102.112.2O7.net/b/ss/paypalglobal/1/G.4--NS/123456?pageNam=
+e=3Dsystem_email_PP1203=22 border=3D=220=22 =
+alt=3D=22=22/></td></tr></table></div></body></html>=
+
+----NextPart_048F8BC8A2197DE2036A--
+

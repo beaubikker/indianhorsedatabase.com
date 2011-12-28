@@ -1,0 +1,37 @@
+Return-path: <ihd@gator1257.hostgator.com>
+Envelope-to: admin@indianhorsedatabase.com
+Delivery-date: Fri, 21 Oct 2011 05:52:18 -0500
+Received: from ihd by gator1257.hostgator.com with local (Exim 4.69)
+	(envelope-from <ihd@gator1257.hostgator.com>)
+	id 1RHCi1-00046E-PD
+	for admin@indianhorsedatabase.com; Fri, 21 Oct 2011 05:52:17 -0500
+To: admin@indianhorsedatabase.com
+Subject: Indian Horse Data base
+X-PHP-Script: www.indianhorsedatabase.com/app/webroot/index.php for 79.144.227.27
+From: Indian Horse Data base <admin@indianhorsedatabase.com>
+Reply-To: admin@indianhorsedatabase.com
+X-Mailer: CakePHP Email Component
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Message-Id: <E1RHCi1-00046E-PD@gator1257.hostgator.com>
+Date: Fri, 21 Oct 2011 05:52:17 -0500
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+	<title>User</title>
+</head>
+<body>
+	<div>
+	Dear,<b>Breeder -</b><br>You have registered as paid user with Indian  Horse database<br>
+			<a href=http://www.indianhorsedatabase.com/user/confirmlink/MTA4>Click Here </a> To activate your account <br>
+			This is your login information: <br>
+			Email Address : <b>admin@indianhorsedatabase.com</b><br>
+			Password      :letmein</b> 
+			<br>
+			Thanks
+			Indian Horse Database</div>
+	
+</body>
+</html>
+

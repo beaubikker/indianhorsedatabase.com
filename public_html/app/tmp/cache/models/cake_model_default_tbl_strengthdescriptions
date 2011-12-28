@@ -1,0 +1,2 @@
+1286532812
+a:3:{s:2:"id";a:5:{s:4:"type";s:7:"integer";s:4:"null";b:0;s:7:"default";N;s:6:"length";i:4;s:3:"key";s:7:"primary";}s:2:"BT";a:4:{s:4:"type";s:4:"text";s:4:"null";b:0;s:7:"default";N;s:6:"length";N;}s:3:"ECT";a:4:{s:4:"type";s:4:"text";s:4:"null";b:0;s:7:"default";N;s:6:"length";N;}}

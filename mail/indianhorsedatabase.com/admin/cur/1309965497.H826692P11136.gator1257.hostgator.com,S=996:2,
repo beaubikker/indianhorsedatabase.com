@@ -1,0 +1,39 @@
+Return-path: <ihd@gator1257.hostgator.com>
+Envelope-to: admin@indianhorsedatabase.com
+Delivery-date: Wed, 06 Jul 2011 10:18:17 -0500
+Received: from ihd by gator1257.hostgator.com with local (Exim 4.69)
+	(envelope-from <ihd@gator1257.hostgator.com>)
+	id 1QeTrl-0002tU-KG
+	for admin@indianhorsedatabase.com; Wed, 06 Jul 2011 10:18:17 -0500
+To: admin@indianhorsedatabase.com
+Subject: New Enquiry
+X-PHP-Script: indianhorsedatabase.com/app/webroot/index.php for 66.249.71.151
+MIME-Version: 1.0
+Content-type: text/html; charset=iso-8859-1
+From: www.indianhorsedatabase.com <>
+Message-Id: <E1QeTrl-0002tU-KG@gator1257.hostgator.com>
+Date: Wed, 06 Jul 2011 10:18:17 -0500
+
+
+			<html>
+			   <table>
+				 <tr>
+				  <td>Name</td>
+				  <td></td>
+				</tr>   
+				 <tr>
+				  <td>Email Address</td>
+				  <td></td>
+				</tr>
+				 <tr>
+				  <td>Subject</td>
+				  <td>New Enquiry</td>
+				</tr>
+				<tr>
+				  <td valign=top>Message</td>
+				  <td></td>
+				</tr>   
+			  </table>
+			</body>
+			</html>
+			

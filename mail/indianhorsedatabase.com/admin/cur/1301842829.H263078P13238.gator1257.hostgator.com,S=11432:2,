@@ -1,0 +1,226 @@
+Return-path: <service@paypal.nl>
+Envelope-to: admin@indianhorsedatabase.com
+Delivery-date: Sun, 03 Apr 2011 10:00:29 -0500
+Received: from outbound1.den.paypal.com ([216.113.188.96]:36839 helo=outbound2.den.paypal.com)
+	by gator1257.hostgator.com with esmtp (Exim 4.69)
+	(envelope-from <service@paypal.nl>)
+	id 1Q6Omy-0003RJ-Rz
+	for admin@indianhorsedatabase.com; Sun, 03 Apr 2011 10:00:29 -0500
+DomainKey-Signature: q=dns; a=rsa-sha1; c=nofws;
+	s=dkim; d=paypal.nl;
+	h=DKIM-Signature:Received:Date:Message-Id:Subject:X-MaxCode-Template:To:From:X-Email-Type-Id:X-XPT-XSL-Name:Content-Type:MIME-Version;
+	b=SJTh+XYmLj/JGUv8sv2WYasHF4TvyRObXMkCNNvLsSz2zNW0IffyZr/XgVk62aUp
+	mswMCHm4QL7F4podmR+O501Z05sOkff1sqcIGtYSGHZEaTXe+n5UMtQYxeMrhcEz
+	RDnM+0Y0kNLOk36mO/QsncX/5cpgkJ6IoNSxt8hqYys=
+DKIM-Signature: v=1; a=rsa-sha1; d=paypal.nl; s=dkim; c=relaxed/relaxed;
+	q=dns/txt; i=@paypal.nl; t=1301842827;
+	h=From:Subject:Date:To:MIME-Version:Content-Type;
+	bh=K2F90TPpt3hbWdF27jDntkME4Pg=;
+	b=OKfOrlNZXS8c/N9KvpzzZBBmGa6xj2WEZ6xR72K1MLHUz4kFZOblSQwgzk5uawr0
+	90Bth8uEE3H6oQnzzJuMcmvJcPfxFQ/vt1pIpl4Sv0iX4OQxWYIdVAMrIRSeIcPK
+	4ilvfOO3JMFS1WpKnkXPT19ne7AysU7/hwl81B9gGT8=;
+Received: (qmail 17251 invoked by uid 99); 3 Apr 2011 15:00:27 -0000
+Date: Sun, 03 Apr 2011 08:00:27 -0700
+Message-Id: <1301842827.17251@paypal.com>
+Subject: You have a new automatic payment profile for Beau Bikker
+X-MaxCode-Template: email-recurringpayment-profile-created-merchant
+To: IHD <admin@indianhorsedatabase.com>
+From: "service@paypal.nl" <service@paypal.nl>
+X-Email-Type-Id: PP1201
+X-XPT-XSL-Name: 
+  email_pimp/default/en_US/merchant/recurringpayments/MerchantProfileCreated.xsl
+Content-Type: multipart/alternative;
+  boundary=--NextPart_048F8BC8A2197DE2036A
+MIME-Version: 1.0
+
+----NextPart_048F8BC8A2197DE2036A
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=windows-1252
+
+----------------------------------------------------------------------
+You created an automatic payment profile
+----------------------------------------------------------------------
+
+
+Hello IHD,
+
+A new automatic payment profile for Beau Bikker has been created. Here's =
+the automatic  payment profile information:
+
+----------------------------------------------------------------------
+Customer name:Beau Bikker
+Customer email:beaubikker=40gmail.com
+Automatic payment ID:I-K4EPT5PCF1NH
+For:Membership IHD - test
+Automatic payment details
+
+----------------------------------------------------------------------
+Amount paid each time:=800,01 EUR
+Billing cycle:Monthly
+Payments start:6 Apr 2011
+Next payment due:6 May 2011
+Trial Period
+
+----------------------------------------------------------------------
+Trial period amount:=800,00 EUR
+Billing cycle:3 Days
+Start date:3 Apr 2011
+End date:6 Apr 2011
+
+Sincerely,
+PayPal team
+
+----------------------------------------------------------------------
+Help Center:=20
+https://www.paypal.com/nl/cgi-bin/helpweb?cmd=3D_help
+Security Center:=20
+https://www.paypal.com/nl/security
+
+Please do not reply to this email because we are not monitoring this =
+inbox. To get in touch with us, log in to your account and click =
+=22Contact Us=22 at the bottom of any page.
+
+Copyright =A9 2011 PayPal. All rights reserved.
+
+PayPal (Europe) S.=E0 r.l.et Cie, S.C.A.
+Soci=E9t=E9 en Commandite par Actions
+Registered office: 22-24 Boulevard Royal, L-2449 Luxemburg
+RCS Luxemburg B 118 349
+=20
+PayPal Email ID  PP1201
+
+
+----NextPart_048F8BC8A2197DE2036A
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=windows-1252
+
+<html><head title=3D=22PayPal=22/><body><div class=3D=22ppmail=22><style =
+type=3D=22text/css=22>=23emailWrapperTable h1, =23emailWrapperTable h2 =
+=7Bfont-family:Verdana,Arial;margin-bottom:2px; font-size:15px;=7D
+=23emailWrapperTable h3 =7Bfont-size:13px;=7D
+=23emailWrapperTable h4 =7Bfont-size:11px;=7D
+a =7Bcolor:=23084482; text-decoration:underline;=7D
+hr =7Bdisplay: none;=7D
+=2Esmall =7Bfont-size:10px;=7D
+=2Eppid =7Bcolor:=23757575;=7D
+p =7Bmargin:11px 0; padding:0;=7D
+</style>
+<=21--=5Bif gte mso 9=5D><style>.outlookFix =7Bfont-size:11px =
+=21important;=7D</style><=21=5Bendif=5D-->
+
+
+<table border=3D=220=22 cellpadding=3D=220=22 cellspacing=3D=220=22 =
+id=3D=22emailWrapperTable=22 style=3D=22font:11px Verdana, Arial, =
+Helvetica, sans-serif;color:=23333;=22 width=3D=22580=22><tr =
+valign=3D=22top=22><td colspan=3D=223=22><table border=3D=220=22 =
+cellpadding=3D=220=22 cellspacing=3D=220=22 width=3D=22100%=22><tr =
+valign=3D=22top=22><td><a href=3D=22https://www.paypal.com/nl=22><img =
+src=3D=22http://images.paypal.com/en_US/i/logo/logo_emailheader_113wx46h.gi=
+f=22 border=3D=220=22 alt=3D=22PayPal=22/></a></td></tr><tr><td><img =
+alt=3D=22=22 border=3D=220=22 height=3D=2210=22 =
+src=3D=22http://images.paypal.com/en_US/i/scr/pixel.gif=22 =
+width=3D=221=22/></td></tr><tr><td/></tr></table></td></tr><tr><td =
+colspan=3D=223=22><img height=3D=2213=22 =
+src=3D=22http://images.paypal.com/en_US/i/scr/scr_emailTopCorners_580wx13h.=
+gif=22 border=3D=220=22 style=3D=22vertical-align:bottom=22 =
+alt=3D=22=22/></td></tr><tr><td width=3D=2212=22 =
+style=3D=22background:url(/i/scr/scr_emailLeftBorder_13wx1h.gif) left =
+repeat-y;border-left: 1px solid =23ddd;=22>=A0</td><td =
+class=3D=22contentArea=22 style=3D=22width:530px; word-wrap:break-word; =
+padding:12px; margin:0=22 width=3D=22530=22><table =
+style=3D=22font:Verdana, Arial, Helvetica, sans-serif;=22 =
+width=3D=22100%=22><tr><td><h2><span style=3D=22font-weight:bold; =
+color:=23c88039; font-size:15px;=22 class=3D=22outlookFix=22>You created =
+an automatic payment profile</span></h2></td></tr></table><p>Hello =
+IHD,</p><p>A new automatic payment profile for Beau Bikker has been =
+created. Here's the automatic  payment profile information:</p><style =
+type=3D=22text/css=22>.SimpleSummaryTable =7Bfont:11px Verdana, Arial, =
+Helvetica, sans-serif; border:1px solid =
+=23eee;margin-top:10px;border-right:0 =21 important;margin-bottom:20px; =7D
+=2EsimplesummaryTable th =7Bbackground-color:=23eee; text-align:right; =
+font-weight:normal;=7D
+=2EsimplesummaryTable th, .simplesummaryTable td =7Bcolor:=23333;=7D</style>
+<=21--=5Bif gte mso 9=5D><style>.simpleSummaryTable =7Bborder:1px solid =
+=23eee; margin-top:10px; margin-bottom:20px; cell-spacing:5px; =
+border-right:0px =21 important; font:11px Verdana, Arial, Helvetica, =
+sans-serif;=7D.simpleSummaryTable th =7Bbackground-color:=23eee; =
+text-align:right; margin:0; font-weight:normal;=7D.simpleSummaryTable th, =
+=2EverticalTable td =7Bcolor:=23333;=7D</style><=21=5Bendif=5D-->
+<table border=3D=220=22 cellpadding=3D=225=22 cellspacing=3D=220=22 =
+class=3D=22simpleSummaryTable=22 width=3D=22100%=22><tr><th =
+width=3D=22180=22>Customer name:</th><td width=3D=22350=22>Beau =
+Bikker</td></tr><tr><th width=3D=22180=22>Customer email:</th><td =
+width=3D=22350=22>beaubikker=40gmail.com</td></tr><tr><th =
+width=3D=22180=22>Automatic payment ID:</th><td =
+width=3D=22350=22>I-K4EPT5PCF1NH</td></tr><tr><th =
+width=3D=22180=22>For:</th><td width=3D=22350=22>Membership IHD - =
+test</td></tr></table><p><strong>Automatic payment =
+details</strong></p><style type=3D=22text/css=22>.SimpleSummaryTable =
+=7Bfont:11px Verdana, Arial, Helvetica, sans-serif; border:1px solid =
+=23eee;margin-top:10px;border-right:0 =21 important;margin-bottom:20px; =7D
+=2EsimplesummaryTable th =7Bbackground-color:=23eee; text-align:right; =
+font-weight:normal;=7D
+=2EsimplesummaryTable th, .simplesummaryTable td =7Bcolor:=23333;=7D</style>
+<=21--=5Bif gte mso 9=5D><style>.simpleSummaryTable =7Bborder:1px solid =
+=23eee; margin-top:10px; margin-bottom:20px; cell-spacing:5px; =
+border-right:0px =21 important; font:11px Verdana, Arial, Helvetica, =
+sans-serif;=7D.simpleSummaryTable th =7Bbackground-color:=23eee; =
+text-align:right; margin:0; font-weight:normal;=7D.simpleSummaryTable th, =
+=2EverticalTable td =7Bcolor:=23333;=7D</style><=21=5Bendif=5D-->
+<table border=3D=220=22 cellpadding=3D=225=22 cellspacing=3D=220=22 =
+class=3D=22simpleSummaryTable=22 width=3D=22100%=22><tr><th =
+width=3D=22180=22>Amount paid each time:</th><td width=3D=22350=22>=800,01 =
+EUR</td></tr><tr><th width=3D=22180=22>Billing cycle:</th><td =
+width=3D=22350=22>Monthly</td></tr><tr><th width=3D=22180=22>Payments =
+start:</th><td width=3D=22350=22>6 Apr 2011</td></tr><tr><th =
+width=3D=22180=22>Next payment due:</th><td width=3D=22350=22>6 May =
+2011</td></tr></table><p><strong>Trial Period</strong></p><style =
+type=3D=22text/css=22>.SimpleSummaryTable =7Bfont:11px Verdana, Arial, =
+Helvetica, sans-serif; border:1px solid =
+=23eee;margin-top:10px;border-right:0 =21 important;margin-bottom:20px; =7D
+=2EsimplesummaryTable th =7Bbackground-color:=23eee; text-align:right; =
+font-weight:normal;=7D
+=2EsimplesummaryTable th, .simplesummaryTable td =7Bcolor:=23333;=7D</style>
+<=21--=5Bif gte mso 9=5D><style>.simpleSummaryTable =7Bborder:1px solid =
+=23eee; margin-top:10px; margin-bottom:20px; cell-spacing:5px; =
+border-right:0px =21 important; font:11px Verdana, Arial, Helvetica, =
+sans-serif;=7D.simpleSummaryTable th =7Bbackground-color:=23eee; =
+text-align:right; margin:0; font-weight:normal;=7D.simpleSummaryTable th, =
+=2EverticalTable td =7Bcolor:=23333;=7D</style><=21=5Bendif=5D-->
+<table border=3D=220=22 cellpadding=3D=225=22 cellspacing=3D=220=22 =
+class=3D=22simpleSummaryTable=22 width=3D=22100%=22><tr><th =
+width=3D=22180=22><strong>Trial period amount:</strong></th><td =
+width=3D=22350=22>=800,00 EUR</td></tr><tr><th width=3D=22180=22>Billing =
+cycle:</th><td width=3D=22350=22>3 Days</td></tr><tr><th =
+width=3D=22180=22>Start date:</th><td width=3D=22350=22>3 Apr =
+2011</td></tr><tr><th width=3D=22180=22>End date:</th><td =
+width=3D=22350=22>6 Apr 2011</td></tr></table><p>Sincerely,<br/>PayPal =
+team</p></td><td width=3D=2212=22 =
+style=3D=22background:url(/i/scr/scr_emailRightBorder_13wx1h.gif) left =
+repeat-y;border-right:1px solid =23ddd;=22>=A0</td></tr><tr><td =
+colspan=3D=223=22><img height=3D=2213=22 =
+src=3D=22http://images.paypal.com/en_US/i/scr/scr_emailBottomCorners_580wx1=
+3h.gif=22 border=3D=220=22 alt=3D=22=22/></td></tr></table><table =
+border=3D=220=22 cellpadding=3D=220=22 cellspacing=3D=220=22 =
+id=3D=22emailFooter=22 style=3D=22padding-top:20px;font:10px Verdana, =
+Arial, Helvetica, sans-serif;color:=23333;=22 =
+width=3D=22580=22><tr><td><div class=3D=22footerLinks=22 =
+style=3D=22margin: 5px 0; padding: 0;=22><a target=3D=22_new=22 =
+href=3D=22https://www.paypal.com/nl/cgi-bin/helpweb?cmd=3D_help=22>Help =
+Center</a><span style=3D=22color:=23ccc;=22> =7C </span><a =
+target=3D=22_new=22 =
+href=3D=22https://www.paypal.com/nl/security=22>Security =
+Center</a></div><p>Please do not reply to this email because we are not =
+monitoring this inbox. To get in touch with us, log in to your account and =
+click =22Contact Us=22 at the bottom of any page.</p><p>Copyright =A9 2011 =
+PayPal. All rights reserved.<br/><br/>PayPal (Europe) S.=E0 r.l.et Cie, =
+S.C.A.<br/>Soci=E9t=E9 en Commandite par Actions<br/>Registered office: =
+22-24 Boulevard Royal, L-2449 Luxemburg<br/>RCS Luxemburg B 118 =
+349</p><img height=3D=221=22 width=3D=221=22 =
+src=3D=22https://102.112.2O7.net/b/ss/paypalglobal/1/G.4--NS/123456?pageNam=
+e=3Dsystem_email_=22 border=3D=220=22 alt=3D=22=22/><p =
+class=3D=22xptFooter ppid=22>PayPal Email ID  =
+PP1201</p></td></tr></table></div></body></html>=
+
+----NextPart_048F8BC8A2197DE2036A--
+

@@ -1,0 +1,1036 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201108 will be lost/reset.
+# Last config file used to build this data file was /home/ihd/tmp/awstats/awstats.indianhorsedatabase.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2012                
+POS_TIME 2690                
+POS_VISITOR 12863               
+POS_DAY 23227               
+POS_DOMAIN 3592                
+POS_LOGIN 4319                
+POS_ROBOT 4474                
+POS_WORMS 4964                
+POS_EMAILSENDER 5095                
+POS_EMAILRECEIVER 5238                
+POS_SESSION 24110               
+POS_SIDER 24322               
+POS_FILETYPES 5373                
+POS_DOWNLOADS 5619                
+POS_OS 5692                
+POS_BROWSER 5870                
+POS_SCREENSIZE 6577                
+POS_UNKNOWNREFERER 6651                
+POS_UNKNOWNREFERERBROWSER 8711                
+POS_ORIGIN 9163                
+POS_SEREFERRALS 9308                
+POS_PAGEREFS 9501                
+POS_SEARCHWORDS 9869                
+POS_KEYWORDS 11554               
+POS_MISC 2352                
+POS_ERRORS 12439               
+POS_CLUSTER 4175                
+POS_SIDER_404 12554               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20110901032654 12 2695 186615182713
+FirstTime 20110801010325
+LastTime 20110831220213
+LastUpdate 20110901102944 12 0 11 0 0
+TotalVisits 294                 
+TotalUnique 191                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 283                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 104 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 93 283 17257062 67 88 1935072
+1 73 364 23534965 77 136 5484121
+2 18 151 9055754 55 114 5733259
+3 32 209 12080436 36 61 5261535
+4 52 358 16295672 87 97 2326839
+5 102 412 24902342 63 92 3573680
+6 130 750 44184948 56 89 2734723
+7 68 318 15593692 53 75 2855316
+8 101 543 32478605 47 74 4086560
+9 66 339 21685055 24 51 3622855
+10 65 409 18448015 22 47 2029295
+11 48 231 12128639 22 45 1206662
+12 21 166 8262900 27 48 2476327
+13 46 220 10180868 37 110 3936350
+14 49 337 23549850 43 59 347378
+15 82 566 38990206 22 52 4290281
+16 20 129 8426422 12 25 1373691
+17 36 200 10265188 15 24 577677
+18 10 26 2035608 13 35 1167506
+19 22 214 10902191 6 18 1497367
+20 135 164 6938624 33 48 2669448
+21 30 123 5834386 17 22 286921
+22 10 87 3658464 33 46 758704
+23 29 378 23232421 56 71 1910508
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 31
+us 575 1841 104538645
+in 474 3025 172009112
+gb 93 426 24824747
+de 40 176 10946729
+hu 17 135 6611209
+bg 16 92 5289837
+pl 16 139 10735914
+fr 12 101 6812349
+ie 12 88 6385673
+se 12 130 5944292
+be 10 61 4036589
+au 8 109 5379176
+ch 6 44 2589653
+it 6 77 4916161
+ro 4 43 5891431
+eu 4 89 2900816
+pk 4 53 1651295
+cz 4 40 1257297
+jp 3 10 324109
+es 3 55 4069451
+th 3 10 1367993
+ae 3 33 1893066
+lv 2 27 2511246
+dk 2 31 1409096
+ca 2 72 2525017
+cn 1 1 18670
+no 1 2 79804
+my 1 3 223253
+at 1 25 855019
+sa 1 34 1652869
+za 2 5 271795
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+googlebot 714 38365870 20110831125352 40
+spider 114 5270749 20110831232649 3
+slurp 76 1694829 20110830125157 14
+bot[\s_+:,\.\;\/\\-] 49 484528 20110831091043 25
+crawl 15 142354 20110826093907 8
+no_user_agent 12 1019205 20110828125434 0
+unknown 11 16038 20110818081613 11
+[\s_+:,\.\;\/\\-]bot 7 1082981 20110825131958 1
+msnbot\-media 3 20448 20110818121443 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 384 13516147 0 0
+png 1727 45445571 0 0
+html 165 3359523 0 0
+js 489 16514550 0 0
+jpg 2652 268428872 0 0
+jpeg 11 40026 0 0
+Unknown 1172 52495963 0 0
+gif 376 121660 0 0
+com 1 1 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 103 0 150174
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 12
+blackberry 2
+linuxandroid 32
+winlong 1030
+winxp 2369
+symbian 2
+linuxfedora 8
+linux 1
+win7 1716
+macosx 930
+win2003 20
+j2me 171
+Unknown 696
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 44
+safari5.0.3 31
+msie6.0 233
+firefox5.0 623
+firefox4.0.1 186
+safari4.1.3 3
+android 32
+firefox4.0 158
+curl 1
+firefox3.5.3 8
+opera9.80 179
+safari5.0.2 4
+msie8.0 674
+firefox3.6.19 1
+chrome13.0.782.112 145
+chrome13.0.782.107 602
+msie7.0 262
+chrome15.0.849.0 47
+msie9.0 293
+Unknown 356
+firefox3.0.8 3
+blackberry 2
+wap 2
+firefox3.0 5
+samsung 18
+firefox3.6.17 25
+chrome9.0.597 167
+chrome13.0.782.215 291
+chrome12.0.742.122 423
+safari2.0.1 1
+nokia 141
+safari4.0 54
+mozilla 57
+firefox5.0.1 621
+firefox6.0 242
+safari5.1 183
+firefox3.6.18 147
+firefox3.6.12 23
+firefox3.6.3 141
+chrome14.0.835.29 43
+firefox 5
+firefox3.0.19 139
+firefox3.6.8 382
+safari 1
+firefox3.6.13 23
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 22
+NokiaX3-02/5.0_(05.65)_Profile/MIDP-2.1_Configuration/CLDC-1.1_Mozilla/5.0_AppleWebKit/420__(KHTML,_like_Gecko)_Safari/420_ 20110831102459
+SAMSUNG-GT-S3653/S365MDDIJ1_SHP/VPP/R5_Jasmine/1.0_Nextreaming_SMM-MMS/1.2.0_profile/MIDP-2.1_configuration/CLDC-1.1 20110808132115
+Nokia5130c-2/2.0_(06.93)_Profile/MIDP-2.1_Configuration/CLDC-1.1 20110829122342
+MAUI_WAP_Browser 20110829095912
+Mediapartners-Google 20110830135752
+facebookexternalhit/1.0_(_http://www.facebook.com/externalhit_uatext.php) 20110831075601
+Nokia6300/2.0_(07.21)_Profile/MIDP-2.0_Configuration/CLDC-1.1 20110808040455
+Nokia5800_XpressMusic/UC_Browser7.8.0.95/50/351 20110806084510
+SAMSUNG-GT-C3303/C3303DDKE2_NetFront/3.5_Profile/MIDP-2.0_Configuration/CLDC-1.1 20110827100026
+Mozilla/5.0_(SAMSUNG;_SAMSUNG-GT-S8530/S8530DDKB2;_U;_Bada/1.2;_en-us)_AppleWebKit/533.1_(KHTML,_like_Gecko)_Dolfin/2.2_Mobile_WVGA_SMM-MMS/1.2.0_OPN-B 20110825104509
+Nokia3110c/2.0_(06.60)_Profile/MIDP-2.0_Configuration/CLDC-1.1 20110805083507
+scour/1.0 20110811132838
+NokiaX2-01/5.0_(08.63)_Profile/MIDP-2.1_Configuration/CLDC-1.1_nokiax2-01/UC_Browser7.8.0.95/69/444_UNTRUSTED/1.0 20110815143012
+SAMSUNG-GT-C3303/C3303DDJJ1_NetFront/3.5_Profile/MIDP-2.0_Configuration/CLDC-1.1 20110813113933
+Opera/9.80_(S60;_SymbOS;_Opera_Mobi/SYB-1107071604;_U;_en-GB)_Presto/2.8.149_Version/11.10 20110822115455
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20110831220213
+Mozilla/5.0_(en-us)_AppleWebKit/534.14_(KHTML,_like_Gecko;_Google_Wireless_Transcoder)_Chrome/9.0.597_Safari/534.14 20110831102435
+SAMSUNG-GT-C3510/C3510DDIL2_NetFront/3.5_Profile/MIDP-2.0_Configuration/CLDC-1.1 20110828095130
+Mozilla/4.0_(compatible;) 20110829005329
+Feedfetcher-Google;_(_http://www.google.com/feedfetcher.html;_feed-id=1415105120250747121) 20110826104113
+PHP/5.3.6 20110803230752
+SAMSUNG-GT-S3850/S3850DDKC4_SHP/VPP/R5_Dolfin/2.0_NexPlayer/3.0_SMM-MMS/1.2.0_profile/MIDP-2.1_configuration/CLDC-1.1_OPN-B 20110814012327
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+Mediapartners-Google 20110830135752
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20110831220213
+scour/1.0 20110811132838
+facebookexternalhit/1.0_(_http://www.facebook.com/externalhit_uatext.php) 20110831075601
+Feedfetcher-Google;_(_http://www.google.com/feedfetcher.html;_feed-id=1415105120250747121) 20110826104113
+PHP/5.3.6 20110803230752
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 595 757
+From1 1 1
+From2 209 364
+From3 20 35
+From4 513 5820
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+google 207 361
+aol 1 1
+bing 1 1
+google_image 0 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+http://www.facebook.com/plugins/like.php 12 12
+http://www.facebook.com/l.php 8 8
+http://linux2/indianhorse/ 0 1
+http://www.chickensmoothie.com/Forum/viewtopic.php 0 13
+http://www.chickensmoothie.com/Forum/search.php 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 63
+marwari+mare 7
+marwari+horse+farm 6
+marwari+rajhans 6
+marwari+mares 5
+marwari+horse 5
+marwari+gajraj 5
+marwari 5
+marwari+deewana 4
+marwari+mare+martha+s+vineyard 4
+kathiawari 4
+marwari+horse+abohar 4
+marwari+naag 4
+kathiawari+horse 4
+stallion+swraj 3
+indian+horse 3
+toofan+marwari+horse 3
+marwari+stallion+swraj 2
+stallion+gajraj 2
+marwari+horse+for+gurpal+singh+abohar 2
+marwari+horse+for+sale+price 2
+stallion 2
+gajraj+pedigree+marwari 2
+marwari+black 2
+raviraj+gadhvi 2
+indian+horse+nukra 2
+alishaan 1
+marwari+stallion+for+sale 1
+marwari+black+horses 1
+indian+horses+for+sale 1
+marwari+breed 1
+bikram+bhinder+australia 1
+the+indian+horse 1
+banka+is+a+marwari 1
+indian+horse+databse 1
+indian+kathiawari+horse+sale 1
+marwari+swraj 1
+marwari+horse+price 1
+kareem+asa+mawari 1
+hansaraj.horse.image 1
+indian+marwari+horses 1
+marvadi+raja 1
+indian+horse+breeders 1
+marwari+horse+naag 1
+bahdershah+gb+pedigree 2
+chetak+marwari+stallion 1
+prabhat+horse 1
+horse+rajrana 2
+for+sell+horse+in+palanpur 1
+marwari+nukra+breed 2
+ihsi+horse+database 1
+http+%2f%2fwww.indianhorsedatabase.com%2fhorse%2fdetails%2fmare2%2f139 2
+marwari+colt 1
+marwari+mare+na+horse 1
+marwari+sale+amd+prise 2
+hansraj+marwari 1
+http+//indianhorsedatabase.com/horse/salehorse%26search%3d%26salestaus%3dsale%26orderby%3dname 2
+photos+marwari 1
+how+to+breed+colours+in+marwari+horse#i=41 2
+naag+marwari 2
+naag+stallion 1
+http+%2f%2fwww.indianhorsedatabase.com%2fhorse%2fsuccessfulladd%2fmare2%2f139 2
+how+to+breed+colours+in+marwari+horse 1
+kathiawari+horse+for+sale 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 70
+marwari 90
+horse 45
+mare 12
+stallion 12
+indian 11
+kathiawari 10
+gajraj 9
+sale 8
+naag 8
+for 8
+breed 6
+swraj 6
+http 6
+farm 6
+rajhans 6
+abohar 6
+mares 5
+deewana 4
+in 4
+pedigree 4
+vineyard 4
+martha 4
+s 4
+nukra 4
+horses 3
+australia 1
+rajrana 2
+banka 1
+black 3
+%2f%2fwww.indianhorsedatabase.com%2fhorse%2fdetails%2fmare2%2f139 2
+toofan 3
+bhinder 1
+is 1
+colours 3
+to 3
+gadhvi 2
+gb 2
+chetak 1
+singh 2
+colt 1
+asa 1
+database 1
+databse 1
+gurpal 2
+kareem 1
+bikram 1
+na 1
+alishaan 1
+the 1
+a 1
+bahdershah 2
+hansraj 1
+sell 1
+breeders 1
+prabhat 1
+amd 2
+ihsi 1
+raviraj 2
+marvadi 1
+mawari 1
+palanpur 1
+how 3
+hansaraj.horse.image 1
+raja 1
+price 3
+photos 1
+prise 2
+//indianhorsedatabase.com/horse/salehorse%26search%3d%26salestaus%3dsale%26orderby%3dname 2
+%2f%2fwww.indianhorsedatabase.com%2fhorse%2fsuccessfulladd%2fmare2%2f139 2
+horse#i=41 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+403 31 45043
+302 251 0
+206 140 13941686
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 0
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 283
+69.84.207.147 132 132 4809342 20110824201437
+202.142.113.50 118 190 4411836 20110827134252
+86.163.156.221 78 381 22995888 20110806073849
+66.249.71.242 77 77 4200907 20110809153940
+66.249.71.203 69 69 3319295 20110825172354
+66.249.71.206 66 66 2890458 20110810011144
+117.200.255.27 55 306 15257512 20110806062610
+121.247.128.231 44 377 23522353 20110816022653
+202.142.121.224 30 195 11791736 20110807100532
+66.249.71.244 25 25 1107483 20110830135752
+84.161.252.225 25 121 8456536 20110820092955
+75.141.221.171 25 208 17241434 20110809143703
+173.3.238.11 24 161 10521318 20110825212410
+117.206.54.184 21 142 10932652 20110804085058
+66.249.71.236 18 18 1001820 20110825170706
+220.225.252.58 18 134 10387970 20110830013429
+38.100.21.20 18 20 725919 20110814213548
+83.4.93.59 16 139 10735914 20110815155132
+67.142.130.48 15 202 9967121 20110811190830
+94.139.200.47 14 67 3371525 20110809131437
+117.213.48.99 13 141 9649113 20110809092718
+67.142.130.38 12 236 13696372 20110810235623
+83.70.178.8 12 88 6385673 20110803082646
+109.45.101.238 11 49 2325203 20110824013325
+115.246.132.94 11 21 1289063 20110810011200
+72.14.202.86 0 2 122516 
+107.20.52.142 1 1 18670 20110811132838
+72.14.202.80 0 1 1316 
+69.58.178.56 10 10 217164 20110818082900
+91.82.70.240 1 23 629002 20110825101933
+106.77.97.30 0 2 963108 
+207.46.204.166 1 5 180889 20110812074132
+42.110.38.13 1 17 789621 20110817121952
+115.240.70.55 0 1 61135 
+122.163.2.56 1 23 1477149 20110801104831
+78.70.139.121 1 23 1477149 20110820061509
+110.227.180.105 2 29 1408074 20110818062213
+69.151.4.100 1 2 138971 20110809163633
+79.29.123.75 2 3 987982 20110820131753
+42.108.23.42 2 7 447820 20110802013713
+207.46.204.218 1 5 180889 20110821133009
+117.227.59.232 0 1 73849 
+217.212.230.85 1 12 323689 20110822041135
+27.57.237.233 0 1 47546 
+117.205.72.72 5 24 1565036 20110815053434
+188.23.109.12 1 25 855019 20110815122805
+74.125.16.1 0 5 443551 
+69.171.224.249 0 3 255745 
+207.46.204.220 1 5 180889 20110827225246
+27.56.245.73 0 1 76841 
+71.166.51.3 0 1 318205 
+122.178.114.212 2 33 1064059 20110830135752
+74.125.70.86 0 1 18699 
+217.212.230.105 0 2 202060 
+207.46.204.169 1 5 180889 20110822133148
+222.77.229.197 1 1 18670 20110824164642
+202.142.113.243 5 63 2324671 20110815132058
+66.112.114.30 0 1 55718 
+109.230.245.28 1 1 18671 20110831135604
+119.154.35.136 2 27 877768 20110828122548
+122.173.226.107 5 39 2414113 20110809153151
+72.62.222.186 0 1 69261 
+90.200.52.254 1 6 269405 20110815182642
+74.125.152.80 0 4 359253 
+72.14.202.87 0 4 240711 
+217.212.230.65 7 63 2024426 20110803105322
+202.142.121.35 5 27 1262887 20110825104046
+42.105.147.146 2 6 287679 20110815022417
+69.63.189.251 1 1 44856 20110825044421
+42.104.24.210 1 7 269820 20110830052630
+74.125.126.81 0 2 138548 
+85.136.141.123 1 30 1677824 20110801121259
+64.233.182.84 0 9 1278589 
+74.125.76.87 0 1 84075 
+74.125.152.84 0 7 1185906 
+115.241.189.244 2 4 247640 20110812060908
+174.253.162.240 0 2 358546 
+64.233.182.80 0 3 234743 
+150.70.75.34 1 4 136877 20110805070024
+69.171.224.251 1 3 142628 20110819044147
+97.119.156.23 4 7 1697218 20110809160903
+115.184.32.189 7 45 2363814 20110819102859
+69.171.228.246 1 4 322046 20110816033849
+49.14.168.205 0 1 84075 
+71.50.110.255 0 2 358546 
+88.163.200.8 1 11 900812 20110822070403
+59.96.134.217 1 23 1477149 20110801051757
+64.233.182.82 0 1 793 
+69.171.229.247 0 1 80844 
+212.41.206.197 6 44 2589653 20110822061346
+74.125.70.80 3 5 333003 20110812105950
+80.239.243.229 1 24 647302 20110821103009
+223.183.202.193 1 2 84298 20110827100016
+64.120.168.55 2 24 1495819 20110804064051
+117.215.20.158 1 26 1623413 20110813023041
+115.69.159.213 0 2 160916 
+69.63.181.246 0 1 1157 
+90.230.216.13 3 25 1514488 20110831090724
+188.138.113.145 3 3 56009 20110811013711
+80.239.243.176 0 2 83722 
+74.125.152.82 0 9 424636 
+85.160.201.181 3 25 735693 20110807100939
+69.171.228.251 0 4 282140 
+173.198.120.97 3 43 2217221 20110820012953
+223.186.45.161 6 21 671263 20110806094925
+207.46.204.165 2 10 361779 20110830055059
+207.46.204.209 1 5 180889 20110821024505
+223.191.119.79 0 1 77615 
+117.207.15.64 1 25 852268 20110812042119
+69.63.181.250 0 1 1157 
+49.201.30.45 0 1 76841 
+66.220.146.248 1 1 18670 20110825165933
+174.79.146.21 0 3 179273 
+117.196.246.150 1 14 1172886 20110808021806
+72.14.202.82 1 5 60567 20110810034603
+109.189.247.176 1 2 79804 20110824085524
+117.197.7.2 1 19 756389 20110824081524
+69.171.229.250 1 1 134806 20110809152759
+117.198.173.90 1 2 106232 20110819101238
+117.203.11.165 10 40 1987452 20110824064916
+74.125.70.87 0 7 268278 
+150.70.97.39 2 5 183938 20110807052922
+74.106.236.227 0 2 358546 
+208.43.135.132 5 5 94702 20110803034142
+79.170.51.60 0 1 140347 
+69.171.228.244 0 3 147557 
+80.239.243.205 0 4 228010 
+59.96.26.177 2 27 1062459 20110823034803
+173.254.204.171 1 64 1568967 20110815143005
+112.79.78.227 1 17 1392990 20110815030849
+92.149.108.114 5 41 2385442 20110825044603
+69.171.224.247 0 6 366364 
+74.125.70.81 0 6 326757 
+27.56.252.237 3 54 936629 20110802215558
+157.55.112.205 1 5 180890 20110823000819
+182.156.100.249 1 1 67687 20110806084142
+74.125.152.87 0 6 234916 
+212.92.17.131 3 33 1812088 20110805160928
+117.203.125.87 2 4 974060 20110808103125
+80.239.243.39 1 28 792395 20110829105350
+116.203.192.52 2 43 2960637 20110820114302
+94.167.127.42 3 46 2737086 20110824083554
+74.125.52.89 0 1 381737 
+14.98.183.21 3 52 2850477 20110813165313
+74.125.70.83 1 8 814925 20110812045215
+74.125.152.83 0 5 315395 
+69.171.228.245 0 3 55569 
+180.74.200.17 1 3 223253 20110817114919
+115.246.129.101 10 145 12027776 20110809153935
+223.191.123.153 2 4 241100 20110827054839
+81.22.187.207 2 25 1918312 20110830032741
+74.125.76.86 1 1 18670 20110826104113
+58.8.25.51 3 10 1367993 20110809054539
+117.211.89.83 1 25 1087922 20110818142049
+115.184.38.30 2 3 172920 20110826094500
+64.233.182.83 0 6 302701 
+174.29.218.83 0 1 179273 
+176.9.2.37 0 2 90310 
+66.249.71.151 9 9 502272 20110811071241
+69.171.228.249 0 1 66010 
+90.84.146.236 1 1 18670 20110803165523
+115.184.36.123 2 3 174572 20110824085701
+117.200.183.116 1 12 539889 20110830103047
+115.246.170.181 1 43 2627388 20110809233501
+99.178.246.225 1 23 1477147 20110803204833
+69.171.242.248 1 1 40441 20110829105355
+182.178.150.55 2 26 773527 20110804135419
+223.178.16.2 3 9 847664 20110822031352
+64.233.182.87 0 8 694862 
+74.125.52.84 0 1 52955 
+61.11.71.187 1 23 1477149 20110830072319
+78.131.90.47 1 2 321610 20110827205118
+80.239.242.112 0 1 73849 
+69.171.224.246 2 6 247587 20110819044113
+69.171.228.248 0 1 114716 
+74.125.42.82 0 1 84075 
+74.125.152.86 0 6 190520 
+217.212.230.37 0 1 130017 
+76.77.229.198 2 6 451750 20110818184526
+66.220.149.248 0 1 1157 
+59.98.146.49 2 3 142297 20110825102422
+27.60.246.3 3 9 915888 20110812231625
+27.60.226.176 1 12 361945 20110815081504
+95.68.7.156 2 27 2511246 20110823122140
+80.239.242.22 2 26 671052 20110821104034
+77.48.77.18 1 15 521604 20110819151642
+89.133.74.113 1 2 143808 20110827051825
+69.171.224.248 1 2 78586 20110815011345
+213.181.214.46 1 2 88864 20110825094139
+69.171.242.250 1 1 46370 20110821103025
+80.239.242.123 0 2 168150 
+2.24.127.67 10 32 1143222 20110807124950
+140.168.135.1 3 30 1931600 20110829005344
+202.53.13.107 6 45 2313468 20110801164842
+117.201.200.9 1 24 1547103 20110802041747
+66.249.71.207 11 11 846526 20110830013054
+68.45.173.212 0 3 223080 
+1.38.13.3 0 1 84075 
+98.68.157.84 1 31 1056097 20110803173759
+69.171.224.250 2 10 353681 20110819044146
+69.171.228.250 1 6 439546 20110831220213
+49.15.185.34 0 1 61768 
+117.199.110.33 0 1 47546 
+124.168.7.159 1 23 1477149 20110804001801
+207.46.12.68 1 5 180889 20110817020927
+14.99.68.170 1 21 1454165 20110818113437
+74.125.70.84 0 10 874980 
+96.126.105.22 1 1 18670 20110816123901
+117.203.127.189 4 29 2014050 20110820111147
+66.220.149.251 1 1 41253 20110809152123
+74.125.70.82 0 13 719788 
+223.178.52.133 2 4 241102 20110825104503
+69.171.229.246 0 2 75006 
+202.142.113.219 3 18 153341 20110828025124
+68.205.53.143 0 2 382969 
+223.178.9.104 0 1 46352 
+1.22.163.83 6 47 2402397 20110828073524
+72.183.118.164 0 2 119177 
+157.55.112.202 1 5 180889 20110829002528
+69.63.181.248 0 1 1157 
+72.14.202.81 0 2 4892 
+49.15.145.88 0 1 66890 
+69.171.229.249 0 1 3131 
+66.220.149.244 1 1 18670 20110803081940
+117.205.65.155 6 62 4126171 20110823041854
+69.171.224.245 1 6 376371 20110822073752
+207.46.204.215 2 10 361778 20110829040046
+65.52.7.177 1 1 37802 20110807063055
+117.205.66.46 1 28 928276 20110816033842
+202.142.113.232 3 13 574743 20110817134218
+64.233.182.86 0 3 29883 
+92.98.150.219 1 24 745924 20110826050729
+207.46.204.211 1 5 180889 20110825012232
+121.216.239.114 2 31 1315238 20110809224404
+86.193.89.205 3 25 1477188 20110808074845
+203.110.247.221 1 22 645717 20110805065647
+74.125.152.85 0 3 171350 
+66.154.119.123 2 72 2525017 20110806084509
+207.46.204.163 1 5 180889 20110802022830
+69.171.228.247 0 1 1157 
+115.184.98.6 2 26 1536740 20110820004112
+157.55.112.207 1 5 180889 20110828040652
+2.49.79.245 2 9 1147142 20110803074100
+117.205.89.122 2 4 2036539 20110810214927
+76.24.197.143 1 35 1456810 20110810223129
+202.142.121.219 6 49 246467 20110821043557
+69.171.224.244 0 2 93027 
+87.64.137.116 10 61 4036589 20110804152508
+87.59.118.221 2 31 1409096 20110825150802
+90.33.28.40 1 2 528436 20110812032710
+223.191.77.118 0 1 80614 
+95.17.39.43 2 25 2391627 20110829085713
+117.96.133.124 0 1 47546 
+150.70.64.201 0 1 3294 
+117.205.67.101 1 15 762860 20110822041215
+78.110.9.121 1 33 1512522 20110807150625
+117.199.20.195 2 29 1772836 20110814000540
+41.194.15.139 2 5 271795 20110827145157
+74.125.152.81 0 4 233375 
+86.194.198.99 1 21 1501801 20110808074929
+207.46.204.173 1 5 180889 20110830222028
+98.67.93.107 0 1 63459 
+62.233.116.251 1 1 18670 20110815182645
+80.239.242.136 0 2 236336 
+117.206.59.5 4 56 3239124 20110817110556
+69.171.229.245 0 1 1157 
+202.142.121.238 7 22 1097406 20110820135956
+207.46.204.212 1 5 180889 20110824032016
+86.143.124.3 3 5 293659 20110806143220
+217.212.230.39 0 4 272463 
+94.37.130.106 1 28 1191093 20110821082601
+89.133.239.173 8 48 1697525 20110811073616
+64.233.182.85 0 6 605439 
+110.226.211.159 0 1 53255 
+67.11.158.133 0 2 119177 
+212.75.2.106 2 25 1918312 20110801145129
+203.88.22.146 0 1 49218 
+109.100.214.49 4 43 5891431 20110812005528
+64.233.182.81 0 3 169952 
+74.125.70.85 1 9 446834 20110812045023
+68.202.211.163 0 1 179273 
+116.250.50.209 2 25 655189 20110817213212
+217.43.69.16 0 1 103903 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20110801 34 273 16706870 15
+20110802 32 194 7096745 8
+20110803 31 224 12354215 9
+20110804 75 448 33071555 12
+20110805 25 125 5328648 10
+20110806 153 615 31324633 12
+20110807 60 304 15867493 13
+20110808 11 150 9804572 6
+20110809 126 816 59063553 23
+20110810 40 330 19884794 8
+20110811 35 264 12177163 6
+20110812 18 209 17343718 11
+20110813 5 84 4844531 3
+20110814 21 54 3640170 3
+20110815 50 379 20820909 15
+20110816 11 102 6427361 6
+20110817 15 122 5784845 9
+20110818 18 108 6420171 7
+20110819 17 87 4334817 7
+20110820 69 337 22015866 13
+20110821 15 143 3411334 8
+20110822 14 99 5737268 7
+20110823 16 132 8434420 6
+20110824 167 307 13552888 12
+20110825 60 314 17805287 17
+20110826 7 55 2628647 5
+20110827 144 234 6763583 18
+20110828 17 104 3910748 5
+20110829 10 100 5931384 7
+20110830 39 258 17050014 10
+20110831 3 6 384111 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 5
+5mn-15mn 26
+15mn-30mn 14
+30s-2mn 32
+0s-30s 169
+2mn-5mn 33
+30mn-1h 15
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 219
+/ 116 2138906 83 53
+/horse/findahorse 116 14545827 17 16
+/horse/salehorse 92 2974298 8 12
+/horse/horsedetailsforsale/Majura/62 47 2067904 7 14
+/user/newuser 41 748406 7 9
+/content/contact 28 526656 0 5
+/horse/details/Hero/64 23 1078284 10 10
+/horse/horsedetailsforsale/Koda/63 19 839856 1 5
+/horse/horsedetailsforsale/stud-horse/151 18 801712 2 5
+/user/selectmembership 18 269310 1 2
+/horse/details/Swraj/9 17 687499 10 8
+/horse/details/Filly---black---by-mare-by-adam/71 16 745634 5 4
+/horse/details/Mirabai/86 16 666654 5 7
+/horse/details/Rajtilk/102 15 781334 2 4
+/user/notificationlisting/ 15 33862 0 0
+/horse/findstable/ 15 525892 3 3
+/horse/details/Karan/12 14 556428 5 4
+/horse/details/Chetak/91 13 610180 0 0
+/horse/details/Raj-Hans/5 13 700024 4 4
+/horse/details/mare-by-toofan/92 12 542759 3 0
+/user/signup/paidmember 12 392990 2 4
+/horse/details/Dilbagh/95 12 507065 4 3
+/user/premiumuserwelcomepage/ 11 136457 0 0
+/horse/salehorse&search=&salestaus=Sale&orderby=name 10 676869 4 1
+/horse/salehorse&search=&salestaus=Sale&orderby=price 10 676312 5 3
+/state/liststateforsearch/2 3 897 1 1
+/town/listmemtownall/24 1 188 0 0
+/horse/horsedetailsforsale/Toofan/4 6 247518 2 1
+/horse/details/Chamunda/87 8 432485 1 1
+/horse/salehorse&search=&salestaus=Sale&orderby=posted_date&orderby=posted_date 2 135144 0 0
+/user/notificationlisting/horsenotification/151 2 5896 0 0
+/horse/salehorse&search=&salestaus=Sale&orderby=posted_date&orderby=price 2 135262 0 0
+/horse/details/Hansraj/36 4 151284 4 2
+/horse/details/Apsara/57 7 324591 5 3
+/horse/salehorse&search=&orderby=posted_date&orderby=posted_date 2 68574 0 0
+/user/purchaseextensionsuccess 2 24027 0 1
+/horse/addhorse 4 217699 0 0
+/horse/details/Filly-by-Alishaan/77 2 94668 0 1
+/stable/viewprofile/3 9 242396 0 1
+/user/userpaiduseaccount 5 194325 0 0
+/state/liststateforsearch/23 1 162 0 0
+/horse/horsedetailsforsale/123/155 2 86898 2 2
+/horse/details/Amala/90 9 455677 3 2
+/horse/details/Alishaan/2 9 386241 0 2
+/horse/details/Alibaba/59 1 49460 0 1
+/user/notificationlisting/usernotification/3 2 754 0 0
+/content/cancellation 4 58660 1 0
+/user/chklogin/isa.stewart@gmail.com/letmein/yes 2 38 0 0
+/user/account 4 95580 1 1
+/horse/putforsale/95 2 38724 0 1
+/],rb=s.defaultView&&s.defaultView.getComputedStyle,Pa=c.support.cssFloat 1 1499 0 0
+/horse/putforsale/86 1 19362 0 0
+/content/privacy 4 58712 0 0
+/horse/findahorse&search=ratnakar&searchby=horse 3 200154 0 0
+/town/listtownforsearch/24 1 207 0 0
+/horse/details/unkown/40 1 37719 1 1
+/horse/salehorse&search=&salestaus=Sale&orderby=price&orderby=price 2 135262 0 0
+/horse/findahorse&search=rajhans&searchby=horse 2 128668 0 0
+/content/disclaimer 3 44552 0 0
+/horse/findstable 2 63235 0 0
+/horse/details/Badal/51 2 75289 0 0
+/horse/details/stallion-by-Alishaan/79 8 359741 3 1
+/user/freeuserwelcomepage 3 32332 0 0
+/horse/salehorse&search=&orderby=price&orderby=price 2 68538 0 0
+/user/notificationlisting/horsenotification/99 2 2852 0 0
+/horse/salehorse&search=&orderby=posted_date&orderby=name 2 68532 0 0
+/horse/subscribefornotification/62 7 555 0 2
+/horse/findahorse&search=nawab&searchby=horse 2 128662 0 0
+/horse/details/Mehrunissa/30 4 192366 0 0
+/user/freeuserlogin/isastewart@gmail.com/letmein 1 1 0 0
+/horse/findahorse&search=fauzi&searchby=horse 2 128662 1 2
+/horse/details/Nazarulla/88 4 165900 0 2
+/horse/details/Bahadur-Shah/29 3 118726 2 2
+/horse/salehorse&search=&salestaus=Sale&orderby=name&orderby=price 2 135262 0 0
+/horse/details/Filly-by-shaandaar/81 1 39034 0 0
+/content/front 6 112368 0 1
+/state/liststate/5 1 173 1 0
+/horse/details/Naag/39 9 341102 5 1
+/user/confirmupdatemembership 1 1792 0 0
+/horse/unsubscribefornotification/62 4 328 0 1
+/ho 1 1418 0 0
+/horse/details/Gulmastan/56 1 40164 0 1
+/horse/details/123/155 4 166364 0 0
+/horse/salehorse&search=&orderby=name&orderby=posted_date 2 68574 0 0
+/horse/details/Padmini/82 8 376119 1 3
+/horse/salehorse&search=&orderby=name&orderby=price 2 68538 0 0
+/horse/findahorse&search=baaz&searchby=horse 3 192986 0 0
+/horse/details/Ratnakar/65 5 193430 1 1
+/horse/details/colt-by-alishaan/72 6 283991 2 1
+/horse/findamembers 3 187027 0 0
+/horse/details/Narajj---Badur/66 2 75782 1 1
+/horse/details/Dilraj1/20 3 162708 1 1
+/horse/details/Gajraj/21 9 372401 4 3
+/horse/details/Krisna/78 8 302423 5 4
+/horse/findahorse&search=alibaba&searchby=horse 3 200211 0 0
+/user/userfreeuseaccount 1 82738 0 0
+/horse/listsirehorsedatabase/Ra 1 4436 0 0
+/img/%22+imagedirectory+%22/%22+image+%22 2 2846 0 0
+/horse/salehorse&search=&orderby=name&orderby=name 4 137064 1 1
+/state/liststablestate/6 1 176 0 0
+/horse/horsedetailsforsale/Suchet/13 3 119652 0 0
+/user/freemembersignup 6 178141 0 1
+/horse/subscribefornotification/79 1 79 0 0
+/content/membershipdetail/5 4 58387 0 0
+/horse/successfulladd/mare2/139 1 67296 0 0
+/horse/salehorse&search=&orderby=price&orderby=posted_date 2 68574 0 0
+/horse/salehorse&search=&salestaus=Sale&orderby=price&orderby=name 2 135374 0 0
+/horse/details/Gajkesri/54 2 79175 2 1
+/user/notificationlisting/horsenotification/63 2 4956 0 0
+/content/sitemap 5 76420 0 0
+/horse/findahorse&search=gulzar&searchby=horse 2 128666 0 0
+/horse/salehorse&search=&orderby=price&orderby=name 2 68532 0 0
+/horse/listsirehorsedatabase/Ho 1 16 0 0
+/horse/horsedetailsforsale/Adam/19 4 169540 0 2
+/horse/listbredall/ma 2 1504 0 0
+/horse/salehorse&search=&salestaus=Sale&orderby=name&orderby=posted_date 2 135143 0 0
+/stable/editstable/3 2 65446 0 0
+/user/login/beaubikker@gmail.com/letmein 1 1 0 0
+/horse/details/Vijaylaxmi/84 3 113814 0 0
+/user/notificationlisting/horsenotification/87 2 4947 0 0
+/horse/salehorse&search=&salestaus=Sale&orderby=posted_date&orderby=name 2 135374 0 0
+/state/listmemstate/2 1 314 0 0
+/horse/salehorse&search=&salestaus=Sale&orderby=price&orderby=posted_date 2 135144 0 0
+/horse/details/Dilraj/87 4 218758 1 2
+/horse/details/Dilraj/20 4 223656 3 3
+/content/help 2 3092 0 0
+/horse/details/Hai-Veer/68 7 277395 4 5
+/user/chklogin/beaubikker@gmail.com/letmein/no 8 152 0 0
+/user/viewaccount/Mw== 2 39679 0 0
+/horse/salehorse&search=&salestaus=Sale&orderby=name&orderby=name 2 135374 0 0
+/horse/details/Dilsher/34 3 119439 3 1
+/town/listtown/23 1 220 1 0
+/horse/details/Ashva-Adhiraj/94 4 193804 0 0
+/horse/changereques/105 1 1558 0 0
+/horse/details/Rukmani/83 2 91142 0 2
+/user/updatemembership 1 10415 0 0
+/h 1 1413 0 0
+/horse/details/Hansa/67 4 151535 0 0
+/user/profile/succ 2 43702 0 0
+/user/freeuserprofile 1 11940 0 0
+/horse/details/Rajrana/32 4 158212 3 1
+/horse/details/Ismin/74 2 93476 1 0
+/horse/details/mare2/139 3 106756 0 0
+/horse/details/Sultan/60 6 325446 0 0
+/horse/details/Dilshaan/1 4 192788 0 2
+/horse/findahorse&search=samrat&searchby=horse 2 128666 0 0
+/horse/findahorse&search=gajraj&searchby=horse 2 133422 0 0
+/horse/details/Banka-Yaar/75 4 188244 4 4
+/horse/details/21 1 41378 1 1
+/horse/details/Asa/89 4 211848 2 2
+/content/membershipdetail/7 6 87702 0 2
+/horse/details/Rajanigandha/33 5 266900 1 0
+/user/notificationlisting/usernotification/48 2 1900 0 0
+/user/freemembersignup/login 3 89263 1 0
+/help/showall 10 270533 0 4
+/horse/horsedetailsforsale/Karan/12 4 166548 0 0
+/user/addfreeuser/Mary/Constantinopolis/isastewart@gmail.com/letmein 1 1 0 0
+/horse/details/Tallulah/28 3 118581 0 0
+/state/liststate/2 2 620 0 1
+/horse/listbredall/maj 2 1503 0 1
+/horse/details/Shaandaar/11 5 225084 2 1
+/horse/findahorse&search=badal&searchby=horse 2 133315 0 0
+/img/\"+imagedirectory+\"/\"+image+ 1 1423 0 0
+/horse/details/Bulbul/85 2 75714 0 0
+/user/notificationlisting/horsenotification/37 2 5888 0 0
+/horse/findahorse&search=devraj&searchby=horse 2 128665 0 0
+/horse/105 1 1531 0 0
+/horse/listbredall/maji 1 752 0 1
+/content/terms 5 73073 0 1
+/horse/subscribefornotification/151 1 80 0 0
+/horse/details/Ziana/47 4 153800 0 0
+/user/chklogin/Beaubikker@gmail.com/letmein/no 2 38 0 1
+/horse/findahorse&search=Search&searchby=horse 2 263803 0 0
+/user/addfreeuser/Rakesh/Picholiya/rakeshpicholiya@gmail.com/dinesh 1 1 0 0
+/user/chaneemail/beaubikker@gmail.com 1 1 0 0
+/horse/salehorse&search=&orderby=posted_date&orderby=price 2 68538 0 0
+/state/liststateforsearch/4 1 162 0 0
+/content/homeforpaiduser 3 35088 1 1
+/horse/findamembers/ 8 524406 0 2
+/horse/details/Bhadur/99 2 76110 1 0
+/horse/details/old-black-stallion/58 1 38107 1 1
+/state/liststateforsearch/77 1 162 0 0
+/user/freeuserlogin/rakeshpicholiya@gmail.com/dinesh 1 1 0 0
+/user/premiumuserwelcomepage 3 37832 0 1
+/horse/details/Adam/19 7 283262 2 3
+/user/profile 3 65369 0 1
+/content/advertise 5 73009 0 0
+/horse/details/Toofan/4 4 156344 2 0
+/user/notificationlisting/horsenotification/62 4 11830 0 0
+/horse/mylistedhorse 4 73980 0 0
+/horse/details/Raj-Shringar/8 4 218812 2 2
+/user/chklogin/isa.stewart@gmail.com/letmein/no 8 152 0 0
+/town/liststabletown/21 1 224 0 0
+/horse/findahorse&search=humayu&searchby=horse 2 128666 0 0
+/user/viewaccount/NTQ= 2 34029 0 0
+/content/membershipdetail/6 8 116727 1 2
+/horse/findahorse&search=rajvirat&searchby=horse 3 193011 0 0
+/horse/details/mare_by_adam/69 7 337056 3 3
+/horse/salehorse&search=&salestaus=Sale&orderby=posted_date 9 608149 2 1
+/horse/details/Shyamla1/24 5 275500 0 3
+/user/useraccount 1 23439 0 0
+/horse/details/Prabhat/55 2 80170 2 2
+/stable/viewmystableprofileprofile/3 8 183189 1 0
+/horse/details/Raj-Pratham/98 9 412748 0 1
+/user/viewaccount/MQ== 4 115988 2 0
+/user/notificationlisting/horsenotification/79 2 4008 0 0
+/horse/listdamhorsedatabase/Ra 1 1347 0 0
+/town/listtown/24 1 218 0 0
+/state/liststablestate/2 2 628 0 0
+/horse/details/Rajratan/96 2 90778 0 0
+/horse/edithorseinfo/62 4 225408 0 0
+/user/chklogin/isastewart@gmail.com/letmein/yes 2 38 0 0
+/horse/details/dam-of-Deewana/93 7 267911 4 4
+/horse/details/Yuvaraj/70 5 204745 3 1
+/town/liststabletown/24 1 188 0 0
+/horse/findahorse&search=ali%20baba&searchby=horse 2 128674 0 0
+/horse/details/Alibaba123/59 5 247299 0 0
+/horse/addhorsebyfreemember 2 108340 0 0
+/horse/details/Feature/154 6 227874 1 2
+END_SIDER

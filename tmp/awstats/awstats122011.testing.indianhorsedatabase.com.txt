@@ -1,0 +1,300 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201112 will be lost/reset.
+# Last config file used to build this data file was /home/ihd/tmp/awstats/awstats.testing.indianhorsedatabase.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2020                
+POS_TIME 2679                
+POS_VISITOR 7912                
+POS_DAY 8302                
+POS_DOMAIN 3292                
+POS_LOGIN 3533                
+POS_ROBOT 3688                
+POS_WORMS 3896                
+POS_EMAILSENDER 4027                
+POS_EMAILRECEIVER 4170                
+POS_SESSION 8406                
+POS_SIDER 8589                
+POS_FILETYPES 4305                
+POS_DOWNLOADS 4401                
+POS_OS 4449                
+POS_BROWSER 4530                
+POS_SCREENSIZE 4670                
+POS_UNKNOWNREFERER 4744                
+POS_UNKNOWNREFERERBROWSER 4867                
+POS_ORIGIN 4985                
+POS_SEREFERRALS 5117                
+POS_PAGEREFS 5261                
+POS_SEARCHWORDS 5409                
+POS_KEYWORDS 5561                
+POS_MISC 2342                
+POS_ERRORS 5620                
+POS_CLUSTER 3389                
+POS_SIDER_404 5724                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20111227014746 4 477 35017387927
+FirstTime 0
+LastTime 20111211233806
+LastUpdate 20111227074939 4 0 4 0 0
+TotalVisits 12                  
+TotalUnique 8                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 8                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 21 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 18 18 239391 26 147 447388
+1 1 1 18411 4 23 109993
+2 0 0 0 6 8 19368
+3 0 0 0 11 11 21966
+4 0 0 0 4 5 16770
+5 0 0 0 1 1 866
+6 5 5 66060 20 68 160676
+7 0 0 0 0 0 0
+8 2 2 26424 0 10 33540
+9 6 6 89711 29 77 191956
+10 0 0 0 2 3 1732
+11 0 0 0 0 0 0
+12 0 0 0 1 2 6708
+13 0 0 0 2 2 6708
+14 0 0 0 2 4 13416
+15 0 0 0 4 4 13416
+16 0 0 0 4 7 23478
+17 0 0 0 1 1 3354
+18 0 0 0 5 7 23478
+19 0 0 0 3 3 10062
+20 0 0 0 7 11 88792
+21 0 0 0 17 22 135896
+22 2 2 36821 1 28 88070
+23 4 4 73643 13 52 131136
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 2
+in 30 30 418771
+us 8 8 131690
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+googlebot 12 223669 20111227014746 0
+no_user_agent 1 13212 20111210094226 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+php 5 50 0 0
+html 33 550411 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 4
+macosx 30
+Unknown 2
+linuxubuntu 1
+linux 5
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 6
+chrome15.0.874.121 28
+firefox6.0.2 5
+mozilla 1
+chrome12.0.742.112 1
+Unknown 2
+safari5.1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Mediapartners-Google 20111210081452
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Mediapartners-Google 20111210081452
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 38 38
+From1 0 0
+From2 0 0
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+500 96 83136
+404 366 1227564
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 46
+/img/profileimage/1317323665_profile%20square.jpg 11 http://testing.indianhorsedatabase.com/
+/js/jquery-1.js 28 http://testing.indianhorsedatabase.com/
+/robots.txt 26 -
+/content/membershipdetail/4 2 -
+/user/premiumuserwelcomepage 2 -
+/img/visitor_up.png 23 http://testing.indianhorsedatabase.com/
+/content/advertise 2 -
+/user/chklogin/ 2 -
+/horse/salehorse 2 -
+/horse/findahorse 3 http://testing.indianhorsedatabase.com/
+/horse/mylistedhorse 2 -
+/content/membershipdetail/3 2 -
+/horse/addhorse 3 -
+/content/contact 3 http://testing.indianhorsedatabase.com/
+/img/noimage.jpg 10 http://testing.indianhorsedatabase.com/
+/img/visitor_bottom.png 23 http://testing.indianhorsedatabase.com/
+/horse/findahorse&search= 2 -
+/home/ihd/public_html/testing/webroot/css/skin.css 3 http://testing.indianhorsedatabase.com/
+/home/ihd/public_html/testing/webroot/css/style.css 10 -
+/content/cancellation 2 -
+/..app/css/style.css 2 http://testing.indianhorsedatabase.com/
+/http 1 http://testing.indianhorsedatabase.com/
+/help/showall 2 -
+/img/settingimages/1307821381_IHD-Logo(final)beta.png 33 http://testing.indianhorsedatabase.com/
+/t 1 -
+/user/premiumuserwelcomepage/ 2 -
+/user/forgotpasswordfront/ 2 -
+/testing/css/style.css 2 http://testing.indianhorsedatabase.com/
+/..app/css/skin.css 2 http://testing.indianhorsedatabase.com/
+/test. 1 -
+/img/sub_body_footer.png 33 http://testing.indianhorsedatabase.com/
+/test 1 -
+/test.ph 1 -
+/content/privacy 2 -
+/css/style.css 32 http://testing.indianhorsedatabase.com/
+/content/sitemap 2 -
+/horse/addhors 1 -
+/content/membershipdetail/2 2 -
+/js/jquery.js 30 http://testing.indianhorsedatabase.com/
+/content/disclaimer 2 -
+/content/terms 2 -
+/user/selectmembership 2 -
+/testin 1 -
+/user/freeuserwelcomepage 2 -
+/css/skin.css 34 http://testing.indianhorsedatabase.com/
+/img/horseimage/1321004755_black_hrs.jpg 10 http://testing.indianhorsedatabase.com/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 8
+117.201.7.253 18 18 239391 20111211011342
+216.110.94.228 6 6 105266 20111211000901
+117.201.7.24 5 5 76499 20111210095129
+117.201.4.134 4 4 52848 20111210093515
+117.241.209.244 2 2 36821 20111211233806
+66.249.71.177 1 1 13212 20111210081452
+49.203.69.229 1 1 13212 20111210081439
+66.249.71.102 1 1 13212 20111210064817
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 2
+20111210 17 17 255838 9
+20111211 21 21 294623 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+1h+ 1
+5mn-15mn 3
+30s-2mn 1
+2mn-5mn 2
+0s-30s 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 2
+/ 33 550411 12 12
+/test.php 5 50 0 0
+END_SIDER

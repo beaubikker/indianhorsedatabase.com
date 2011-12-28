@@ -1,0 +1,34 @@
+Return-path: <ihd@gator1257.hostgator.com>
+Envelope-to: admin@indianhorsedatabase.com
+Delivery-date: Tue, 21 Jun 2011 05:03:46 -0500
+Received: from ihd by gator1257.hostgator.com with local (Exim 4.69)
+	(envelope-from <ihd@gator1257.hostgator.com>)
+	id 1QYxoA-0005oH-4D
+	for admin@indianhorsedatabase.com; Tue, 21 Jun 2011 05:03:46 -0500
+To: admin@indianhorsedatabase.com
+Subject: Julas has requested change for Rajtilk-102
+X-PHP-Script: indianhorsedatabase.com/app/webroot/index.php for 121.247.128.231
+From: Indian Horse Data base <admin@indianhorsedatabase.com>
+Reply-To: admin@indianhorsedatabase.com
+X-Mailer: CakePHP Email Component
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Message-Id: <E1QYxoA-0005oH-4D@gator1257.hostgator.com>
+Date: Tue, 21 Jun 2011 05:03:46 -0500
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+	<title>Horse</title>
+</head>
+<body>
+	<div>
+	Dear,<b>Admin</b><br>Username named as Julas has requested to change information for the Horse name as Rajtilk ;<br>
+				Please Login to view the details wither to approve or reject.
+				<br>
+				Thanks
+				Indian Horse Database</div>
+	
+</body>
+</html>
+

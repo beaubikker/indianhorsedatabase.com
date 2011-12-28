@@ -1,0 +1,34 @@
+Return-path: <ihd@gator1257.hostgator.com>
+Envelope-to: admin@indianhorsedatabase.com
+Delivery-date: Tue, 25 Oct 2011 07:34:44 -0500
+Received: from ihd by gator1257.hostgator.com with local (Exim 4.69)
+	(envelope-from <ihd@gator1257.hostgator.com>)
+	id 1RIgDI-0002WF-I6
+	for admin@indianhorsedatabase.com; Tue, 25 Oct 2011 07:34:40 -0500
+To: admin@indianhorsedatabase.com
+Subject: Changer has requested change for H-Horse-198
+X-PHP-Script: indianhorsedatabase.com/app/webroot/index.php for 79.154.20.70
+From: Indian Horse Data base <admin@indianhorsedatabase.com>
+Reply-To: admin@indianhorsedatabase.com
+X-Mailer: CakePHP Email Component
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Message-Id: <E1RIgDI-0002WF-I6@gator1257.hostgator.com>
+Date: Tue, 25 Oct 2011 07:34:40 -0500
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+	<title>Horse</title>
+</head>
+<body>
+	<div>
+	Dear,<b>Admin</b><br>Username named as Changer has requested to change information for the Horse name as H-Horse ;<br>
+				Please Login to view the details wither to approve or reject.
+				<br>
+				Thanks
+				Indian Horse Database</div>
+	
+</body>
+</html>
+

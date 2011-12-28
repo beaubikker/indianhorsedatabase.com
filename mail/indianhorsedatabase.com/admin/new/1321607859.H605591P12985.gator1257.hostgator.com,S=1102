@@ -1,0 +1,35 @@
+Return-path: <ihd@gator1257.hostgator.com>
+Envelope-to: admin@indianhorsedatabase.com
+Delivery-date: Fri, 18 Nov 2011 03:17:39 -0600
+Received: from ihd by gator1257.hostgator.com with local (Exim 4.69)
+	(envelope-from <ihd@gator1257.hostgator.com>)
+	id 1RRKZn-0003NJ-EE
+	for admin@indianhorsedatabase.com; Fri, 18 Nov 2011 03:17:39 -0600
+To: admin@indianhorsedatabase.com
+Subject: owner  - has disagreed with change request for H-sire-200
+X-PHP-Script: www.indianhorsedatabase.com/app/webroot/index.php for 117.241.210.37
+From: Indian Horse Data base <admin@indianhorsedatabase.com>
+Reply-To: admin@indianhorsedatabase.com
+X-Mailer: CakePHP Email Component
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Message-Id: <E1RRKZn-0003NJ-EE@gator1257.hostgator.com>
+Date: Fri, 18 Nov 2011 03:17:39 -0600
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+	<title>Horse</title>
+</head>
+<body>
+	<div>
+	Dear,<b>Admin</b><br>user name <b>owner  - has disagreed with change requestH-sire
+			<br>
+			Reason : Test
+
+			Thanks
+			Indian Horse Database</div>
+	
+</body>
+</html>
+

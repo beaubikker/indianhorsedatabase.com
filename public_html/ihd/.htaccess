@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^ihd\.indianhorsedatabase\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ihd\.indianhorsedatabase\.com$
+RewriteRule ^/?$ "http\:\/\/indianhorsedatabase\.com\/" [R=301,L]
+

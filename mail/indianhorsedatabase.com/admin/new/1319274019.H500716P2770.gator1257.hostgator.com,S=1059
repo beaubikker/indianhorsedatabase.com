@@ -1,0 +1,33 @@
+Return-path: <ihd@gator1257.hostgator.com>
+Envelope-to: admin@indianhorsedatabase.com
+Delivery-date: Sat, 22 Oct 2011 04:00:19 -0500
+Received: from ihd by gator1257.hostgator.com with local (Exim 4.69)
+	(envelope-from <ihd@gator1257.hostgator.com>)
+	id 1RHXRD-0000iY-2c
+	for admin@indianhorsedatabase.com; Sat, 22 Oct 2011 04:00:19 -0500
+To: admin@indianhorsedatabase.com
+Subject:     has agreed with change request for F-Horse-190
+X-PHP-Script: indianhorsedatabase.com/app/webroot/index.php for 121.247.128.231
+From: Indian Horse Data base <admin@indianhorsedatabase.com>
+Reply-To: admin@indianhorsedatabase.com
+X-Mailer: CakePHP Email Component
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Message-Id: <E1RHXRD-0000iY-2c@gator1257.hostgator.com>
+Date: Sat, 22 Oct 2011 04:00:19 -0500
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+	<title>Horse</title>
+</head>
+<body>
+	<div>
+	Dear,<b>Admin</b><br>User:  has agreed with change request: F-Horse
+			<br>
+			Thanks
+			Indian Horse Database</div>
+	
+</body>
+</html>
+

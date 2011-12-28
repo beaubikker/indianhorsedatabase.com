@@ -1,0 +1,33 @@
+Return-path: <ihd@gator1257.hostgator.com>
+Envelope-to: admin@indianhorsedatabase.com
+Delivery-date: Thu, 01 Dec 2011 03:32:06 -0600
+Received: from ihd by gator1257.hostgator.com with local (Exim 4.69)
+	(envelope-from <ihd@gator1257.hostgator.com>)
+	id 1RW2zu-0005v4-B4
+	for admin@indianhorsedatabase.com; Thu, 01 Dec 2011 03:32:06 -0600
+To: admin@indianhorsedatabase.com
+Subject: owner   - has agreed with change request for P-horse-212
+X-PHP-Script: indianhorsedatabase.com/app/webroot/index.php for 117.201.4.243
+From: Indian Horse Data base <admin@indianhorsedatabase.com>
+Reply-To: admin@indianhorsedatabase.com
+X-Mailer: CakePHP Email Component
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Message-Id: <E1RW2zu-0005v4-B4@gator1257.hostgator.com>
+Date: Thu, 01 Dec 2011 03:32:06 -0600
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+	<title>Horse</title>
+</head>
+<body>
+	<div>
+	Dear,<b>Admin</b><br>User:owner - has agreed with change request: P-horse
+			<br>
+			Thanks
+			Indian Horse Database</div>
+	
+</body>
+</html>
+

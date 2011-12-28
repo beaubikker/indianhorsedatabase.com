@@ -1,0 +1,452 @@
+Return-path: <paypal@info.paypal.nl>
+Envelope-to: admin@indianhorsedatabase.com
+Delivery-date: Wed, 27 Apr 2011 16:41:36 -0500
+Received: from om-paypal-eu2.rsys4.com ([12.130.139.54]:33833)
+	by gator1257.hostgator.com with esmtp (Exim 4.69)
+	(envelope-from <paypal@info.paypal.nl>)
+	id 1QFCUJ-0001YI-OR
+	for admin@indianhorsedatabase.com; Wed, 27 Apr 2011 16:41:35 -0500
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=responsys; d=info.paypal.nl;
+ h=MIME-Version:Content-Type:Date:From:Reply-To:Subject:List-Unsubscribe:To:Message-ID; i=paypal@info.paypal.nl;
+ bh=OVOV9Pu4H0FgmEFfmmBhyRLk1RQ=;
+ b=wVKP4KH9fWx7LsRthzU1qhloHMduwvlDpf8XhlD5cm93O5RYceYToGUME9xXg0PkTuOP8A8u3hKt
+   jaEex1fkrv5ki9BRd0o2/MwU6xgx3yDc0HNRqQkcMsBoMNZI8z+uJJR+K9bCSUMFg1FoMwgD2hkX
+   ZgOpSJVypCLTsnFRnNs=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=responsys; d=info.paypal.nl;
+ b=nDys+T4XxdX/POYW0I/2o9u+NAS1+PURePD5UVizxSpJtt1tJn1a8YanXE1ibZhatlsQnvmJVmlK
+   N/CgJQOcBKbRuzzS/X5T5+WzuM/Hi6pjEBNLhbWBacPTk1lcPOYGyNIHIHNaL7/8FApTmGZPK5hw
+   MYcFQ34Ho+pK25CwDQs=;
+Received: by om-paypal-eu2.rsys4.com (PowerMTA(TM) v3.5r15) id hn26p00morc2 for <admin@indianhorsedatabase.com>; Wed, 27 Apr 2011 14:41:35 -0700 (envelope-from <paypal@info.paypal.nl>)
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="----msg_border"
+Date: Wed, 27 Apr 2011 14:41:35 -0700
+From: "PayPal" <paypal@info.paypal.nl>
+Reply-To: "PayPal" <reply3@info.paypal.com>
+Subject: Beau, lees hier meer over veilig online winkelen
+List-Unsubscribe: <mailto:unsubscribe-ppleu2.676@im4.responsys.net>, <https://email0.paypal.com/servlet/optout?iisLNVDZAZDWBCEHKtpgFpgKpHgohklLKHmHIHlLDJhtEf>
+X-cid: ppleu2.676.389
+X-sgxh1: HKupgxpgKpHgohjkLKHlHIHkLQJhu
+To: admin@indianhorsedatabase.com
+X-valueof-OFFERID: 16608
+X-valueof-CAMPAIGNID: 4707
+X-valueof-TREATMENTCODE: 000843639
+X-valueof-EMAILCATEGORY: PNP
+X-valueof-HASHID: 2K96016404241505R
+Message-ID: <0.0.21F.26E.1CC0523E1C14E4A.0@om-paypal-eu2.rsys4.com>
+
+This is a multi-part message in MIME format.
+
+------msg_border
+Date: Wed, 27 Apr 2011 14:41:35 -0700
+Content-Type: multipart/alternative; boundary="----alt_border_1"
+
+
+
+------alt_border_1
+Content-Type: text/plain;
+	charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Tips voor veilig online winkelen=20
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+	=20
+Beste Beau Bikker,
+
+Als gebruiker van PayPal geven wij u graag wat tips hoe u veilig=20
+online kunt winkelen=2E Hoe ziet u bijvoorbeeld of een webwinkel=20
+betrouwbaar is? Onderstaande tips helpen u erbij om zonder zorgen=20
+online te winkelen=2E
+
+Hoe kunt u veilig online winkelen?
+
+Kijk of op de webwinkel het Thuiswinkel Waarborg is weergegeven=2E=20
+Het Thuiswinkel Waarborg is het Nederlandse keurmerk voor bedrijven=20
+die producten verkopen via internet=2E Kijk of er een adres en=20
+telefoonnummer op de site van de webwinkel staat=2E U kunt dit nummer=20
+bellen met bijvoorbeeld een algemene vraag=2E Zo weet u meteen met wie=20
+u te maken heeft=2E Vul bij twijfel de naam van de webwinkel in bij=20
+Google=2Enl=2E Daar ziet u vaak ervaringen van anderen=2E
+
+Waar op te letten als u PayPal gebruikt
+
+Wanneer u kiest voor PayPal, kiest u voor een betrouwbare betaalmethode=2E=
+=20
+Wel is het verstandig altijd op onderstaande punten te letten=2E
+In onze communicatie spreekt PayPal u altijd aan met uw voor- en achternaam=
+=2E=20
+Reageer nooit op e-mails die u aanspreken met 'Dear customer' of een andere=
+=20
+aanhef=2E Ga nooit in op verzoeken waarbij u gevraagd wordt vertrouwelijke=
+=20
+informatie op te geven (wachtwoord, bank- of creditcardnummer)=2E PayPal za=
+l=20
+hier nooit rechtstreeks om vragen=2E Deel nooit uw wachtwoord met iemand an=
+ders=2E=20
+Ook niet als dit een bekende van u is=2E
+
+Met vriendelijke groet,
+
+PayPal team
+
+---------------------------------------------------------------------------=
+---------------
+
+Deze e-mail is verzonden naar admin=40indianhorsedatabase=2Ecom, omdat uw e=
+-mailvoorkeuren=20
+zijn ingesteld voor het ontvangen van promotieacties van partners/derden=2E=
+=20
+Abonnement opzeggen=20
+https://email0=2Epaypal=2Ecom/servlet/cc6?iitLmTQABAQUCDVHKupgxpgKpHgohjkLK=
+HlHIHkLQJhuV2VBV20G62fGv28w9GVRRRCWUAUDVa61ab9VTdDARSAWRWTWSYRY0VGf6be862GE=
+w05VyvyV86fy6bEvb9VWBRBVwzgzgG0b9VSAARCVXLX
+
+Copyright (C) 1999-2011 PayPal=2E Alle rechten voorbehouden=2E
+PayPal S=2E=E0 r=2El=2E et Cie, S=2EC=2EA=2E,
+Soci=E9t=E9 en Commandite par Actions=2E
+Gevestigd te: 22-24 Boulevard Royal, L-2449, Luxemburg,
+R=2EC=2ES=2E Luxemburg B 118 349=2E
+
+wachtwoord kwijt >>
+https://email0=2Epaypal=2Ecom/servlet/cc6?iitLmTQABAQUCDVHKupgxpgKpHgohjkLK=
+HlHIHkLQJhuV2VSV20G62fGv28w9GVRRRCWUAUDVa61ab9VTdDARSAWRWTWSYRY0VGf6be862GE=
+w05VyvyV86fy6bEvb9VWBRBVwzgzgG0b9VSAARCVXLX
+
+website >>
+https://email0=2Epaypal=2Ecom/servlet/cc6?iitLmTQABAQUCDVHKupgxpgKpHgohjkLK=
+HlHIHkLQJhuV2VTV20G62fGv28w9GVRRRCWUAUDVa61ab9VTdDARSAWRWTWSYRY0VGf6be862GE=
+w05VyvyV86fy6bEvb9VWBRBVwzgzgG0b9VSAARCVXLX
+
+contact >>
+https://email0=2Epaypal=2Ecom/servlet/cc6?iitLmTQABAQUCDVHKupgxpgKpHgohjkLK=
+HlHIHkLQJhuV2VUV20G62fGv28w9GVRRRCWUAUDVa61ab9VTdDARSAWRWTWSYRY0VGf6be862GE=
+w05VyvyV86fy6bEvb9VWBRBVwzgzgG0b9VSAARCVXLX
+
+
+
+
+------alt_border_1
+Content-Type: text/html;
+	charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<=21DOCTYPE HTML PUBLIC =22-//W3C//DTD HTML 4=2E01 Transitional//EN=22 =22h=
+ttp://www=2Ew3=2Eorg/TR/html4/loose=2Edtd=22>
+<html>
+<head>
+<meta http-equiv=3D=22Content-Type=22 content=3D=22text/html; charset=3DISO=
+-8859-1=22>
+<title>PayPal is een veilige manier om online te betalen</title>
+</head>
+
+<body>
+<div style=3D=22width: 674px; margin: 0 auto;=22>
+ =20
+ =20
+ <table width=3D=22674=22 border=3D=220=22 cellpadding=3D=220=22 cellspacin=
+g=3D=220=22 style=3D=22color:=233a319f; font-family: Arial; font-size: 11pt=
+; border-bottom: 3px solid =2300447a;=22>
+  <tr>
+    <td width=3D=22139=22><a href=3D=22https://email0=2Epaypal=2Ecom/servle=
+t/cc6?iitLmTQABAQUCDVHKupgxpgKpHgohjkLKHlHIHkLQJhuVaVRV20G62fGv28w9GVRRRCWU=
+AUDVa61ab9VTdDARSAWRWTWSYRY0VGf6be862GEw05VyvyV86fy6bEvb9VWBRBVwzgzgG0b9VSA=
+ARCVXLX=22><img src=3D=22http://pics=2Eebaystatic=2Ecom/aw/nl/promos/promos=
+/pmoPayPal_logo_139x35=2Egif=22 alt=3D=22PayPal=22 width=3D=22139=22 height=
+=3D=2235=22 style=3D=22border: none; display: block;=22></a></td>
+    <td width=3D=22304=22>Winkelen met PayPal</td>
+    <td valign=3D=22bottom=22 width=3D=22115=22><a href=3D'https://email0=
+=2Epaypal=2Ecom/servlet/cc6?iitLmTQABAQUCDVHKupgxpgKpHgohjkLKHlHIHkLQJhuVaV=
+SV20G62fGv28w9GVRRRCWUAUDVa61ab9VTdDARSAWRWTWSYRY0VGf6be862GEw05VyvyV86fy6b=
+Evb9VWBRBVwzgzgG0b9VSAARCVXLX' style=3D=22display: Yes=22>
+		<img src=3D'http://pics=2Eebaystatic=2Ecom/aw/nl/promos/promos/btn_Wachtw=
+oord_kwijt_110x26=2Egif' alt=3D'Wachtwoord kwijt?' width=3D=22110=22 height=
+=3D=2226=22 style=3D=22border: none; display: block;=22></a>
+	</td>
+    <td valign=3D=22bottom=22 width=3D=2261=22><a href=3D'https://email0=2E=
+paypal=2Ecom/servlet/cc6?iitLmTQABAQUCDVHKupgxpgKpHgohjkLKHlHIHkLQJhuVaVTV2=
+0G62fGv28w9GVRRRCWUAUDVa61ab9VTdDARSAWRWTWSYRY0VGf6be862GEw05VyvyV86fy6bEvb=
+9VWBRBVwzgzgG0b9VSAARCVXLX' style=3D=22display: Yes=22><img src=3D'http://p=
+ics=2Eebaystatic=2Ecom/aw/nl/promos/promos/btnWebsite_56x26=2Egif' alt=3D'W=
+ebsite' width=3D=2256=22 height=3D=2226=22 style=3D=22border: none; display=
+: block;=22></a></td>
+    <td valign=3D=22bottom=22 width=3D=2255=22><a href=3D'https://email0=2E=
+paypal=2Ecom/servlet/cc6?iitLmTQABAQUCDVHKupgxpgKpHgohjkLKHlHIHkLQJhuVaVUV2=
+0G62fGv28w9GVRRRCWUAUDVa61ab9VTdDARSAWRWTWSYRY0VGf6be862GEw05VyvyV86fy6bEvb=
+9VWBRBVwzgzgG0b9VSAARCVXLX' style=3D=22display: Yes=22><img src=3D'http://p=
+ics=2Eebaystatic=2Ecom/aw/nl/promos/promos/btnContact_55x26=2Egif' alt=3D'c=
+ontact' width=3D=2255=22 height=3D=2226=22 style=3D=22border: none; display=
+: block;=22></a></td>
+  </tr>
+</table>
+
+
+
+
+
+<table width=3D=22674=22 border=3D=220=22 cellpadding=3D=220=22 cellspacing=
+=3D=220=22 style=3D=22color:=23000; font-family: Arial; font-size: 9pt; bac=
+kground-color:=23f7f7f7;=22>
+<tr>
+	<td height=3D=2235=22 colspan=3D=224=22 valign=3D=22bottom=22><img src=3D=
+=22http://pics=2Eebaystatic=2Ecom/aw/nl/promos/promos/btnMarktplaats_header=
+_activate_674x32=2Egif=22 alt=3D=22=22 style=3D=22display: block;=22></td>
+</tr>
+
+<tr>
+	<td width=3D=2220=22 rowspan=3D=222=22 valign=3D=22top=22 bgcolor=3D=22=23=
+e0dedf=22>&nbsp;</td>
+	<td width=3D=22198=22 align=3D=22left=22 valign=3D=22top=22><img src=3D=22=
+http://pics=2Eebaystatic=2Ecom/aw/nl/promos/promos/btnMarktplaats_header_to=
+p_106x92=2Egif=22 alt=3D=22=22 style=3D=22display: block;=22></td>
+	<td width=3D=22440=22 rowspan=3D=222=22 valign=3D=22bottom=22>
+	<div style=3D=22width: 420px;padding-top:25px;=22>
+		<span style=3D=22font-size: 18pt; color: =23453e34;=22><b>Tips voor veili=
+g online winkelen</b> </span> <br>
+        <br>
+        <span style=3D=22color: =2332659b;=22><b>Beste Beau Bikker,</b></sp=
+an> <br>
+        <br>
+Als gebruiker van PayPal geven wij u graag wat tips hoe u veilig online kun=
+t winkelen=2E Hoe ziet u bijvoorbeeld of een webwinkel betrouwbaar is? Onde=
+rstaande tips helpen u erbij om zonder zorgen online te winkelen=2E<br><br>
+<b>Hoe kunt u veilig online winkelen? </b>
+<br>
+<table width=3D=22430=22 border=3D=220=22 cellspacing=3D=220=22 cellpadding=
+=3D=220=22>
+  <tr>
+    <td colspan=3D=223=22><img src=3D=22http://pics=2Eebaystatic=2Ecom/aw/p=
+ics/it/paypal/NL_Christmas/img_IT_PP_xmas_08_3=2Egif=22 alt=3D=22=22 width=
+=3D=2215=22 height=3D=2210=22 border=3D=220=22 /></td>
+  </tr>
+  <tr>
+    <td width=3D=2221=22 valign=3D=22top=22><img src=3D=22http://pics=2Eeba=
+ystatic=2Ecom/aw/nl/promos/promos/img_BNL_PP_june_09_img2V2=2Egif=22 alt=3D=
+=22=22 width=3D=2221=22 height=3D=2223=22 /></td>
+    <td width=3D=2216=22></td>
+    <td width=3D=22533=22><span style=3D=22font-family:Arial; font-size: 12=
+px;=22>Kijk of op de webwinkel het <a href=3D=22https://email0=2Epaypal=2Ec=
+om/servlet/cc6?iitLmTQABAQUCDVHKupgxpgKpHgohjkLKHlHIHkLQJhuVaVWV20G62fGv28w=
+9GVRRRCWUAUDVa61ab9VTdDARSAWRWTWSYRY0VGf6be862GEw05VyvyV86fy6bEvb9VWBRBVwzg=
+zgG0b9VSAARCVXLX=22>Thuiswinkel Waarborg</a> is weergegeven=2E Het Thuiswin=
+kel Waarborg is het Nederlandse keurmerk voor bedrijven die producten verko=
+pen via internet=2E</span></td>
+  </tr>
+  <tr>
+    <td colspan=3D=223=22><img src=3D=22http://pics=2Eebaystatic=2Ecom/aw/p=
+ics/it/paypal/NL_Christmas/img_IT_PP_xmas_08_3=2Egif=22 alt=3D=22=22 width=
+=3D=2215=22 height=3D=2210=22 border=3D=220=22 /></td>
+  </tr>
+  <tr>
+    <td valign=3D=22top=22><img src=3D=22http://pics=2Eebaystatic=2Ecom/aw/=
+nl/promos/promos/img_BNL_PP_june_09_img2V2=2Egif=22 alt=3D=22=22 width=3D=
+=2221=22 height=3D=2223=22 /></td>
+    <td><img src=3D=22http://pics=2Eebaystatic=2Ecom/aw/pics/it/paypal/NL_C=
+hristmas/img_IT_PP_xmas_08_3=2Egif=22 alt=3D=22=22 width=3D=2220=22 height=
+=3D=2210=22 border=3D=220=22 /></td>
+    <td style=3D=22font-family:Arial; font-size: 12px;=22>Kijk of er een ad=
+res en telefoonnummer op de site van de webwinkel staat=2E U kunt dit numme=
+r bellen met bijvoorbeeld een algemene vraag=2E Zo weet u meteen met wie u =
+te maken heeft=2E</td>
+  </tr>
+  <tr>
+    <td colspan=3D=223=22><img src=3D=22http://pics=2Eebaystatic=2Ecom/aw/p=
+ics/it/paypal/NL_Christmas/img_IT_PP_xmas_08_3=2Egif=22 alt=3D=22=22 width=
+=3D=2215=22 height=3D=2210=22 border=3D=220=22 /></td>
+  </tr>
+  <tr>
+    <td valign=3D=22top=22><img src=3D=22http://pics=2Eebaystatic=2Ecom/aw/=
+nl/promos/promos/img_BNL_PP_june_09_img2V2=2Egif=22 alt=3D=22=22 width=3D=
+=2221=22 height=3D=2223=22 /></td>
+    <td><img src=3D=22http://pics=2Eebaystatic=2Ecom/aw/pics/it/paypal/NL_C=
+hristmas/img_IT_PP_xmas_08_3=2Egif=22 alt=3D=22=22 width=3D=2220=22 height=
+=3D=2210=22 border=3D=220=22 /></td>
+    <td style=3D=22font-family:Arial; font-size: 12px;=22>Vul bij twijfel d=
+e naam van de webwinkel in bij <a href=3D=22https://email0=2Epaypal=2Ecom/s=
+ervlet/cc6?iitLmTQABAQUCDVHKupgxpgKpHgohjkLKHlHIHkLQJhuVaVYV20G62fGv28w9GVR=
+RRCWUAUDVa61ab9VTdDARSAWRWTWSYRY0VGf6be862GEw05VyvyV86fy6bEvb9VWBRBVwzgzgG0=
+b9VSAARCVXLX=22>Google=2Enl</a>=2E Daar ziet u vaak ervaringen van anderen=
+=2E</td>
+  </tr>
+  <tr>
+    <td colspan=3D=223=22><font face=3D=22Arial=22 size=3D=223=22 color=3D=
+=22=230071B8=22><font face=3D=22Arial=22 size=3D=223=22 color=3D=22=2300336=
+6=22><strong><font color=3D=22=230071B8=22><font size=3D=225=22><img src=3D=
+=22http://pics=2Eebaystatic=2Ecom/aw/pics/it/paypal/NL_Christmas/img_IT_PP_=
+xmas_08_3=2Egif=22 alt=3D=22=22 width=3D=2215=22 height=3D=2220=22 border=
+=3D=220=22 /></font></font></strong></font></font></td>
+  </tr>
+</table>
+<b>Waar op te letten als u PayPal gebruikt</b><br>
+<br>Wanneer u kiest voor PayPal, kiest u voor een betrouwbare betaalmethode=
+=2E Wel is het verstandig altijd op onderstaande punten te letten=2E<br><ta=
+ble width=3D=22430=22 border=3D=220=22 cellspacing=3D=220=22 cellpadding=3D=
+=220=22>
+  <tr>
+    <td colspan=3D=223=22><img src=3D=22http://pics=2Eebaystatic=2Ecom/aw/p=
+ics/it/paypal/NL_Christmas/img_IT_PP_xmas_08_3=2Egif=22 alt=3D=22=22 width=
+=3D=2215=22 height=3D=2210=22 border=3D=220=22 /></td>
+  </tr>
+  <tr>
+    <td width=3D=2221=22 valign=3D=22top=22><img src=3D=22http://pics=2Eeba=
+ystatic=2Ecom/aw/nl/promos/promos/img_BNL_PP_june_09_img2V2=2Egif=22 alt=3D=
+=22=22 width=3D=2221=22 height=3D=2223=22 /></td>
+    <td width=3D=2216=22></td>
+    <td width=3D=22533=22><span style=3D=22font-family:Arial; font-size: 12=
+px;=22>In onze communicatie spreekt PayPal u altijd aan met uw voor- en ach=
+ternaam=2E Reageer nooit op e-mails die u aanspreken met 'Dear customer' of=
+ een andere aanhef=2E</span></td>
+  </tr>
+  <tr>
+    <td colspan=3D=223=22><img src=3D=22http://pics=2Eebaystatic=2Ecom/aw/p=
+ics/it/paypal/NL_Christmas/img_IT_PP_xmas_08_3=2Egif=22 alt=3D=22=22 width=
+=3D=2215=22 height=3D=2210=22 border=3D=220=22 /></td>
+  </tr>
+  <tr>
+    <td colspan=3D=223=22><img src=3D=22http://pics=2Eebaystatic=2Ecom/aw/p=
+ics/it/paypal/NL_Christmas/img_IT_PP_xmas_08_3=2Egif=22 alt=3D=22=22 width=
+=3D=2215=22 height=3D=2210=22 border=3D=220=22 /></td>
+  </tr>
+  <tr>
+    <td valign=3D=22top=22><img src=3D=22http://pics=2Eebaystatic=2Ecom/aw/=
+nl/promos/promos/img_BNL_PP_june_09_img2V2=2Egif=22 alt=3D=22=22 width=3D=
+=2221=22 height=3D=2223=22 /></td>
+    <td><img src=3D=22http://pics=2Eebaystatic=2Ecom/aw/pics/it/paypal/NL_C=
+hristmas/img_IT_PP_xmas_08_3=2Egif=22 alt=3D=22=22 width=3D=2220=22 height=
+=3D=2210=22 border=3D=220=22 /></td>
+    <td style=3D=22font-family:Arial; font-size: 12px;=22>Ga nooit in op ve=
+rzoeken waarbij u gevraagd wordt vertrouwelijke informatie op te geven (wac=
+htwoord, bank- of creditcardnummer)=2E PayPal zal hier nooit rechtstreeks o=
+m vragen=2E</td>
+  </tr>
+  <tr>
+    <td colspan=3D=223=22><img src=3D=22http://pics=2Eebaystatic=2Ecom/aw/p=
+ics/it/paypal/NL_Christmas/img_IT_PP_xmas_08_3=2Egif=22 alt=3D=22=22 width=
+=3D=2215=22 height=3D=2210=22 border=3D=220=22 /></td>
+  </tr>
+  <tr>
+    <td colspan=3D=223=22><img src=3D=22http://pics=2Eebaystatic=2Ecom/aw/p=
+ics/it/paypal/NL_Christmas/img_IT_PP_xmas_08_3=2Egif=22 alt=3D=22=22 width=
+=3D=2215=22 height=3D=2210=22 border=3D=220=22 /></td>
+  </tr>
+  <tr>
+    <td valign=3D=22top=22><img src=3D=22http://pics=2Eebaystatic=2Ecom/aw/=
+nl/promos/promos/img_BNL_PP_june_09_img2V2=2Egif=22 alt=3D=22=22 width=3D=
+=2221=22 height=3D=2223=22 /></td>
+    <td><img src=3D=22http://pics=2Eebaystatic=2Ecom/aw/pics/it/paypal/NL_C=
+hristmas/img_IT_PP_xmas_08_3=2Egif=22 alt=3D=22=22 width=3D=2220=22 height=
+=3D=2210=22 border=3D=220=22 /></td>
+   <td style=3D=22font-family:Arial; font-size: 12px;=22>Deel nooit uw wach=
+twoord met iemand anders=2E Ook niet als dit een bekende van u is=2E</td>
+  </tr>
+  <tr>
+    <td colspan=3D=223=22><font face=3D=22Arial=22 size=3D=223=22 color=3D=
+=22=230071B8=22><font face=3D=22Arial=22 size=3D=223=22 color=3D=22=2300336=
+6=22><strong><font color=3D=22=230071B8=22><font size=3D=225=22><img src=3D=
+=22http://pics=2Eebaystatic=2Ecom/aw/pics/it/paypal/NL_Christmas/img_IT_PP_=
+xmas_08_3=2Egif=22 alt=3D=22=22 width=3D=2215=22 height=3D=2220=22 border=
+=3D=220=22 /></font></font></strong></font></font></td>
+  </tr>
+</table>
+<br>
+Met vriendelijke groet,<br>
+<br>
+PayPal team
+
+	=09
+		<a href=3D'http://www=2Epaypal=2Ecom' style=3D=22display: none=22><img sr=
+c=3D'http://pics=2Eebaystatic=2Ecom/aw/nl/promos/promos/btnMarktplaats_klik=
+_hier_73x29=2Egif' alt=3D'' style=3D=22border: none; display: block;=22></a>
+	</div>
+	<img src=3D=22http://pics=2Eebaystatic=2Ecom/aw/nl/promos/promos/btnMarktp=
+laats_pagecorner_440x103=2Egif=22 alt=3D=22=22 border=3D=220=22></td>
+	<td width=3D=2219=22 rowspan=3D=222=22 valign=3D=22top=22 bgcolor=3D=22=23=
+e0dedf=22>&nbsp;</td>
+</tr>
+<tr>
+  <td align=3D=22left=22 valign=3D=22bottom=22><img src=3D=22http://pics=2E=
+ebaystatic=2Ecom/aw/nl/promos/promos/pmo_main_image8_147x331=2Ejpg=22 alt=
+=3D=22paypal=22 style=3D=22display: block;=22></td>
+
+ </tr>
+ <tr>
+  <td colspan=3D=224=22><img src=3D=22http://pics=2Eebaystatic=2Ecom/aw/nl/=
+promos/promos/pmoBorder_footer_674x18=2Egif=22 alt=3D=22=22 style=3D=22disp=
+lay: block;=22></td></tr>
+</table>
+<br>
+
+
+
+
+<table width=3D=22674=22 border=3D=220=22 cellspacing=3D=220=22 cellpadding=
+=3D=220=22  style=3D=22font-family: Arial; font-size:11pt; color: =23000; b=
+order-top: 1px solid =2300447a;=22>
+ =20
+  <tr>
+  	<td colspan=3D=223=22 height=3D=2210=22></td> =20
+</tr>
+ =20
+  <tr>
+    <td width=3D=2220=22 valign=3D=22middle=22 bgcolor=3D=22=2300447a=22 st=
+yle=3D=22color: =23FFF;=22>&nbsp;</td>
+  	<td width=3D=22480=22 height=3D=2225=22 valign=3D=22middle=22 bgcolor=3D=
+=22=2300447a=22 style=3D=22color: =23FFF;=22>PayPal sluit de deal</td>
+    <td align=3D=22right=22 bgcolor=3D=22=2300447a=22 style=3D=22color: =23=
+FFF;=22><a href=3D=22https://email0=2Epaypal=2Ecom/servlet/cc6?iitLmTQABAQU=
+CDVHKupgxpgKpHgohjkLKHlHIHkLQJhuVaVAV20G62fGv28w9GVRRRCWUAUDVa61ab9VTdDARSA=
+WRWTWSYRY0VGf6be862GEw05VyvyV86fy6bEvb9VWBRBVwzgzgG0b9VSAARCVXLX=22><img sr=
+c=3D=22http://pics=2Eebaystatic=2Ecom/aw/nl/paypal/email_august_08/btn_payp=
+al_footer=2Egif=22 alt=3D=22PayPal=22 style=3D=22border:none; display: bloc=
+k;=22></a></td>
+  </tr>
+ =20
+  <tr style=3D=22font-size: 7pt; color:=23666;=22>
+    <td colspan=3D=222=22>
+    <span style=3D=22font-size: 7pt; font-family: Arial; color: =23666;=22>=
+Deze e-mail is verzonden naar admin=40indianhorsedatabase=2Ecom, omdat uw e=
+-mailvoorkeuren zijn ingesteld voor het ontvangen van promotieacties van pa=
+rtners/derden=2E <a href=3D=22https://email0=2Epaypal=2Ecom/servlet/cc6?iit=
+LmTQABAQUCDVHKupgxpgKpHgohjkLKHlHIHkLQJhuVaVBV20G62fGv28w9GVRRRCWUAUDVa61ab=
+9VTdDARSAWRWTWSYRY0VGf6be862GEw05VyvyV86fy6bEvb9VWBRBVwzgzgG0b9VSAARCVXLX=
+=22 style=3D=22text-decoration:underline;=22>Abonnement opzeggen</a></span>
+
+   <br><Br>
+  <span style=3D=22font-size: 7pt; font-family: Arial; color: =23666;=22>
+		<br>
+     	Copyright &copy; 1999-2011 PayPal=2E Alle rechten voorbehouden=2E<br>
+
+ PayPal S=2E&agrave; r=2El=2E et Cie, S=2EC=2EA=2E,<Br>
+ Soci&eacute;t&eacute; en Commandite par Actions=2E<br>
+ Gevestigd te: 22-24 Boulevard Royal, L-2449, Luxemburg,<br>
+ R=2EC=2ES=2E Luxemburg B 118 349=2E<br>=20
+	</span></td>
+   =20
+    <td align=3D=22right=22 valign=3D=22bottom=22>
+		<a href=3D=22https://email0=2Epaypal=2Ecom/servlet/cc6?iitLmTQABAQUCDVHKu=
+pgxpgKpHgohjkLKHlHIHkLQJhuVaVCV20G62fGv28w9GVRRRCWUAUDVa61ab9VTdDARSAWRWTWS=
+YRY0VGf6be862GEw05VyvyV86fy6bEvb9VWBRBVwzgzgG0b9VSAARCVXLX=22><img src=3D=
+=22http://pics=2Eebaystatic=2Ecom/aw/nl/promos/promos/pmoThuiswinkel_logo_2=
+34x60=2Egif=22 alt=3D=22thuiswinkel=22 style=3D=22display: block; border: n=
+one;=22></a>
+	</td>
+  </tr>
+</table>
+</div><br><br><img border=3D=220=22 width=3D=223=22 height=3D=223=22 src=3D=
+=22http://sns4=2Ersys4=2Enet/servlet/eof?iisLNVDZAZDWBCEHKtpgFpgKpHgohklLKH=
+mHIHlLDJhtEfE7vEa7zab=2E2eEVdCZTUZXTXVXUYTYyE=2E26f7be970=2E26=2E3dvy5EwuwE=
+0y=2E2670f=2E26u09v=2E2e=2E26ETTTBXWZWCE97fw7b=2E3dub=2E2eEXATAEv=2E40=2E40=
+=2E26yb=2E2eEUZZTBE_L_=22>
+
+</body>
+</html>
+
+------alt_border_1--
+
+------msg_border--
+

@@ -1,0 +1,89 @@
+Return-path: <no-reply@hostgator.com>
+Envelope-to: admin@indianhorsedatabase.com
+Delivery-date: Sun, 11 Dec 2011 00:12:51 -0600
+Received: from chatlite.hostgator.com ([174.120.184.170]:60847)
+	by gator1257.hostgator.com with esmtps (TLSv1:AES256-SHA:256)
+	(Exim 4.69)
+	(envelope-from <no-reply@hostgator.com>)
+	id 1RZceZ-0003ml-HX
+	for admin@indianhorsedatabase.com; Sun, 11 Dec 2011 00:12:51 -0600
+Received: from chatlite.hostgator.com (chatlite.hostgator.com [127.0.0.1] (may be forged))
+	by chatlite.hostgator.com (8.13.8/8.13.8) with ESMTP id pBB6DGxS013677
+	for <admin@indianhorsedatabase.com>; Sun, 11 Dec 2011 00:13:16 -0600
+Received: (from apache@localhost)
+	by chatlite.hostgator.com (8.13.8/8.13.8/Submit) id pBB6DGJs013676;
+	Sun, 11 Dec 2011 00:13:16 -0600
+Date: Sun, 11 Dec 2011 00:13:16 -0600
+Message-Id: <201112110613.pBB6DGJs013676@chatlite.hostgator.com>
+X-Authentication-Warning: chatlite.hostgator.com: apache set sender to no-reply@hostgator.com using -f
+To: admin@indianhorsedatabase.com
+Subject: HostGator.com Support Chat Transcript
+X-PHP-Originating-Script: 0:customerAPI.inc.php
+From: chat-transcript@hostgator.com
+Reply-To: support@hostgator.com
+X-Mailer: PHP/5.3.3
+
+[Initial Question]: 
+(11:25 pm) [System] Customer has entered chat and is waiting for an agent.
+(11:25 pm) [David B.] Welcome to HostGator.com Live Chat. My name is David, and I will happily assist you with your issue today.
+(11:25 pm) [Isa]: Hi david, I was just in a chat with RIchard, and the connection got cut, he was not finished helping me.
+(11:26 pm) [David B.] Alright. One moment please.
+(11:26 pm) [Isa]: Maybe you could connect me with him again, or maybe you can help me resolve the issue?
+(11:26 pm) [David B.] Let me see if he is available for you.
+(11:29 pm) [Isa]: Thanks
+(11:30 pm) [David B.] He does not appear to be. What can I assist you with , Isa?
+(11:30 pm) [Isa]: I will explain...
+(11:32 pm) [David B.] Alright. :]
+(11:32 pm) [Isa]: I was on chat yesterday and asked Ryan to help me fix a problem with our subdomain testing.indianhorsedatabase.com
+(10:42 pm) [Richard S.] Ok how can I help you with this.
+(10:42 pm) [Isa]: so he went into the htaccess file and did something, and the error that was showing on our testing subdomain stoped showing, but as I stoped chatting with him I went over to our doamin indianhorsedatabase.com and it no longer loads.
+(10:42 pm) [Isa]: so that is why I am here now, is it not possible to have both working
+(10:44 pm) [Isa]: ok
+(10:44 pm) [Isa]: Ryan did that yesterday but that is when the main site stopped working.
+(10:45 pm) [Isa]: So is there something you can do that would correct both?
+(10:45 pm) [Isa]: originally we were getting a 500 ISE on testing and indianhorsedatabase.com was working.
+(11:33 pm) [Isa]: That is what I said to Richard, now I converted the htaccess file back to the original one from the beginning, so testing.indianhorsedatabase.com has a 500 ISE and indianhorsedatabase.com is working as normal... but I want both to work... Is this possible?
+(11:35 pm) [Isa]: <IfModule mod_rewrite.c>
+   RewriteEngine on
+   RewriteRule    ^$ app/webroot/    [L]
+   RewriteRule    (.*) app/webroot/$1 [L]
+</IfModule>
+RewriteCond %{HTTP_HOST} ^hide\.indianhorsedatabase\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.hide\.indianhorsedatabase\.com$
+RewriteRule ^/?$ "http\:\/\/indianhorsedatabase\.com\/" [R=301,L]
+(11:35 pm) [Isa]: that is the file in it's current state
+(11:36 pm) [David B.] Alright. One moment while I check this.
+(11:36 pm) [Isa]: Thanks
+(11:40 pm) [David B.] For security purposes, I will need you to verify your identity by providing the PayPal transaction ID of your most recent payment, or the last 4 digits of the credit card on file for the account, depending on your payment method. I apologize for any inconvenience this may cause.
+(11:41 pm) [Isa]: Do you know how to fix it?
+(11:41 pm) [Isa]: (getting the info)
+(11:45 pm) [David B.] Not yet. Once you verify, I can investigate this as deeply as possible to resolve it. :]
+(11:46 pm) [Isa]: 8WS50456BG8324432
+(11:46 pm) [Isa]: latest transaction
+(11:47 pm) [Isa]: Is that the right number?
+(11:47 pm) [David B.] Absolutely. :] One moment please.
+(11:53 pm) [David B.] Try loading it now for me if you could.
+(11:54 pm) [Isa]: 500 Internal Server Error
+(11:55 pm) [David B.] What URL are you going to?
+(11:56 pm) [Isa]: testing.indianhorsedatabase.com
+(11:56 pm) [Isa]: http://testing.indianhorsedatabase.com/
+(11:58 pm) [David B.] One moment. I am still checking this.
+(11:58 pm) [Isa]: ok
+(12:03 am) [David B.] Check now if you could.
+(12:04 am) [Isa]: Ok, now both are working.
+(12:04 am) [Isa]: Could you inlighten me on how you did this?
+(12:05 am) [Isa]:  went to see the htaccess file and don't see a difference
+(12:09 am) [David B.] The sub-domain was using your primary domains .htaccess, which was causing a "redirect loop". We just had to resolve this by fixing the sub-domain's .htaccess. I appreciate your patience. :]
+(12:09 am) [David B.] Is there anything else I can assist you with tonight? 
+(12:10 am) [Isa]: oh, I didn't realize the subdomain also has an htaccess file!
+(12:11 am) [Isa]: where do i find it?
+(12:11 am) [David B.] Not automatically. You can create your own, and then edit it as needed. :]
+(12:11 am) [David B.] It is in the folder "testing" at this time.
+(12:11 am) [Isa]: ok
+(12:11 am) [David B.] Anything else, Isa?
+(12:11 am) [Isa]: found it
+(12:11 am) [Isa]: thanks!
+(12:11 am) [Isa]: Thats it
+(12:11 am) [Isa]: Have a good day :)
+(12:12 am) [System] Chat closed by Customer request.
+

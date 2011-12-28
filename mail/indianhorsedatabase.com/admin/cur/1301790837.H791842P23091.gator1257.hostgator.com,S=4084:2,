@@ -1,0 +1,101 @@
+Return-path: <service@paypal.nl>
+Envelope-to: admin@indianhorsedatabase.com
+Delivery-date: Sat, 02 Apr 2011 19:33:57 -0500
+Received: from mx0.phx.paypal.com ([66.211.168.230]:59926)
+	by gator1257.hostgator.com with esmtp (Exim 4.69)
+	(envelope-from <service@paypal.nl>)
+	id 1Q6BGP-00060G-LS
+	for admin@indianhorsedatabase.com; Sat, 02 Apr 2011 19:33:57 -0500
+DomainKey-Signature: s=dkim; d=paypal.nl; c=nofws; q=dns;
+  h=Received:Date:Message-Id:Subject:X-MaxCode-Template:To:
+   From:X-Email-Type-Id:X-XPT-XSL-Name:
+   Content-Transfer-Encoding:Content-Type:MIME-Version;
+  b=eU3OVMnt7W/lTGJQfaxugpBLW803g6RXbgApSdkbuUoEY2+XLXGau+sl
+   V5cQ4uUdm+lyd7pXIJw24yf5gLyLXnErt7Bn+buaKfzOur8fMWpbwIisG
+   EWbUESTiN1YCni7y2AYDGEN6aRev36kY/cjzMgoFAbvDJjNGxVu6D1X28
+   I=;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+  d=paypal.nl; i=service@paypal.nl; q=dns/txt; s=dkim;
+  t=1301790837; x=1333326837;
+  h=from:sender:reply-to:subject:date:message-id:to:cc:
+   mime-version:content-transfer-encoding:content-id:
+   content-description:resent-date:resent-from:resent-sender:
+   resent-to:resent-cc:resent-message-id:in-reply-to:
+   references:list-id:list-help:list-unsubscribe:
+   list-subscribe:list-post:list-owner:list-archive;
+  z=From:=20"service@paypal.nl"=20<service@paypal.nl>
+   |Subject:=20Payment=20Data=20Transfer=20(PDT)=20Has=20Bee
+   n=20Enabled|Date:=20Sat,=2002=20Apr=202011=2017:33:57=20-
+   0700|Message-Id:=20<1301790837.21109@paypal.com>|To:=20IH
+   D=20<admin@indianhorsedatabase.com>|MIME-Version:=201.0
+   |Content-Transfer-Encoding:=20quoted-printable;
+  bh=Lo1b+paIYmaLA+Gfzl/tP96JRcz3QaFaJqAIMf8dBDQ=;
+  b=st1fDXTGeOfKeDzL1fS3i0kY9DeC4sMrvvUIPHBbPzYTRwaqDHud4cv2
+   MRFF6mP6SbdFxFud3sb2aozv3RHN7DJMgw53IOMidUSeeaCvvuPlFodzg
+   iFX7w2WsK4nsdQQQZqQ6K3Wt1ICT15dboUJyxUbmgVQ84jl+gE77AvreR
+   k=;
+Received: (qmail 21109 invoked by uid 99); 3 Apr 2011 00:33:57 -0000
+Date: Sat, 02 Apr 2011 17:33:57 -0700
+Message-Id: <1301790837.21109@paypal.com>
+Subject: Payment Data Transfer (PDT) Has Been Enabled
+X-MaxCode-Template: email-pdt-enabled
+To: IHD <admin@indianhorsedatabase.com>
+From: "service@paypal.nl" <service@paypal.nl>
+X-Email-Type-Id: PP509
+X-XPT-XSL-Name: 
+  email_pimp/default/en_US/account/PaymentDataTransferEnabled.xsl
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=windows-1252
+MIME-Version: 1.0
+
+This email is to inform you that you have successfully enabled Payment =
+Data Transfer.
+
+PDT's primary function is to display payment transaction details to buyers =
+when they are redirected back to your site upon payment completion. =
+However, there are cases, such as with pending transactions, where you =
+won't receive notification of all transactions. For this reason, PayPal =
+strongly recommends that you also enable Instant Payment Notification =
+(IPN).=20
+
+To learn more about enabling and setting up IPN:
+
+https://www.paypal.com/nl/cgi-bin/?cmd=3Dp/xcl/rec/ipn-intro-outside
+
+To learn more about Payment Data Transfer, including setup instructions =
+and a complete list of variables:
+
+https://www.paypal.com/nl/cgi-bin/?cmd=3Dp/xcl/rec/pdt-intro-outside
+
+
+Sincerely,
+PayPal
+
+
+----------------------------------------------------------------
+PROTECT YOUR PASSWORD
+
+NEVER give your password to anyone, including PayPal employees. Protect =
+yourself against fraudulent websites by opening a new web browser (e.g. =
+Internet Explorer or Firefox) and typing in the PayPal URL every time you =
+log in to your account.
+
+
+----------------------------------------------------------------
+
+
+
+Please do not reply to this email. This mailbox is not monitored and you =
+will not receive a response. For assistance, log in to your PayPal account =
+and click the Help link in the top right corner of any PayPal page.
+
+----------------------------------------------------------------
+Copyright =A9 1999-2011 PayPal. All rights reserved.
+
+PayPal (Europe) S.=E0 r.l. & Cie, S.C.A.
+Soci=E9t=E9 en Commandite par Actions
+Registered Office: 5th Floor 22-24 Boulevard Royal L-2449, Luxembourg
+RCS Luxembourg B 118 349
+
+PPID PP509=20
+

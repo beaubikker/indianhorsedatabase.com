@@ -1,0 +1,74 @@
+Return-path: <ihdfeed+gmcfvb5ed9dbd2cd8aa6e@googlemail.com>
+Envelope-to: beau@indianhorsedatabase.com
+Delivery-date: Tue, 21 Jun 2011 08:55:24 -0500
+Received: from mail-ey0-f170.google.com ([209.85.215.170]:34490)
+	by gator1257.hostgator.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.69)
+	(envelope-from <ihdfeed+gmcfvb5ed9dbd2cd8aa6e@googlemail.com>)
+	id 1QZ1QK-0002FV-HA
+	for beau@indianhorsedatabase.com; Tue, 21 Jun 2011 08:55:24 -0500
+Received: by eyf5 with SMTP id 5so706932eyf.29
+        for <beau@indianhorsedatabase.com>; Tue, 21 Jun 2011 06:55:23 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=domainkey-signature:mime-version:x-google-address-confirmation:date
+         :message-id:subject:from:to:content-type;
+        bh=27PUksIqlXHthGqj0MzNHi6OCL/G5+rQQOe0oKtEZWo=;
+        b=m/9TOtS9kKD7RtAiVfDhHf8mSfX/GKn5gzXj1AT+EJ0fbiyIyPAG/Al57iN86G+zqp
+         5cYd1cihzzAPe6r1vSNQ==
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=google.com; s=beta;
+        h=mime-version:x-google-address-confirmation:date:message-id:subject
+         :from:to:content-type;
+        b=JzMRryuD0rC+jZ6IKOw78D7zjNiwDLqHD8zvdDD2Pq1SIDo4Ycf9LY39pjG7VpTqj8
+         gsTmzEf9eQHLGeY1+E1A==
+MIME-Version: 1.0
+Received: by 10.14.101.14 with SMTP id a14mr2822221eeg.55.1308664523297; Tue,
+ 21 Jun 2011 06:55:23 -0700 (PDT)
+X-Google-Address-Confirmation: lslaTVV-JjpLXCj4OYqxBE-mdAo
+Date: Tue, 21 Jun 2011 15:55:23 +0200
+Message-ID: <BANLkTi=oniCL-K=yFUzEW7gp9ecaX5fFLg@mail.gmail.com>
+Subject: Google Mail Confirmation - Send Mail as beau@indianhorsedatabase.com
+From: Google Mail Team <mail-noreply@google.com>
+To: beau@indianhorsedatabase.com
+Content-Type: text/plain; charset=ISO-8859-1
+
+You have requested to add beau@indianhorsedatabase.com to your Google
+Mail account.
+Confirmation code: 39152871
+
+Before you can send mail from beau@indianhorsedatabase.com using your
+Google Mail
+account (ihdfeed@googlemail.com), please click the link below to confirm your
+request:
+
+https://mail.google.com/mail/f-5cb5e70d57-beau%40indianhorsedatabase.com-AVqxenzuQigvmrlsjB-fSObIYxo
+
+If you click the link and it appears to be broken, please copy and paste it
+into a new browser window. If you aren't able to access the link, please log in
+to your Google Mail account, and click 'Settings' at the top of any page.
+Open the 'Accounts' tab, and locate the email address you'd like to add in the
+'Send mail as:' section. Then, click 'Verify,' and enter your confirmation
+code: 39152871
+
+Thanks for using Google Mail!
+
+Sincerely,
+
+The Google Mail Team
+
+If you did not make this request, or you don't want to add this email address
+to your Google Mail account, no further action is required.
+ihdfeed@googlemail.com cannot send messages using your email address unless you
+confirm the request by clicking the link above. If you accidentally clicked
+the link, but you do not want to allow ihdfeed@googlemail.com to send messages
+using your address, click this link to cancel this verification:
+https://mail.google.com/mail/g-5cb5e70d57-beau%40indianhorsedatabase.com-AVqxenzuQigvmrlsjB-fSObIYxo
+
+To learn more about why you might have received this message, please
+visit: http://mail.google.com/support/bin/answer.py?answer=184973.
+
+Please do not respond to this message. If you'd like to contact the
+Google Mail Team, please log in to your account and click 'Help' at
+the top of any page. Then, click 'Contact Us' along the bottom of the
+Help Center.

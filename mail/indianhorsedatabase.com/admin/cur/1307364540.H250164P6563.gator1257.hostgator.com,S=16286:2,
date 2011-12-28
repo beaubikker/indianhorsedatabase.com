@@ -1,0 +1,342 @@
+Return-path: <payment@paypal.com>
+Envelope-to: admin@indianhorsedatabase.com
+Delivery-date: Mon, 06 Jun 2011 07:49:00 -0500
+Received: from mx0.phx.paypal.com ([66.211.168.230]:20086)
+	by gator1257.hostgator.com with esmtp (Exim 4.69)
+	(envelope-from <payment@paypal.com>)
+	id 1QTZEp-0001hZ-Rp
+	for admin@indianhorsedatabase.com; Mon, 06 Jun 2011 07:49:00 -0500
+DomainKey-Signature: q=dns; a=rsa-sha1; c=nofws;
+	s=dkim; d=paypal.com;
+	h=DKIM-Signature:Received:Date:Message-Id:Subject:X-MaxCode-Template:To:From:Sender:X-Email-Type-Id:X-XPT-XSL-Name:Content-Type:MIME-Version;
+	b=CoZ3M3f/YJMyXra7G47qNx0wudCpdPeRKYzKZQHaFO7IQn8xVsIAy0iKTbMbqNB0
+	ky+kL2B6Jx+iOExyIyOzKvzowakMkKvIMvpw2w87l7G4p1kxT9z1uJ7ZEVhUE4E5
+	93Br/Z6V6w4aAFIhQw2rXa4MoiATyJX6LRbRYvikrFk=
+DKIM-Signature: v=1; a=rsa-sha1; d=paypal.com; s=dkim; c=relaxed/relaxed;
+	q=dns/txt; i=@paypal.com; t=1307364539;
+	h=From:Subject:Date:To:MIME-Version:Content-Type;
+	bh=TUksxhZLKmwIJeuUmAE2c6UuowM=;
+	b=1b3JRKSdjM2zJCIUZvsjvmLLJSVJk/jlYZnq4lHlLo2UMDUiAHcbWgP+JuOGGPWK
+	Gii8KEKfx2vAc32IvktyFOyRPSgkfuYAZy70+rQk0UU36Uvh0yIiM7xJvWxrlX5g
+	RTfW5SzA2Z8ygwE9mQwx1QLc3qlDvE6zDdqQHLJCoQM=;
+Received: (qmail 20741 invoked by uid 993); 6 Jun 2011 12:48:59 -0000
+Date: Mon, 06 Jun 2011 05:48:59 -0700
+Message-Id: <1307364539.20741@paypal.com>
+Subject: Notification of Payment Received
+X-MaxCode-Template: email-xclick-payment-notification
+To: IHD <admin@indianhorsedatabase.com>
+From: "isa.stewart@gmail.com" <isa.stewart@gmail.com>
+Sender: sendmail@paypal.com
+X-Email-Type-Id: PP341
+X-XPT-XSL-Name: email_pimp/NL/en_US/xclick/XClickPaymentNotification.xsl
+Content-Type: multipart/alternative;
+  boundary=--NextPart_048F8BC8A2197DE2036A
+MIME-Version: 1.0
+
+----NextPart_048F8BC8A2197DE2036A
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=windows-1252
+
+6 Jun 2011 14:48:05 GMT+02:00 =7C Transaction ID: 5B649675EP666460U
+
+
+Dear IHD,
+
+You received a payment of =240,01 USD from Isa Stewart =
+(isa.stewart=40gmail.com)
+You can now ship the items. To see all the transaction details, log in to =
+your PayPal account.
+
+It may take a few moments for this transaction to appear in your account.
+
+Seller Protection - Not Eligible
+
+----------------------------------------------------------------
+
+Buyer:
+Isa Stewart
+isa.stewart=40gmail.com
+
+
+Unconfirmed shipping address
+Isa Stewart
+Skogsberg
+Tjugesta 205
+Glanshammar, N=E4rke=20
+70597
+Sweden
+
+Instructions to merchant:
+The buyer hasn't entered any instructions.
+
+Shipping details:
+You haven=92t added any shipping details.
+-----------------------------------
+Purchase Details
+-----------------------------------
+Description:Premium Member Subscription For=20
+Unit price: =240,01 USD
+Qty: 1
+Amount: =240,01 USD
+
+Subtotal: =240,01 USD
+Total: =240,01 USD
+
+Payment: =240,01 USD
+Payment sent to: admin=40indianhorsedatabase.com
+
+
+
+
+----------------------------------------------------------------
+
+Questions? Go to the Help Center at: www.paypal.com/nl/help.
+
+Please do not reply to this email. This mailbox is not monitored and you =
+will not receive a response. For assistance, log in to your PayPal account =
+and click Help in the top right corner of any PayPal page.
+
+You can receive plain text emails instead of HTML emails. To change your =
+Notifications preferences, log in to your  account, go to your Profile, =
+and click Account settings.
+
+----------------------------------------------------------------
+Copyright =A9 1999-2011 PayPal. All rights reserved.
+
+PayPal (Europe) S.=E0 r.l. & Cie, S.C.A.
+Soci=E9t=E9 en Commandite par Actions
+Registered Office: 5th Floor 22-24 Boulevard Royal L-2449, Luxembourg
+RCS Luxembourg B 118 349
+
+PPID PP341=20
+
+----NextPart_048F8BC8A2197DE2036A
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=windows-1252
+
+<html><head title=3D=22PayPal=22/><body><div class=3D=22ppmail=22><style =
+type=3D=22text/css=22>
+=09=09=09=09=09=09=09=09body, td =7Bfont-size: 12px;font-family: =
+arial,helvetica,sans-serif;=7D
+                               .itemtbl =7Bmargin-top:20px;=7D
+=09=09=09=09=09=09      .itemtbl tr td =7Bpadding: 10px;color: =23333;=7D
+=09=09=09=09    =09=09=09tr.itemheading td=7Bborder:1px solid =
+=23ccc;border-right:none;border-left:none;padding:5px 10px 5px 10px =
+=21important;color: =23333333 =21important;=7D
+=09=09=09=09=09=09=09=09.padtoptwty =7Bpadding-top:20px =21important;=7D
+=09=09=09=09=09=09=09=09tr.last td =7Bborder-bottom:none;=7D
+=09=09=09=09=09=09=09=09tr.itemrepeat td =7Bborder-bottom:1px dashed =
+=23ccc;=7D
+=09=09=09=09=09=09=09=09 .itemtbl =7Bmargin-top:20px;=7D
+=09=09=09=09=09=09=09    .itemtbl tr td =7Bpadding: 10px;color: =
+=23333;=7D=09
+=09=09=09=09=09=09=09    .content =7Bmargin-top: 30px;color:=23333 =
+=21important; =7D
+=09=09=09=09=09=09=09=09.mainheading=7Bcolor:=23333333;font-weight:bold;=7D
+=09=09=09=09      =09=09=09.confirm =7Bcolor: =234c8f3a;=7D
+=09=09=09=09=09=09=09=09.greeting =7Bcolor:=23333333 =
+=21important;font-weight:bold;=7D
+=09=09=09=09=09=09=09=09.status =
+=7Bfont-size:14px;color:=23C88039;font-weight:bold;text-decoration:none;=7D=
+=09
+=09=09=09=09=09=09=09=09.strong =7Bfont-weight: bold;=7D
+=09=09=09=09=09=09=09=09.valign =7Bvertical-align: middle;=7D
+=09=09=09=09=09=09=09=09.purchasebox =7Bwidth: 598px;=7D
+=09=09=09=09=09=09=09=09.purchasetitle =7Bborder-bottom:1px solid =
+=23ccc;padding:5px 0 5px 10px;=7D
+=09=09=09=09=09=09=09=09.purchaseboxmul =7Bborder:1px solid =
+=23ccc;margin:10px 0 10px 0;padding-bottom:10px;=7D
+=09=09=09=09=09=09=09=09.purchasetotal =7Bborder-top: 1px solid =
+=23ccc;border-bottom: 1px solid =23ccc;=7D
+=09=09=09=09=09=09=09=09.purchasetotal =7Bmargin: 7px 0 20px 0;=7D
+=09=09=09=09=09=09=09=09.purchasetotal tr td=7Bpadding-bottom:20px;=7D
+=09=09=09=09=09=09=09=09.purchasetotalmul =7Bborder-top: 1px solid =
+=23ccc;width : 580px;=7D
+=09=09=09=09=09=09=09=09.purchasetotalmul img , .purchasetotal img =
+=7Bmargin-top: 20px;=7D
+=09=09=09=09=09=09=09=09.purchasedetails tr =
+td=7Bcolor:=23333;padding-top:15px;=7D
+=09=09=09=09=09=09=09=09.purchasedetailsmul tr =
+td=7Bcolor:=23333;padding:20px 0 0 10px;=7D
+=09=09=09=09=09=09=09    .headinfo =7Bcolor:=23333333;=7D
+=09=09=09=09=09=09=09     hr =7Bcolor: =23dedede =21important;height:1px;=7D
+=09=09=09=09=09=09=09     .totaltbl =7Bmargin-top: 20px;=7D
+=09=09=09=09=09=09=09     .totaltbl tr td =7Btext-align:right;color: =
+=23333;padding:0 5px 0 0;width: 90px;=7D
+=09=09=09=09=09=09=09    .totaltblmlt =7Bmargin: 10px 0 0 10px;=7D
+=09=09=09=09=09=09=09    .totaltblmlt tr td =7Btext-align:right;color: =
+=23333;width: 85px;=7D
+=09=09=09=09=09=09=09    .totaltblmlt tr td.subhd , .totaltbl tr td.subhd =
+=7Bwidth: 390px;padding-right: 10px;text-align:right;=7D
+=09=09=09=09=09=09=09     .clr =7Bclear:both;=7D
+=09=09=09=09=09=09=09     .airtbl =7Bmargin-top : 30px;width:320px;=7D
+=09=09=09=09=09=09=09    .emphasis =7Bcolor:=23333333 =
+=21important;font-weight:bold;=7D
+=09=09=09=09=09=09=09     .padleftten =7Bpadding-left: 10px;=7D
+=09=09=09=09=09=09=09     .option =7Bcolor: =23aaaaaa;=7D
+=09=09=09=09=09=09=09     .fmf =7Bcolor:red;=7D
+=09=09=09=09=09=09=09      .airtbl tr td=7Bpadding-right: 15px;color: =
+=23757575;padding-bottom: 5px;=7D
+=09=09=09=09=09=09=09      .tblfooter =7Bcolor: =
+=23757575;padding-left:10px;=7D
+=09=09=09=09=09=09=09      .help=7Bmargin-right: 5px;vertical-align: =
+middle;=7D
+=09=09=09=09=09=09=09      .footercontainer=7Bwidth:400px;=7D
+=09=09=09=09=09=09=09      .exchange=7Bwidth:100%;=7D
+=09=09=09=09=09=09=09     =20
+/*For 26568 spec */
+=2EheaderDetails =7Bcolor:=23000000 =21important;font-weight:bold;=7D
+=2Edescription =7Bcolor:=23333333;=7D
+=2EtopBorder=7Bborder-top:1px solid =23CCCCCC;=7D
+=2EbottomBorder=7Bborder-bottom:1px solid =23CCCCCC;=7D
+=2EbottomMargin=7Bmargin:7px 0 20px;=7D
+=2EredFmf=7Bcolor:=23ff0000;=7D
+=2EpadBottom =7Bpadding-bottom:20px =21important;=7D
+=2EcontentNew =7Bcolor:=23666666;=7D
+HR.dotted =7Bwidth: 100%; margin-top: 0px; margin-bottom: 0px; =
+border-left: =23fff; border-right: =23fff; border-top: =23fff; =
+border-bottom: 2px dotted =23ccc;=7D
+=2EuseNextBox =7B
+background:=23FFFFFF =
+url(http://www.paypal.com/en_US/i/scr/scr_table_bg_1x70.gif) repeat-x =
+scroll left bottom;
+border:1px solid =23CCCCCC;
+border-collapse:separate;
+padding:10px 10 20px 10px;
+width:530px;
+margin-left:20px;
+margin-top:20px;
+color:=23333333;
+font-family:arial,helvetica,sans-serif;
+font-size:11px;
+=7D
+=2EboxHead=7Bwidth:530px;padding-bottom:10px =
+=21important;border-bottom:1px solid =23CCCCCC;text-align:left;=7D
+=2EboxHeadingTxt=7Bfont-size:12px;font-weight:bold;=7D
+=2EpadBoxTop =7Bpadding-top:10px =21important;=7D
+=2ESignupLink=7Bcolor:=23084482 =21important;=7D
+=09=09=09=09=09=09=09     </style>
+
+<table align=3D=22center=22 border=3D=220=22 cellpadding=3D=220=22 =
+cellspacing=3D=220=22 width=3D=22100%=22><tr><td/></tr></table><table =
+align=3D=22center=22 border=3D=220=22 cellpadding=3D=220=22 =
+cellspacing=3D=220=22 width=3D=22600=22><tr valign=3D=22top=22><td =
+width=3D=22100%=22><table align=3D=22center=22 border=3D=220=22 =
+cellpadding=3D=220=22 cellspacing=3D=220=22 style=3D=22color:=23333333 =
+=21important;font-family: arial,helvetica,sans-serif;font-size:12px;=22 =
+width=3D=22600=22><tr valign=3D=22top=22><td><img =
+src=3D=22http://images.paypal.com/en_US/i/logo/paypal_logo.gif=22 =
+border=3D=220=22 alt=3D=22PayPal logo=22/></td><td valign=3D=22middle=22 =
+align=3D=22right=22>6 Jun 2011 14:48:05 GMT+02:00<br/>Transaction ID: <a =
+target=3D=22new=22 =
+href=3D=22https://www.paypal.com/nl/cgi-bin/webscr?cmd=3D_view-a-trans&amp;=
+id=3D5B649675EP666460U=22>5B649675EP666460U</a></td></tr></table><div =
+style=3D=22margin-top: 30px;color:=23333 =21important;font-family: =
+arial,helvetica,sans-serif;font-size:12px;=22><span =
+style=3D=22color:=23333333 =21important;font-weight:bold;font-family: =
+arial,helvetica,sans-serif;=22>Dear IHD,</span><br/><br/><span =
+style=3D=22font-size:14px;color:=23C88039;font-weight:bold;text-decoration:=
+none;=22>You received a payment of =240,01 USD from Isa =
+Stewart</span><span =
+style=3D=22font-size:14px;color:=23C88039;font-weight:bold;text-decoration:=
+none;=22> (isa.stewart=40gmail.com)</span><br/>You can now ship the items. =
+To see all the transaction details, log in to your PayPal =
+account.<br/><br/>It may take a few moments for this transaction to appear =
+in your account.<br/><br/><span =
+style=3D=22font-weight:bold;color:=23333333;=22>Seller Protection - =
+</span><span style=3D=22color: =234c8f3a;=22>Not Eligible</span><br/><div =
+style=3D=22margin-top:5px;=22><hr size=3D=221=22/></div><table =
+border=3D=220=22 cellpadding=3D=220=22 cellspacing=3D=220=22 =
+style=3D=22color:=23333 =21important;font-family: =
+arial,helvetica,sans-serif;font-size:12px; margin-bottom:20px;=22 =
+width=3D=2298%=22 align=3D=22left=22><tr><td =
+style=3D=22padding-top:5px;=22 valign=3D=22top=22 width=3D=2250%=22 =
+align=3D=22left=22><span =
+style=3D=22color:=23333333;font-weight:bold;=22>Buyer</span><br/>Isa =
+Stewart<br/>isa.stewart=40gmail.com<br/></td><td =
+style=3D=22padding-top:5px;=22 valign=3D=22top=22><span =
+style=3D=22color:=23333333;font-weight:bold;=22>Instructions to =
+merchant</span><br/>The buyer hasn't entered any =
+instructions.</td></tr><tr><td style=3D=22padding-top:10px;=22 =
+valign=3D=22top=22 width=3D=2240%=22 align=3D=22left=22><span =
+style=3D=22font-family: =
+arial,helvetica,sans-serif;font-size:12px;=22><span =
+style=3D=22color:=23333333;font-weight:bold;=22>Shipping address - =
+</span><span style=3D=22color: =
+=234c8f3a;=22>unconfirmed</span></span><br/>Isa =
+Stewart<br/>Skogsberg<br/>Tjugesta =
+205<br/>Glanshammar,=A0N=E4rke=A0<br/>70597<br/>Sweden<br/></td><td =
+style=3D=22padding-top:10px;=22 valign=3D=22top=22><span =
+style=3D=22color:=23333333;font-weight:bold;=22>Shipping =
+details</span><br/>You haven=92t added any shipping =
+details.</td></tr></table><table align=3D=22center=22 border=3D=220=22 =
+cellpadding=3D=220=22 cellspacing=3D=220=22 =
+style=3D=22clear:both;color:=23333 =21important;font-family: =
+arial,helvetica,sans-serif;font-size:12px;margin-top:20px;=22 =
+width=3D=22598=22><tr><td style=3D=22border:1px solid =
+=23ccc;border-right:none;border-left:none;padding:5px 10px 5px 10px =
+=21important;color: =23333333 =21important;=22 width=3D=22330=22 =
+align=3D=22left=22>Description</td><td style=3D=22border:1px solid =
+=23ccc;border-right:none;border-left:none;padding:5px 10px 5px 10px =
+=21important;color: =23333333 =21important;=22 width=3D=2275=22 =
+align=3D=22right=22>Unit price</td><td style=3D=22border:1px solid =
+=23ccc;border-right:none;border-left:none;padding:5px 10px 5px 10px =
+=21important;color: =23333333 =21important;=22 width=3D=2275=22 =
+align=3D=22right=22>Qty</td><td style=3D=22border:1px solid =
+=23ccc;border-right:none;border-left:none;padding:5px 10px 5px 10px =
+=21important;color: =23333333 =21important;=22 width=3D=2280=22 =
+align=3D=22right=22>Amount</td></tr><tr><td style=3D=22padding:10px;=22 =
+width=3D=22330=22 align=3D=22left=22>Premium Member Subscription For =
+<br/></td><td style=3D=22padding:10px;=22 width=3D=2275=22 =
+align=3D=22right=22>=240,01 USD</td><td style=3D=22padding:10px;=22 =
+width=3D=2275=22 align=3D=22right=22>1</td><td style=3D=22padding:10px;=22 =
+width=3D=2280=22 align=3D=22right=22>=240,01 USD</td></tr></table><table =
+align=3D=22center=22 border=3D=220=22 cellpadding=3D=220=22 =
+cellspacing=3D=220=22 style=3D=22border-top: 1px solid =
+=23ccc;border-bottom: 1px solid =23ccc;color:=23333 =
+=21important;font-family: =
+arial,helvetica,sans-serif;font-size:12px;margin-bottom:10px;=22 =
+width=3D=22595=22><tr><td><table border=3D=220=22 cellpadding=3D=220=22 =
+cellspacing=3D=220=22 style=3D=22color:=23333 =21important;font-family: =
+arial,helvetica,sans-serif;font-size:12px;margin-top: 10px;=22 =
+align=3D=22right=22><tr><td style=3D=22width:390px;text-align:right; =
+padding:0 10px 0 0;=22>Subtotal</td><td =
+style=3D=22width:90px;text-align:right; padding:0 5px 0 0;=22>=240,01 =
+USD</td></tr><tr><td style=3D=22width:390px;text-align:right; padding:0 =
+10px 0 0;=22><span style=3D=22color:=23333333 =
+=21important;font-weight:bold;=22>Total</span></td><td =
+style=3D=22width:90px;text-align:right; padding:0 5px 0 0;=22>=240,01 =
+USD</td></tr><tr><td style=3D=22width:390px;text-align:right; padding:20px =
+10px 0 0;=22><span style=3D=22color:=23333333 =
+=21important;font-weight:bold;=22>Payment</span></td><td =
+style=3D=22width:90px;text-align:right; padding:20px 5px 0 0;=22>=240,01 =
+USD</td></tr><tr><td style=3D=22width:390px;text-align:right; padding:0 =
+10px 10px 0;=22>Payment sent to admin=40indianhorsedatabase.com</td><td =
+style=3D=22width:90px;text-align:right; padding:20px 5px 0 =
+0;=22/></tr></table></td></tr></table><br/><br/><img =
+src=3D=22http://images.paypal.com/en_US/i/icon/icon_help_16x16.gif=22 =
+border=3D=220=22 style=3D=22margin-right: 5px;vertical-align: middle;=22 =
+alt=3D=22=22/>Questions? Go to the Help Center at: =
+www.paypal.com/nl/help.<br/><br/><span =
+style=3D=22font-size:11px;color:=23333;=22>Please do not reply to this =
+email. This mailbox is not monitored and you will not receive a response. =
+For assistance, log in to your PayPal account and click =
+<strong>Help</strong> in the top right corner of any PayPal =
+page.</span><br/><br/><span style=3D=22font-size:11px;color:=23333;=22>You =
+can receive plain text emails instead of HTML emails. To change your =
+Notifications preferences, log in to your  account, go to your Profile, =
+and click <strong>Account settings</strong>.</span></div><br/><hr/><span =
+class=3D=22xptFooter=22>Copyright =A9 1999-2011 PayPal. All rights =
+reserved.<br/><br/>PayPal (Europe) S.=E0 r.l. &amp; Cie, =
+S.C.A.<br/>Soci=E9t=E9 en Commandite par Actions<br/>Registered Office: =
+5th Floor 22-24 Boulevard Royal L-2449, Luxembourg<br/>RCS Luxembourg B =
+118 349</span><br/><br/><span style=3D=22color: =23333333;font-family: =
+arial,helvetica,sans-serif;font-size:11px;=22><span class=3D=22xptFooter =
+ppid=22>PayPal Email ID PP341</span></span><img height=3D=221=22 =
+width=3D=221=22 =
+src=3D=22https://102.112.2O7.net/b/ss/paypalglobal/1/G.4--NS/123456?pageNam=
+e=3Dsystem_email_PP341=22 border=3D=220=22 =
+alt=3D=22=22/></td></tr></table></div></body></html>=
+
+----NextPart_048F8BC8A2197DE2036A--
+

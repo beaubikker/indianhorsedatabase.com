@@ -1,0 +1,38 @@
+Return-path: <ihd@gator1257.hostgator.com>
+Envelope-to: admin@indianhorsedatabase.com
+Delivery-date: Fri, 09 Dec 2011 04:26:16 -0600
+Received: from ihd by gator1257.hostgator.com with local (Exim 4.69)
+	(envelope-from <ihd@gator1257.hostgator.com>)
+	id 1RYxeh-0001Di-TO
+	for admin@indianhorsedatabase.com; Fri, 09 Dec 2011 04:26:15 -0600
+To: admin@indianhorsedatabase.com
+Subject: Soumavo has requested change for test2-242
+X-PHP-Script: indianhorsedatabase.com/app/webroot/index.php for 121.247.128.231
+From: Indian Horse Data base <admin@indianhorsedatabase.com>
+Reply-To: admin@indianhorsedatabase.com
+X-Mailer: CakePHP Email Component
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Message-Id: <E1RYxeh-0001Di-TO@gator1257.hostgator.com>
+Date: Fri, 09 Dec 2011 04:26:15 -0600
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+	<title>Horse</title>
+</head>
+<body>
+	<div>
+	Dear,<b>Admin</b><br>Username named as Soumavo has requested to change information for the Horse name as test2 ;<br>
+
+				Please Login to view the details wither to approve or reject.
+
+				<br>
+
+				Thanks
+
+				Indian Horse Database</div>
+	
+</body>
+</html>
+

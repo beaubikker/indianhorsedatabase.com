@@ -1,0 +1,48 @@
+Return-path: <>
+Envelope-to: ihd@gator1257.hostgator.com
+Delivery-date: Fri, 21 Oct 2011 05:34:50 -0500
+Received: from mailnull by gator1257.hostgator.com with local (Exim 4.69)
+	id 1RHCR7-0006Q4-Sc
+	for ihd@gator1257.hostgator.com; Fri, 21 Oct 2011 05:34:49 -0500
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@gator1257.hostgator.com>
+To: ihd@gator1257.hostgator.com
+Subject: Mail failure - no recipient addresses
+Message-Id: <E1RHCR7-0006Q4-Sc@gator1257.hostgator.com>
+Date: Fri, 21 Oct 2011 05:34:49 -0500
+
+A message that you sent contained no recipient addresses, and therefore no
+delivery could be attempted.
+
+------ This is a copy of your message, including all the headers. ------
+
+To: 
+Subject: Activation Of Premium membership service
+X-PHP-Script: www.indianhorsedatabase.com/app/webroot/index.php for 79.144.227.27
+From: Indian Horse Data base <admin@indianhorsedatabase.com>
+Reply-To: admin@indianhorsedatabase.com
+X-Mailer: CakePHP Email Component
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Message-Id: <E1RHCR7-0006Q3-SG@gator1257.hostgator.com>
+Date: Fri, 21 Oct 2011 05:34:49 -0500
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+	<title>User</title>
+</head>
+<body>
+	<div>
+	Dear,<b> </b><br>You have successfully  activated your premuim membership service
+						<br>
+						Your service is for <b></b><br>
+						And expiration of your service is <b>1969-12-31</b>
+						<br>
+						Thanks
+						<br>
+						Indian Horse Database</div>
+	
+</body>
+</html>
+
