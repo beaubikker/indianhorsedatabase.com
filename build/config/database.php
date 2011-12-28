@@ -81,9 +81,9 @@ class DATABASE_CONFIG {
 		'driver' => 'mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => 'root',
-		'password' => 'admit1234',
-		'database' => 'horse',
+		'login' => '',
+		'password' => '',
+		'database' => '',
 		'prefix' => 'tbl_',
 	);
 
