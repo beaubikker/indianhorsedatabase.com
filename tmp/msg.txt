@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+	<channel>
+		<title>HostGator Server Announcements (Gator1257)</title>
+		<link>http://msg.hostgator.com/1257/</link>
+		<description>Announcements about server downtime, upgrades, etc.</description>
+	</channel>
+</rss>

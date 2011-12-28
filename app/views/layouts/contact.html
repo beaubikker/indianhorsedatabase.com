@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Welcome to Artistic Structures, Inc. :: Remodeling Contractors | Custom Cabinetry</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<!-- for toggle input -->
+<script type="text/javascript" src="js/login.js"></script>
+<!-- for toggle input -->
+
+<!-- for PNG fix -->
+<!--[if lte IE 6]>
+<link rel="stylesheet" type="text/css" href="css/png_fix.css" />
+<![endif]-->
+<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.pngFix.pack.js"></script>
+<script type="text/javascript"> 
+    $(document).ready(function(){ 
+        $(document).pngFix(); 
+    }); 
+</script>
+<!-- for PNG fix -->
+
+<!-- for Dropdown -->
+<link rel="stylesheet" type="text/css" href="css/anylinkcssmenu.css" />
+<script type="text/javascript" src="js/anylinkcssmenu.js"></script>
+<script type="text/javascript">
+	//anylinkcssmenu.init("menu_anchors_class") ////Pass in the CSS class of anchor links (that contain a sub menu)
+	anylinkcssmenu.init("anchorclass")
+</script>
+<!-- for Dropdown -->
+<script type="text/javascript">
+function chk() {
+if(document.frm.name.value==""||document.frm.name.value=="*Name"){
+  // document.getElementById('msg').innerHTML = 'Please Enter Your Name';
+   alert('Please Enter Your Name');
+   document.getElementById('name').focus();
+   return false;
+}
+
+if(document.frm.email.value==""){
+  // document.getElementById('msg').innerHTML = 'Please Enter Your Email Address';
+   alert('Please Enter Your Email Address');
+   document.getElementById('email').focus();
+   return false;
+}
+if(document.frm.email.value != "")
+	{   
+		var str = document.frm.email.value
+		var at="@"
+		var dot="."
+		var lat=str.indexOf(at)
+		var lstr=str.length
+		var ldot=str.indexOf(dot)
+
+		if (str.indexOf(at)==-1){
+		//document.getElementById('msg').innerHTML = 'Please Enter valid Email';
+		alert('Please Enter valid Email');
+		document.getElementById('email').focus();
+		return false;
+		}
+		else if (str.indexOf(at)==-1 || str.indexOf(at)==0 || str.indexOf(at)==lstr){
+		//document.getElementById('msg').innerHTML = 'Please Enter valid Email';
+		alert('Please Enter valid Email');
+		document.getElementById('email').focus();
+		return false;
+		}
+		else if (str.indexOf(dot)==-1 || str.indexOf(dot)==0 || str.indexOf(dot)==lstr){
+		//document.getElementById('msg').innerHTML = 'Please Enter valid Email';
+		alert('Please Enter valid Email');
+		document.getElementById('email').focus();
+		return false;
+		}
+		else if (str.indexOf(at,(lat+1))!=-1){
+		//document.getElementById('msg').innerHTML = 'Please Enter valid Email';
+		alert('Please Enter valid Email');
+		document.getElementById('email').focus();
+		return false;
+		 }
+		else if (str.substring(lat-1,lat)==dot || str.substring(lat+1,lat+2)==dot){
+		//document.getElementById('msg').innerHTML = 'Please Enter valid Email';
+		alert('Please Enter valid Email');
+		document.getElementById('email').focus();
+		return false;
+		 }
+		else if (str.indexOf(dot,(lat+2))==-1){
+		//document.getElementById('msg').innerHTML = 'Please Enter valid Email';
+		alert('Please Enter valid Email');
+		document.getElementById('email').focus();
+		return false;
+		 }		
+		else if (str.indexOf(" ")!=-1){
+		//document.getElementById('msg').innerHTML = 'Please Enter valid Email';
+		alert('Please Enter valid Email');
+		document.getElementById('email').focus();
+		return false;
+		 }
+    
+	}
+else{
+   document.frm.submit();
+}
+}
+</script>
+</head>
+
+<body>
+<div id="maindiv">
+	<!-- Header Start -->
+	<div id="header">
+		<div class="logo"><a href="index.html"><img src="images/logo.png" alt="logo" width="366" height="55" /></a></div>
+		<div class="topcontact">(707) 939-9014 | <a href="mailto:victor@artistic-structures.com">victor@artistic-structures.com</a></div>
+		<!-- Navbar Start -->
+		<div class="navbar" id="smoothmenu1">
+			<ul id="nav">
+				<li id="home"><a href="index.html"><span>Home</span></a></li>
+				<li id="about"><a href="about.html"><span>About Us</span></a></li>
+				<li id="service"><a href="#" class="anchorclass" rel="submenu1"><span>Services</span></a></li>
+				<li id="ba"><a href="ba.html"><span>Before &amp; After</span></a></li>
+				<li id="contact"><a href="contact.html" class="here"><span>Contact Us</span></a></li>
+			</ul>
+		</div>
+		<div id="submenu1" class="anylinkcss">
+			<ul>
+				<li><a href="services.html">Overview</a></li>
+				<li><a href="exterior.html">Exteriors</a></li>
+				<li><a href="interior.html">Interiors</a></li>
+				<li><a href="kitchen.html">Kitchens</a></li>
+				<li><a href="bathroom.html">Bathrooms</a></li>
+				<li><a href="fireplace.html">Fireplaces</a></li>
+				<li><a href="cabinetry.html">Custom Cabinetry</a></li>
+			</ul>
+		</div>
+		<!-- Navbar End -->
+	</div>
+	<!-- Header End -->
+	<div><img src="images/spacer.gif" alt="" width="1" height="10" /></div>
+	<!-- Content Start -->
+	<div id="content">
+		<h1><span>C</span>ontact Us</h1>
+		<div class="content">
+			<div class="white">
+				 <form id="frm" name="frm" action="mail.php" method="post" onsubmit="return chk();">
+					<div class="form-box">
+						<!--<dl>
+							<dt for="name">Name:</dt>
+							<dd><input type="text" name="name" /></dd>
+							<dt for="email">Email:</dt>
+							<dd><input type="text" name="email" /></dd>
+							<dt for="comment">Comment:</dt>
+							<dd><textarea name="comment"></textarea></dd>
+							<dt>&nbsp;</dt>
+							<dd>&nbsp;</dd>
+						</dl>-->
+						<dl>
+							<dt for="name">Name:</dt>
+							<dd><input type="text" name="name" id="name" size="20" /></dd>
+							<div class="clear"></div>
+						</dl>
+						<dl>
+							<dt for="email">Email:</dt>
+							<dd><input type="text" name="email" id="email" size="20" /></dd>
+							<div class="clear"></div>
+						</dl>
+						<dl>
+							<dt for="comment">Comment:</dt>
+							<dd><textarea name="comment" id="comment" rows="1" cols="20"></textarea></dd>
+							<div class="clear"></div>
+						</dl>
+						<dl>
+							<dt>&nbsp;</dt>
+							<dd><input name="submit" id="submit" type="submit" class="submit" /></dd>
+							<!--<dd><div class="btn"><span>Submit</span></div></dd>-->
+							<div class="clear"></div>
+						</dl>
+					</div>
+				</form>
+				<div class="floatleft">
+					<p><b>Cabinet Shop:</b> <br />21877 8th Street E, Unit 5, 
+				Sonoma, CA 95476<br /><b>Mailing Address:</b> <br />PO BOX 663, Sonoma, CA 95476
+					<br /><br />
+					<b>Phone:</b> (707) 939-9014<br />
+					<b>Email:</b> <a href="mailto:victor@artistic-structures.com">victor@artistic-structures.com</a></p>
+				</div>
+				<div class="clear"></div>
+				<div><img src="images/spacer.gif" alt="" width="1" height="25" /></div>
+				<div><iframe width="916" height="392" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=21877+8th+Street+E,+Unit+5+Sonoma,+CA&amp;sll=37.0625,-95.677068&amp;sspn=48.15347,79.013672&amp;ie=UTF8&amp;hq=&amp;hnear=21877+8th+St+E+%235,+Sonoma,+California+95476&amp;z=14&amp;ll=38.25853,-122.441496&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=21877+8th+Street+E,+Unit+5+Sonoma,+CA&amp;sll=37.0625,-95.677068&amp;sspn=48.15347,79.013672&amp;ie=UTF8&amp;hq=&amp;hnear=21877+8th+St+E+%235,+Sonoma,+California+95476&amp;z=14&amp;ll=38.25853,-122.441496" style="color:#0000FF;text-align:left">View Larger Map</a></small></div>
+			</div>
+		</div>
+		<div><img src="images/content-foot.jpg" alt="" width="1002" height="15" /></div>
+	</div>
+	<!-- Content End -->
+	<!-- Footer Start -->
+	<div id="footer">
+		<div class="floatleft"><img src="images/footerbgleft.gif" alt="" width="2" height="70" /></div>
+		<div class="footer">
+			<div class="left"><a href="sitemap.html">Site Map</a> | <a href="policy.html">Privacy Policy</a><br />
+			&copy; 2010 Artistic Structures. All rights reserved.<br />
+			Design by <a href="http://www.firstsourceweb.com/" target="_blank">First Source Web</a></div>
+			<div class="right">PO BOX 663<br />
+			Sonoma, CA 95476<br />
+			<a href="mailto:victor@artistic-structures.com">victor@artistic-structures.com</a></div>
+		</div>
+		<div class="floatright"><img src="images/footerbgright.gif" alt="" width="2" height="70" /></div>
+		<div class="clear"></div>
+	</div>
+	<!-- Footer Start -->
+</div>
+</body>
+</html>
