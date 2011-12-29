@@ -1,2 +1,0 @@
-[20-Oct-2011 17:22:03] PHP Parse error:  syntax error, unexpected ')' in /home/ihd/public_html/blog/wp-content/themes/graphene/footer.php on line 83
-[20-Oct-2011 17:22:36] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Too few arguments in /home/ihd/public_html/blog/wp-content/themes/graphene/footer.php on line 83

@@ -1,8 +1,0 @@
-RewriteEngine off
-<IfModule mod_suphp.c>
-	suPHP_ConfigPath /home/ihd/public_html/blog/php.ini
-	<Files php.ini>
-		order allow,deny
-		deny from all
-	</Files>
-</IfModule>

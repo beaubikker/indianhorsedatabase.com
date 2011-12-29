@@ -1,3 +1,5 @@
+<!-- REYENG HAS BEEN HERE :) -->
+
 <?php
 e($this->renderelement('topheader'));
 $userarr=$this->requestaction('/user/userdetails');
@@ -68,7 +70,7 @@ e($javascript->link('jquery1'));
 					$expirearr=$this->requestAction('/user/userdetails');							
 					?>												
 						<div class="profile_info">
-						<div class="po_inf_up">&nbsp;</div>	
+						 
 						<div class="po_inf_mid">
 						<?php
 						if(count($notificationarr)<=0 && count($liststablearr)<=0 && count($listuserarr)<=0  && count($newuserhorsepostarr)<=0 && count($changenotiarr)<=0 && $pendingcntr<=0 && count($breederarr)<=0 && count($adderarr)<=0 && count($oldownerarr)<=0 && count($oldbrederarr)<=0)  {?>
@@ -364,24 +366,12 @@ e($javascript->link('jquery1'));
 									<?php
 									}								
 									?>						  	
-						  <div class="po_inf_btm">&nbsp;</div>						  				
+						  						  				
 					</div>											
 			  </div>					  
-			  			<div class="profile_info">
-								<div class="po_inf_up">&nbsp;</div>	
-								<div class="po_inf_mid">
-										<h2 class="up_heading" style="cursor:pointer" onClick="chkmembershipstat()">Click here for membership status information</h2>	
-										<div class="alert_box"  id="membershipstatus" style="overflow:auto; width:600px;height:auto; margin-left:20px; margin-top:20px; display:none">
-											<img src="<?php e($this->webroot);?>img/alert.png" alt="bb" style="float:left; margin-right:20px;" />
-											<p class="alert" style="float:left;">Your membership will expire on <?php e( date('l dS \of F Y', strtotime($expirearr['User']['membership_exipre_date'])));?><span>&nbsp;<br />&nbsp;to extend your membership.&nbsp;&nbsp;<a href="<?php e($html->url('/user/extendmembership'));?>">Click here</a></span></p>
-											<div>&nbsp;</div>
-										</div>	
-										<div class="clear"></div>
-									</div>
-								<div class="po_inf_btm">&nbsp;</div>	
-							</div>  				
+			  		
 						<div class="profile_info">
-							<div class="po_inf_up">&nbsp;</div>
+							 
 							<div class="po_inf_mid">
 								<h3>What would you like to do ?</h3>
 								<ul>
@@ -393,7 +383,7 @@ e($javascript->link('jquery1'));
 									<li><a href="<?php e($html->url('/user/account'));?>">Edit your personal profile page</a></li>									
 								</ul>
 							</div>
-							<div class="po_inf_btm">&nbsp;</div>						
+										
 						</div>
 					</div>																	
 					<?php

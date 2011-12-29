@@ -4,10 +4,11 @@ $userarr=$this->requestaction('/user/userdetails');
 <!-- added on 23.6 -->
 <div style="float: right; width: 176px;">
 <!-- added on 23.6 -->
-<div class="visitor" style="position:absolute; top:165px">
-						<div class="vis_up">&nbsp;</div>
+<div class="visitor sidebarreyengwrapper">
+<div class="visitor sidebartopreyeng">	
 						<div class="vis_mid">
-							<h2 style="text-align: left; padding-left: 10px;">Welcome<br /><?php e($userarr['User']['firstname']);?></h2> 													
+							
+<h2 style="text-align: left; padding-left: 10px;">Welcome<br /><?php e($userarr['User']['firstname']);?></h2> 													
 							<?php
 							$imagedirectory="profileimage";
 							$image=$userarr['User']['image'];
@@ -54,48 +55,43 @@ $userarr=$this->requestaction('/user/userdetails');
 								<li><a href="<?php e($html->url('/horse/mylistedhorse'));?>">My Horses</a></li>								
 							</ul>
 							<input class="button-reyeng" type="button" value="Logout"  style="cursor:pointer" onClick="window.location.href='<?php e($html->url('/user/freeuserlogout'));?>'"/></div>
-						<div class="vis_bottom">&nbsp;</div>
 						<!-- added on 23.6 -->
 						</div>	
-						<div style="height: 15px;"></div>
-						<div class="visitor" style="position:absolute; top:660px">
-						<div class="vis_up">&nbsp;</div>
+						<!-- added on 23.6 -->
+						<div class="visitor advertisementbarreyeng">
 						<div class="vis_mid">
 						<!-- added on 23.6 -->	
 						<?php
-						$advertisementarr=$this->requestAction('/advertisement/listall'); 
-						if(count($advertisementarr)>0) {
+						$advertisementarr=$this->requestAction('/advertisement/listall');
+						if(count($advertisementarr)>0) { 
 							foreach($advertisementarr as $key=>$val) :						
 						?>
-						<!-- added on 23.6 -->
-						<!--<div class="advertisement">-->
-						<!-- added on 23.6 -->
-							<!--<h2 style="text-align: left; padding-left: 10px;"><?php //e($val['Advertisement']['name']);?></h2>-->
-							<p style="text-align: center;"><?php e($val['Advertisement']['shortdescription']);?></p>
+						<!-- added on 23.6 -->						
+							<!--<div class="advertisement" style="cursor:pointer; height:auto" onclick="window.location.href='http://<?php //e($val['Advertisement']['url']);?>'">-->
+							<!-- added on 23.6 -->
+								<!--<h2 style="text-align: left; padding-left: 10px;"><?php //e($val['Advertisement']['name']);?></h2>-->
+								<p style="text-align: center;"><?php e($val['Advertisement']['shortdescription']);?></p> 
+								<p>&nbsp;</p>
+									<?php
+									if($val['Advertisement']['image']!="") {
+									?>
+										<img class="message" src="<?php e($this->webroot);?>img/advertisementimage/<?php e($val['Advertisement']['image']);?>" alt=""  height="44" width="44" style="padding-left:6px" align="absmiddle"/>
+									<?php
+									}
+									?>
 								<?php
-								if($val['Advertisement']['image']!="") {
+								if($val['Advertisement']['url']!="") {
 								?>
-									<img class="message" src="<?php e($this->webroot);?>img/advertisementimage/<?php e($val['Advertisement']['image']);?>" alt=""  height="44" width="44" style="padding-left:6px" align="absmiddle"/>
+									<a href="http://<?php e($val['Advertisement']['url']);?>" target="_blank"><?php e($val['Advertisement']['url']);?></a>
 								<?php
 								}
 								?>
-							<?php
-							if($val['Advertisement']['url']!="") {
-							?>
-								<a href="http://<?php e($val['Advertisement']['url']);?>" target="_blank"><?php e($val['Advertisement']['url']);?></a>
-							<?php
-							}
-							?>
-						<!-- added on 23.6 -->
-						<!--</div>-->
-						<!-- added on 23.6 -->	
 						<?php
 							endforeach;							
 						}
-						?>				
+						?>									
 					</div>
-					<!-- added on 23.6 -->
-																					<div class="vis_bottom">&nbsp;</div>
+	
+																									</div>
 																					</div>
 																					</div>
-																					<!-- added on 23.6 -->

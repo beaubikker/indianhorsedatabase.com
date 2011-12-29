@@ -20,20 +20,20 @@ p{ font-weight:normal;}
 
 body { background:#f2ce87 url(../img/bg.gif) repeat-x; font-family:calibri; font-size:13px; font-weight:normal;}
 
-#wrapper_parrent{ width:1008px; margin:0 auto;position:relative;}
+#wrapper_parrent{ width:1008px; margin:0 auto;position:relative; margin-top: -23px;}
 #wrapper{ overflow:hidden; width:1008px;margin-bottom: 20px;}
 
 .header{ }
 
 .header a img{ padding:25px 0 0 25px;}
 
-.nav{ background:url(../img/nav_bg.jpg) no-repeat; height:36px;}
+.nav{ background:url(../img/nav_bg.jpg) repeat-x; height:36px;}
 
 .nav ul{ list-style:none;}
 
-.nav ul li{ float:left; padding:0 0 0 22px;}
+.nav ul li{ float:left; padding:0 0 0 18px;}
 
-.nav ul li a{ color:#842400; font-family:arial; font-size:14px; font-weight:bold; line-height:36px; padding:10px 12px; text-decoration:none;} 
+.nav ul li a{ color:#842400; font-family:arial; font-size:13.5px; font-weight:bold; line-height:36px; padding:10px 12px; text-decoration:none;} 
 
 .nav ul li a.active {background: none repeat scroll 0 0 #D2832B; color: #FFDA91;}
 
@@ -87,7 +87,7 @@ body { background:#f2ce87 url(../img/bg.gif) repeat-x; font-family:calibri; font
 
 .visitor .vis_up{ height:11px; background:url(../img/visitor_up.png) no-repeat;}
 
-.visitor .vis_mid{ background:url(../img/visitor_bg.gif) repeat-y;}
+.visitor .vis_mid{ background: #feefcd; padding-bottom: 20px;}
 
 .visitor .vis_mid form input.mass{ width:150px; height:18px; border:1px solid #efbb7a; color:#969696;}
 
@@ -105,7 +105,7 @@ body { background:#f2ce87 url(../img/bg.gif) repeat-x; font-family:calibri; font
 
 .visitor h5{ color:#994F26; float:right; font-size:13px; padding:12px 20px 0 0; text-decoration:underline;}
 
-.visitor a{ color:#994F26; float:right; font-size:13px; padding:12px 20px 0 0;}
+.visitor a.visitor-a{ color:#994F26; float:right; font-size:13px; padding:12px 20px 0 0;} /* reyeng */
 
 .visitor .vis_mid ul{ list-style:none; padding:9px 0 14px; overflow:hidden;}
 
@@ -174,7 +174,7 @@ body { background:#f2ce87 url(../img/bg.gif) repeat-x; font-family:calibri; font
 
 .sub_body .upper .profile_info .po_inf_mid p.kits{ color:#CBB056; font-family:verdana; font-size:12px; line-height:20px; padding:10px 0 10px 20px; width:550px;}
 
-.visitor .vis_mid img{ padding-bottom:20px; border-bottom:1px solid #DED097; margin:0 40px;}
+.visitor .vis_mid img.notsurewhatthisisforreyeng { padding-bottom:20px; border-bottom:1px solid #DED097; margin:0 40px;}
 
 .visitor .vis_mid input.logout{ background:url(../img/submit_btn1.jpg) no-repeat; border:none; height:20px; padding-bottom:4px;width:60px; font-family:verdana; font-size:12px; font-weight:bold; color:#fff; margin-left:53px;}
 
@@ -218,7 +218,7 @@ body { background:#f2ce87 url(../img/bg.gif) repeat-x; font-family:calibri; font
 
 .po_inf_mid a.ihd{ color:#994F26;}
 
-.sign_in_parrent{ width:100%;float:left;}
+.sign_in_parrent{position: relative; right: 0; top:0; }
 
 .po_inf_mid span.mix{ color:#994f26; font-weight:bold;}
 
@@ -1096,7 +1096,7 @@ table.listbox tr:hover td *{ color:#fff; }
 .sub_body .upper span{ color:#cbb056; font-size:12px; font-family: verdana;}
 .sub_body .upper span.common{ color:#cbb056; font-size:16px; font-family: verdana;}
 .sub_body .upper span a{ text-decoration:none; color:#a48931; float:left;}
-.sign_in{ background:#EFBB7A; width:30%;float:right; overflow:hidden; padding: 3px 0;	 border:1px solid #fff}
+.sign_in{ background:#EFBB7A; width:30%; float:right; overflow:hidden; top:160px; left:50px; background: #FEEFCD;}
 
 .sign_in .mix1{ float:left;width:25%;}
 
@@ -1245,7 +1245,7 @@ a.close img.btn_close {
 
 
 /* added on 23-6-2011 */
-.sub_body .upper .profile_info { width:762px; padding-bottom: 15px; overflow: hidden; float: left;}
+.sub_body .upper .profile_info { background: #feefcd; width:762px; margin-bottom: 15px; overflow: hidden; float: left;}
 .visitor{ width:176px; }
 .sub_body .upper{ background:url(../img/sub_body_bg.gif) repeat-y; overflow:hidden; width: 964px; min-height: 670px !important; padding: 0 22px;}
 .sub_body .upper h1.top{ color:#994F26; font-family:verdana; font-size:16px; padding-bottom: 15px; width: 762px; float: left;}
@@ -1257,7 +1257,7 @@ a.close img.btn_close {
 .personal_info22 { padding:0px; background:url(../img/search_2.png) 0 0 no-repeat; width:260px; height:33px; text-align:center; font:bold 14px/33px "Verdana", Arial, Helvetica, sans-serif; color:#ffffff; cursor:pointer; z-index:100; }
 
 
-.sub_body .upper .profile_info .po_inf_mid { background:url(../img/info_bg.jpg) repeat-y; width:760px; overflow:hidden; margin:0;}
+.sub_body .upper .profile_info .po_inf_mid { padding: 7px; width:760px; overflow:hidden; margin:0;} /* reyeng - changed background image to color, and added padding */
 
 
 .email_confirmation22 { position:absolute; left:526px;/* reyeng top:280px;  */padding:0px; background:url(../img/search_2.png) 0 0 no-repeat; width:260px; height:33px; text-align:center; font:bold 14px/33px "Verdana", Arial, Helvetica, sans-serif; color:#ffffff; cursor:pointer; z-index:60; }
@@ -1394,14 +1394,28 @@ span.checkboxtextreyeng {padding-left: 10px; color: #994F26;}
 .float_right { float: right;}
 .float_left {float: left;}
 
-.button-reyeng { padding:5px 20px; border:none; font-family: verdana; font-size:12px; font-weight:bold; color:#fff; background-color: #7e7e57;}
+.button-reyeng { padding:5px 20px; border:none; font-family: verdana; font-size:12px; font-weight:bold; color:#fff; background-color: #7e7e57; margin-top: 7px;}
 .button-reyeng:hover {background-color: #a7a76f; }
 
-.button-reyeng.small { padding: 2px 6px;}
+.button-reyeng.sutble { padding:5px 20px; border:none; font-family: verdana; font-size:11px; font-weight: bold; color:#fff; background-color: #a7a76f; }
+.button-reyeng.sutble:hover { background-color: #CFCE92; }
+
+.button-reyeng.login-button { padding: 2px; width: 155px;}
 
 /* Side bar elements */
 
-#side-bar-login-wrapper-reyeng { margin: 0 11px; background-color: blue;}
+#sidebarloginwrapperreyeng { width: 155px; margin: auto; }
+	.sidebarloginformreyeng { width: 144px; height: 17px; padding: 3px; margin-top: 4px; }
+
+.sidebarlinereyeng { padding: 10px 0;}
+
+.no-margin-padding {  margin: 0; padding: 0;}
+
+.sidebarreyengwrapper {position: absolute; top: 173px;} /* controls the position of the sidebar (login/usermenu/advertisment) */
+.sidebartopreyeng {} /* controls the position of the top sidebar (login/usermenu) */
+.advertisementbarreyeng {margin-top: 10px;} /* controls the position of bottom sidebar (ads) while user is logged in*/
+
+
 
 /* width: 400px; height: 150px; border: 1px solid #EBE5CF; border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px; color: #666; padding: 0 10px; position: absolute; margin: 0; */
 

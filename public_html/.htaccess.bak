@@ -1,9 +1,0 @@
-<IfModule mod_rewrite.c>
-   RewriteEngine on
-   RewriteRule    ^$ app/webroot/    [L]
-   RewriteRule    (.*) app/webroot/$1 [L]
-</IfModule>
-RewriteCond %{HTTP_HOST} ^hide\.indianhorsedatabase\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.hide\.indianhorsedatabase\.com$
-RewriteRule ^/?$ "http\:\/\/indianhorsedatabase\.com\/" [R=301,L]
-

@@ -1,3 +1,5 @@
+<!-- REYENG HAS BEEN HERE :) -->
+
 <?php
 e($this->renderelement('topheader'));
 $userarr=$this->requestaction('/user/userdetails');
@@ -464,7 +466,9 @@ function echeck(str) {
 			}
 		}
 	}
-	
+		function chkmembershipstat() {
+		$("#membershipstatus").toggle("slow");
+	}
 		
 		
 		
@@ -479,8 +483,7 @@ function echeck(str) {
 		e($this->renderelement('frontheader'));			
 		?>		
 		<div class="sub_body">			
-				<div class="upper">
-					<div>&nbsp;</div>					
+				<div class="upper">				
 					<?php
 					$chksession=$this->requestaction('/user/chksession');
 					if($chksession=="") {
@@ -501,8 +504,26 @@ function echeck(str) {
 							e($this->renderElement('rightpanelfreeuser'));
 						}					
 					}
+					
 					?>	
-					<div style="float: left; width: 762px;">			
+										<!-- added by reyeng from premiumuserwelcomepage.ctp -->
+					
+						<div class="profile_info">
+								<div class="po_inf_mid">
+										<h2 class="up_heading" style="cursor:pointer" onClick="chkmembershipstat()">Click here for membership status information</h2>	
+										<div class="alert_box"  id="membershipstatus" style="overflow:auto; width:600px;height:auto; margin-left:20px; margin-top:20px; display:none">
+											<img src="<?php e($this->webroot);?>img/alert.png" alt="bb" style="float:left; margin-right:20px;" />
+											<p class="alert" style="float:left;">Your membership will expire on <?php e( date('l dS \of F Y', strtotime($expirearr['User']['membership_exipre_date'])));?><span>&nbsp;<br />&nbsp;to extend your membership.&nbsp;&nbsp;<a href="<?php e($html->url('/user/extendmembership'));?>">Click here</a></span></p>
+										</div>	
+										<div class="clear"></div>
+									</div>	
+							</div>  				
+							
+							<!-- reyeng -->
+					<div style="float: left; width: 762px;">
+					
+
+								
 					<div class="profile_info">
 						<div class="po_inf_up">&nbsp;</div>						
 						<div class="po_inf_mid">	

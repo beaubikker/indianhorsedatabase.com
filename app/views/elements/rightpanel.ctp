@@ -153,73 +153,55 @@ function processrequestforgotpass() {
 <!-- added on 23.6 -->
 <div style="float: right; width: 176px;">
 <!-- added on 23.6 -->
-<div class="visitor" style="position:absolute; top:165px">
-						<div class="vis_up">
-							<img src="<?php e($this->webroot);?>img/visitor_up.png" alt="" />
-						</div>
+<div class="visitor sidebarreyengwrapper">
+<div class="visitor sidebartopreyeng">	
 						<div class="vis_mid">
-							<h2 style="text-align: left; padding-left: 10px;">Welcome Visitor!</h2>
+							
 							<?php
 							$usercooke='';
 							$password='';
 							$chkcookarr=$this->requestAction('/user/chkcookarr');
 							?>
-							<div id="side-bar-login-wrapper-reyeng">
+							<h2 style="text-align: center;">Welcome Visitor!</h2>
+							<div id="sidebarloginwrapperreyeng">
 								<form action="javascript:void%200;" onsubmit="return Chklogin()">
-									<input class="mass" type="text" id="emaillogfront" name="E Mail" <?php if(count($chkcookarr)<=0) {?> value="E Mail"  <?php } else {  ?> value="<?php e($chkcookarr[0]['tbl_rems']['username']);?>" <?php } ?>   onFocus="if(this.value=='E Mail')this.value='';" onBlur="if(this.value=='')this.value='E Mail';" /><br />
-									<div>
-									<input class="mass50" type="password" id="passlogfront" name="Password" <?php if(count($chkcookarr)<=0) {?> value="Password"  <?php } else {  ?> value="<?php e($chkcookarr[0]['tbl_rems']['password']);?>" <?php } ?> onFocus="if(this.value=='Password')this.value='';" onBlur="if(this.value=='')this.value='Password';"/><br />
-									<input class="button-reyeng small float_right" type="submit" value="Log in"  onclick="Chklogin()" style="cursor:pointer"/></div>
-									<br />
-							</div>
-								<span  style="padding-left:12px"><input type="checkbox" id="rem" value="Y" name="rem" <?php if(count($chkcookarr)>0) {?> checked="checked" <?php } ?>/> Remember Me </span>
-								<br />
-								<br />
-							  <span  style="padding-left:12px; text-decoration:underline; cursor:pointer" onclick="forpassword()">Forgot Password</span>
-							  
-							  <span id="frpass" style="display:none; ">
-							  	<br />
-							  	<input type="text"  id="passemail" class="mass" onFocus="if(this.value=='Your Email Address')this.value='';" onBlur="if(this.value=='')this.value='Your Email Address';" value="Your Email Address"/>
-								<br />
-								<br />
-								&nbsp;&nbsp;<input  type="button" value="Go"  style="background:url(http://indianhorsedatabase.com/app/webroot/img/log_in_btn.png) no-repeat 0 0; border: 0; color:#FFF; font-weight:bold; padding:0; margin: 4px 0 0 0; width: 30px; height: 18px; cursor:pointer" onclick="emailpass()"/>
-								<br />
-								<br />
-								<span id="passmsgfront" style="padding-left:6px;"></span>							  
+									<input class="sidebarloginformreyeng" type="text" id="emaillogfront" name="E Mail" <?php if(count($chkcookarr)<=0) {?> value="E Mail"  <?php } else {  ?> value="<?php e($chkcookarr[0]['tbl_rems']['username']);?>" <?php } ?>   onFocus="if(this.value=='E Mail')this.value='';" onBlur="if(this.value=='')this.value='E Mail';" /><br />
+									
+									<input class="sidebarloginformreyeng" type="password" id="passlogfront" name="Password" <?php if(count($chkcookarr)<=0) {?> value="Password"  <?php } else {  ?> value="<?php e($chkcookarr[0]['tbl_rems']['password']);?>" <?php } ?> onFocus="if(this.value=='Password')this.value='';" onBlur="if(this.value=='')this.value='Password';"/><br />
+									<input class="button-reyeng login-button" type="submit" value="Log in"  onclick="Chklogin()" style="cursor:pointer"/>							 <span onclick="forpassword()">
+							 <input class="button-reyeng sutble login-button" type="submit" value="forgot password?"  onclick="Chklogin()">
+							 </span>
+							 
+							 <span style="display: none;" style="padding-left:12px"><input type="checkbox" id="rem" value="Y" name="rem" <?php if(count($chkcookarr)>0) {?> checked="checked" <?php } ?>/> Remember Me </span>
+
+ 
+							  <span id="frpass" style="display:none;">
+
+							  <img class="sidebarlinereyeng" alt="" width="155px" height="1px" src="../img/line-170.jpg">
+
+							  	<input type="text"  id="passemail" class="sidebarloginformreyeng" onFocus="if(this.value=='Your Email Address')this.value='';"  onBlur="if(this.value=='')this.value='Your Email Address';" value="Your Email Address"/>
+								<input  type="button" class="button-reyeng sutble" value="get my password!" onclick="emailpass()"/>
+								<span id="passmsgfront"></span>							  
 							  </span>
-							  
-							  <span id="loginmsgfront" style="padding-left:15px"></span>								
-							</form>
-							<h4>Or Create a<br />free account</h4>
-							<a href="<?php e($html->url('/user/selectmembership'));?>">Sign Up</a>
+
+							  <img class="sidebarlinereyeng" alt="" width="155px" height="1px" src="../img/line-170.jpg">
+
+							  <span id="loginmsgfront"></span>	
+							  <a class="no-margin-padding" href="<?php e($html->url('/user/selectmembership'));?>"><img class="no-margin-padding" alt="" width="155px" src="../img/settingimages/signupad.png"></a>							
+							</form>									<div style="clear: both;"></div>
+									
+							</div>
+								<!-- REYENG DISBLED THE 'REMEMBER ME' CHECKBOX - 29th dec 2011
+<span  style="padding-left:12px"><input type="checkbox" id="rem" value="Y" name="rem" <?php/* if(count($chkcookarr)>0) {?> checked="checked" <?php } */?>/> Remember Me </span>
+								<br />
+								<br />
+-->
+							 
 							
-							<h3>Membership Advantages </h3>
-							<?php
-							$membership_arr=$this->requestaction('/content/listmembership');
-							if(count($membership_arr)>0) {							
-							?>
-							<ul>
-								<?php
-								if(is_array($membership_arr)) {
-									foreach($membership_arr as $key=>$val) :
-									?>
-										<li><a href="<?php e($html->url('/content/membershipdetail/'.$val['Membership']['id']));?>" style="padding-left: 15px;"><?php e($val['Membership']['advantagename']);?></a></li>									
-									<?php									
-									endforeach;								
-								}
-								?>				
-								
-							</ul>
-							<?php
-							}
-							?>
+							
 						</div>
-						<div class="vis_bottom"><img src="<?php e($this->webroot);?>img/visitor_bottom.png" alt="" border="0" /></div>
 						<!-- added on 23.6 -->
-						</div>	
-						<div style="height: 15px;"></div>
-						<div class="visitor" style="position:absolute; top:560px">
-						<div class="vis_up">&nbsp;</div>
+						<div class="visitor advertisementbarreyeng">
 						<div class="vis_mid">
 						<!-- added on 23.6 -->	
 						<?php
@@ -255,8 +237,8 @@ function processrequestforgotpass() {
 						}
 						?>									
 					</div>
-					<!-- added on 23.6 -->
-																					<div class="vis_bottom">&nbsp;</div>
+																									</div>	
+																									</div>
 																					</div>
 																					</div>
 																					<!-- added on 23.6 -->

@@ -1845,10 +1845,7 @@ e($javascript->link('jquery1'));
 						</div>																	
 			  	</div>
 				<div style="clear: both; line-height: 0; font-size: 0;"></div>						
-				</div>				
-				<div class="bottom">
-					<img src="<?php e($this->webroot);?>img/sub_body_footer.png" alt="" />
-				</div>				
+				</div>						
 			</div>	
 		</div>		
 	<?php
