@@ -122,7 +122,7 @@ function emailpass() {
 		document.getElementById("passemail").style.border = "1px solid #7F9DB9";
 	}
 	if(err==0) {
-		document.getElementById("passmsgfront").innerHTML="<br><font color=#FF0000>Please Wait ........</font>";
+		document.getElementById("passmsgfront").innerHTML="";
 		if(window.XMLHttpRequest)
 		{
 			req = new XMLHttpRequest();
@@ -187,8 +187,9 @@ function processrequestforgotpass() {
 							  <img class="sidebarlinereyeng" alt="" width="155px" height="1px" src="../img/line-170.jpg">
 
 							  <span id="loginmsgfront"></span>	
-							  <a class="no-margin-padding" href="<?php e($html->url('/user/selectmembership'));?>"><img class="no-margin-padding" alt="" width="155px" src="../img/settingimages/signupad.png"></a>							
-							</form>									<div style="clear: both;"></div>
+							  <div id="signupadcontainerreyeng"
+							  <a class="no-margin-padding" href="<?php e($html->url('/user/selectmembership'));?>">	</a>				
+							</form></div>									<div style="clear: both;"></div>
 									
 							</div>
 								<!-- REYENG DISBLED THE 'REMEMBER ME' CHECKBOX - 29th dec 2011

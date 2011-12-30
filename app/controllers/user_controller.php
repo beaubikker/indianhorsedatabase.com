@@ -770,7 +770,7 @@ class UserController  extends AppController
 			$this->Email->from = 'Indian Horse Data base <'.$adminArr['Admin']['admin_email'].'>';
 			$this->Email->template	= 'email/customer' ; // note no '.ctp'
 			//Send as 'html', 'text' or 'both' (default is 'text')
-			$msg='<br><font color=#FF0000>Password has been sent.</font>'; 
+			$msg='<br><font color=#000>Password has been sent.</font>'; 
 			$this->Email->send();					
 		}
 		$this->set('msg',$msg);

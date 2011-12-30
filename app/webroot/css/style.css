@@ -25,7 +25,7 @@ body { background:#f2ce87 url(../img/bg.gif) repeat-x; font-family:calibri; font
 
 .header{ }
 
-.header a img{ padding:25px 0 0 25px;}
+.header a img{ padding: 5px 0 0 10px;}
 
 .nav{ background:url(../img/nav_bg.jpg) repeat-x; height:36px;}
 
@@ -141,7 +141,7 @@ body { background:#f2ce87 url(../img/bg.gif) repeat-x; font-family:calibri; font
 
 .sub_body .upper .profile_info_search .po_inf_up {background:url(../img/info_top.jpg) no-repeat; height:7px; font-size:0; line-height:0;}
 
-.sub_body .upper .profile_info_search .po_inf_mid { background:url(../img/info_bg.jpg) repeat-y; width:760px; overflow:hidden; /**/ clear: both; 
+.sub_body .upper .profile_info_search .po_inf_mid { background: ##FEEFCD; width:760px; overflow:hidden; /**/ clear: both; 
 /* clearing the three tab layout - reyeng */}
 
 .sub_body .upper .profile_info .po_inf_btm{background:url(../img/info_btm.jpg) no-repeat; height:7px;}
@@ -198,19 +198,7 @@ body { background:#f2ce87 url(../img/bg.gif) repeat-x; font-family:calibri; font
 
 .sub_body .upper .profile_info h3.plus{ color:#994F26; font-family:verdana; font-size:12px; padding:45px 0 0 20px;}
 
-.sign_in{ background:url(../img/log_in.png) no-repeat; width:23%;float:right;}
-
-.sign_in .mix1{ float:left;width:33%;}
-
-.sign_in .mix2{ float:left;width:45%; padding-top: 2px;}
-
-.sign_in .mix3 { float:left;width:20%;}
-
-.sign_in h3.sign_in3{ color:#731B00; float:left; font-family:verdana; font-size:12px; padding:6px 7px 0 10px;}
-
-.sign_in input.sign_in2{ background:url(../img/log_in_btn.png) no-repeat 0 0; border: 0; color:#FFF; font-weight:bold; padding:0; margin: 4px 0 0 0; width: 30px; height: 18px;}
-
-.sign_in input.sign_in1{ border:1px solid #DBCB90; width:100px; color:#969696; height:20px; margin:1px 0 0 0;}
+.sign_in{ background:url(../img/log_in.png) no-repeat; width:23%;float:right; }
 
 .sub_body .upper span{ color:#cbb056; font-size:12px; font-family: verdana;}
 
@@ -218,7 +206,7 @@ body { background:#f2ce87 url(../img/bg.gif) repeat-x; font-family:calibri; font
 
 .po_inf_mid a.ihd{ color:#994F26;}
 
-.sign_in_parrent{position: relative; right: 0; top:0; }
+.sign_in_parrent{position: relative; right:0; padding: 5px;}
 
 .po_inf_mid span.mix{ color:#994f26; font-weight:bold;}
 
@@ -1096,13 +1084,19 @@ table.listbox tr:hover td *{ color:#fff; }
 .sub_body .upper span{ color:#cbb056; font-size:12px; font-family: verdana;}
 .sub_body .upper span.common{ color:#cbb056; font-size:16px; font-family: verdana;}
 .sub_body .upper span a{ text-decoration:none; color:#a48931; float:left;}
-.sign_in{ background:#EFBB7A; width:30%; float:right; overflow:hidden; top:160px; left:50px; background: #FEEFCD;}
 
-.sign_in .mix1{ float:left;width:25%;}
+.sign_in { background:#EFBB7A; width:30%; float:right; overflow:hidden; top:160px; left:50px; background: #FEEFCD; padding: 3px;}
 
-.sign_in .mix2{ float:left;width:35%; padding-top: 2px;}
+.sign_in div { float:left; padding: 5px 2px 2px 2px;}
 
-.sign_in .mix3 { float:left;width:5%; padding-left: 10px;}
+
+
+.sign_in h3.sign_in3{ color:#731B00; float:left; font-family:verdana; font-size:12px; padding: 3px; }/*  reyeng */
+
+.sign_in input.sign_in2{ background:url(../img/log_in_btn.png) no-repeat 0 0; border: 0; color:#FFF; font-weight:bold; padding:0; margin: 4px 0 0 0; width: 30px; height: 18px;}
+
+.sign_in input.sign_in1{ border:1px solid #DBCB90; width:100px; color:#969696; height:20px;}
+
 
 .sub_body .upper .profile_info .po_inf_mid ul.brand{ list-style:none; margin: 0 25px;}
 .sub_body .upper .profile_info .po_inf_mid ul.brand li a{	 background:url(../img/horse_icon.png) no-repeat; padding-left: 40px; color:#994F26;}
@@ -1260,12 +1254,12 @@ a.close img.btn_close {
 .sub_body .upper .profile_info .po_inf_mid { padding: 7px; width:760px; overflow:hidden; margin:0;} /* reyeng - changed background image to color, and added padding */
 
 
-.email_confirmation22 { position:absolute; left:526px;/* reyeng top:280px;  */padding:0px; background:url(../img/search_2.png) 0 0 no-repeat; width:260px; height:33px; text-align:center; font:bold 14px/33px "Verdana", Arial, Helvetica, sans-serif; color:#ffffff; cursor:pointer; z-index:60; }
+.email_confirmation22 { position:absolute; left:528px;/* reyeng top:280px;  */padding:0px; background:url(../img/search_2.png) 0 0 no-repeat; width:260px; height:33px; text-align:center; font:bold 14px/33px "Verdana", Arial, Helvetica, sans-serif; color:#ffffff; cursor:pointer; z-index:60; }
 .email_confirmation22_active { background:url(../img/search_1.png) 0 0 no-repeat;	 width:260px; height:33px; text-align:center; font:bold 14px/33px "Verdana", Arial, Helvetica, sans-serif; color:#b39f5a; cursor:pointer; padding:0px; z-index:500;	position:absolute; left:526px; top:279px;	 } 
 
 
 .payment_details22 { position:absolute; left:274px; /* top:279px; reyeng */ padding:0px; background:url(../img/search_2.png) 0 0 no-repeat; width:260px; height:33px; text-align:center; font:bold 14px/33px "Verdana", Arial, Helvetica, sans-serif; color:#ffffff; cursor:pointer; z-index:80; }
-.payment_details22_active { background:url(../img/search_1.png) 0 0 no-repeat;	width:260px; height:33px; text-align:center; font:bold 14px/33px "Verdana", Arial, Helvetica, sans-serif; color:#b39f5a; position:absolute; left:274px; top:279px; cursor:pointer; padding:0px; z-index:400;	 } 
+.payment_details22_active { background:url(../img/search_1.png) 0 0 no-repeat;	width:260px; height:33px; text-align:center; font:bold 14px/33px "Verdana", Arial, Helvetica, sans-serif; color:#b39f5a; position:absolute; left:275px;  cursor:pointer; padding:0px; z-index:400;	 } 
 
 .line_para .same p{ width: 115px; color: #994F26; font-family: verdana; font-size: 14px; font-weight: bold; margin: 0 35px 0 0; line-height:25px;}
 .panne25{ width:760px; height:171px; background:#f3deb5; margin: 46px 0 10px 0; border: 1px solid #e7d5a3;}
@@ -1389,10 +1383,12 @@ span.checkboxtextreyeng {padding-left: 10px; color: #994F26;}
 .searchnamegenderboxreyeng {margin: 20px 150px; width: auto;}
 .searchnamegenderboxreyeng label {font-size: 14px;}
 
+#searchwrapperreyeng {float: left; width: 762px; margin-top: 30px;}
 
 .searchfilterwrapperreyeng {height: 20px; padding: 10px;}
 .float_right { float: right;}
 .float_left {float: left;}
+.top-margin { margin-top: 10px;}
 
 .button-reyeng { padding:5px 20px; border:none; font-family: verdana; font-size:12px; font-weight:bold; color:#fff; background-color: #7e7e57; margin-top: 7px;}
 .button-reyeng:hover {background-color: #a7a76f; }
@@ -1402,7 +1398,11 @@ span.checkboxtextreyeng {padding-left: 10px; color: #994F26;}
 
 .button-reyeng.login-button { padding: 2px; width: 155px;}
 
+.button-reyeng.small { padding: 3px 20px;}
+
 /* Side bar elements */
+
+#signupadcontainerreyeng {background: url(../img/signupad.png);  width: 155px; height: 119px;}
 
 #sidebarloginwrapperreyeng { width: 155px; margin: auto; }
 	.sidebarloginformreyeng { width: 144px; height: 17px; padding: 3px; margin-top: 4px; }
@@ -1410,12 +1410,16 @@ span.checkboxtextreyeng {padding-left: 10px; color: #994F26;}
 .sidebarlinereyeng { padding: 10px 0;}
 
 .no-margin-padding {  margin: 0; padding: 0;}
+.no-margin {margin: 0;}
+.no-padding {padding: 0;}
 
 .sidebarreyengwrapper {position: absolute; top: 173px;} /* controls the position of the sidebar (login/usermenu/advertisment) */
 .sidebartopreyeng {} /* controls the position of the top sidebar (login/usermenu) */
 .advertisementbarreyeng {margin-top: 10px;} /* controls the position of bottom sidebar (ads) while user is logged in*/
 
+/* searchbannertop */
 
+.dropdownnarrowreyeng { width: 66px;}
 
 /* width: 400px; height: 150px; border: 1px solid #EBE5CF; border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px; color: #666; padding: 0 10px; position: absolute; margin: 0; */
 

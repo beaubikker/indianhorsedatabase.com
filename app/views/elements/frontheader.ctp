@@ -65,6 +65,7 @@ if(count($settingarr)>0) {
 	
 	
 </script>
+<div style="height:20px; background:  #9fb8d3; width: 100%;"></div>
 <div class="header" style="background:url(/indianhorsedatabase.com/img/settingimages/<?php e($headerimage);?>) no-repeat; height:182px;"><a href="<?php echo $html->url(array("controller" => "content","action" => "front"));?>"><img src="<?php e($this->webroot);?>img/settingimages/<?php e($logo);?>" alt=""  width="343" height="117"/></a></div>
 			<div class="nav">			                                                            
  				<ul>

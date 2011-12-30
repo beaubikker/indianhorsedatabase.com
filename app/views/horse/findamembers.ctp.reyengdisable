@@ -300,12 +300,11 @@ e($this->renderelement('topheader'));
 						}					
 					}
 					?>
-					<!-- added on 23.6 -->
-					<!--<div>-->	
-					<div style="float: left; width: 762px;">
-					<!-- added on 23.6 -->		
+
+					<!-- DISABLED BY REYENG dec 30th 2011
+<div style="float: left; width: 762px;">
 					<div id="searchthreecolumntabsreyeng">
-						<div <?php if($searchcriteria==""|| $searchcriteria=="Horse") { ?>class="personal_info22_active" <?php } else { ?> class="personal_info22" <?php } ?> id="horsearchtb" onClick="findhorse()">Horses</div>
+						<div <?php/* if($searchcriteria==""|| $searchcriteria=="Horse") { ?>class="personal_info22_active" <?php } else { ?> class="personal_info22" <?php } ?> id="horsearchtb" onClick="findhorse()">Horses</div>
 						<div <?php if($searchcriteria=="Stable")  { ?> class="payment_details22_active" <?php } else { ?> class="payment_details22" <?php } ?> id="stablesearchtb" onClick="gotostable()" >Stables</div>
 						<div <?php if($searchcriteria=="Member")  { ?> class="email_confirmation22_active" <?php } else { ?> class="email_confirmation22" <?php } ?> id="breedersearchtb" onClick="findmembers()">Members</div>
 					</div>
@@ -477,15 +476,11 @@ e($this->renderelement('topheader'));
 				</span>
 				<?php			
 				}						
-				?>
-				 <!-- added on 23.6 -->
-				 <!--<div class="bottom">
-					<img src="<?php //e($this->webroot);?>img/sub_body_footer.png" alt="" />
-				</div>-->
-				<!-- added on 23.6 -->				
+				*/?>			
 			 </form>		
 		
 	</div>
+DISABLED BY REYENG dec 30th 2011-->
 	<!-- added on 23.6 -->
 	<div style="clear: both; line-height: 0; font-size: 0;"></div>
 	<!-- added on 23.6 -->
