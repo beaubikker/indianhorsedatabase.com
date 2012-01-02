@@ -47,44 +47,12 @@ e($this->renderelement('topheader'));
 </script>
 <script language="javascript">
 	function horsesearchtab() {
-		document.getElementById("horsearchtb").className ="personal_info22_active" ;	
-		document.getElementById("horsesearch").style.display="block";
-		document.getElementById("stablesearchtb").className ="payment_details22" ;	
-		document.getElementById("stablehearch").style.display="none";
-		document.getElementById("breedersearchtb").className ="email_confirmation22" ;	
-		document.getElementById("breedsearch").style.display="none"	
-		
-		document.getElementById("stablesearchresult").style.display="none"	
-		document.getElementById("horsesearchresult").style.display="block";
-		document.getElementById("membersearch").style.display="none"
 		
 	}
 	function stablesearchtab() {
-		document.getElementById("horsearchtb").className ="personal_info22" ;	
-		document.getElementById("horsesearch").style.display="none";
-		document.getElementById("stablesearchtb").className ="payment_details22_active" ;	
-		document.getElementById("stablehearch").style.display="block";
-		document.getElementById("breedersearchtb").className ="email_confirmation22" ;	
-		document.getElementById("breedsearch").style.display="none"	;
-		
-		document.getElementById("stablesearchresult").style.display="block"	
-		document.getElementById("horsesearchresult").style.display="none";
-		document.getElementById("membersearch").style.display="none"
 		
 	}
-	function breedersearchtab() {
-		document.getElementById("horsearchtb").className ="personal_info22" ;	
-		document.getElementById("horsesearch").style.display="none";
-		document.getElementById("stablesearchtb").className ="payment_details22" ;	
-		document.getElementById("stablehearch").style.display="none";
-		document.getElementById("breedersearchtb").className ="email_confirmation22_active" ;	
-		document.getElementById("breedsearch").style.display="block"	
-		
-		document.getElementById("stablesearchresult").style.display="none"	
-		document.getElementById("horsesearchresult").style.display="none";
-		document.getElementById("membersearch").style.display="block"
-		
-	}	
+
 	function liststate() {
 			var HorseCountry=document.getElementById("HorseCountry").value;
 			if(parseInt(HorseCountry)) {
@@ -297,13 +265,9 @@ e($this->renderelement('topheader'));
 					}
 					?>			
 					<div id="searchwrapperreyeng">
-						<div id="searchthreecolumntabsreyeng">
-							<div <?php if($searchcriteria==""|| $searchcriteria=="Horse") { ?>class="personal_info22_active" <?php } else { ?> class="personal_info22" <?php } ?> id="horsearchtb" onClick="findhorse()">Horses
-							</div>
-							<div <?php if($searchcriteria=="Stable")  { ?> class="payment_details22_active" <?php } else { ?> class="payment_details22" <?php } ?> id="stablesearchtb">Stables
-							</div>
-						</div>
-						<form action="" method="get" name="frm" style="margin-top: 33px;">
+						
+								</div>
+						<form action="" method="get" name="frm"">
 							<span id="stablehearch" <?php if($searchcriteria=="Stable") { ?> style="display:block" <?php } else { ?> style="display:none" <?php } ?>>
 								<div class="profile_info">
 									<div class="po_inf_mid">
@@ -434,8 +398,7 @@ e($this->renderelement('topheader'));
 												<p class="kits">
 													<span onClick="stabledetails('<?php e($val['Stable']['id']);?>')" style="cursor:pointer"><?php e($val['Stable']['stable_name']);?>
 													</span><br />
-													<span>Date: <?php e(date('F Y', strtotime($val['Stable']['posted_date']))); ?>
-													</span>
+													
 												</p>
 											</div>
 											<div class="big3">

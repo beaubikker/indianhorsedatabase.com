@@ -109,7 +109,7 @@ body { background:#f2ce87 url(../img/bg.gif) repeat-x; font-family:calibri; font
 
 .visitor .vis_mid ul{ list-style:none; padding:9px 0 14px; overflow:hidden;}
 
-.visitor .vis_mid ul li{ overflow:hidden; float: left; width: 175px;}
+.visitor .vis_mid ul li{ overflow:hidden; float: left; width: 175px; padding: 0 6px 6px 15px;	}
 
 .visitor .vis_mid ul li a{ color:#994F26; font-family:verdana; font-size:13px; text-decoration:none; line-height:20px; padding:12px 0 0 10px; width: 160px;}
 
@@ -120,7 +120,7 @@ body { background:#f2ce87 url(../img/bg.gif) repeat-x; font-family:calibri; font
 .sub_body .upper .profile_info .po_inf_mid p.suman{ color:#969696; font-family:verdana; font-size:12px; line-height:20px; padding:10px 0 25px 20px;}
 .sub_body .upper .profile_info .po_inf_mid p.axe{ color:#CBB056; font-family:verdana; font-size:12px; line-height:20px; padding:10px 0 10px 20px; width:325px;}
 .sub_body .upper .profile_info .po_inf_mid p.axe1{ color:#CBB056; font-family:verdana; font-size:12px; line-height:20px; padding:10px 0 10px 20px; width:442px;}
-.sub_body .upper .profile_info .po_inf_mid p.kits{ color:#CBB056; font-family:verdana; font-size:12px; line-height:20px; padding:10px 0 10px 20px; width:550px;}
+.sub_body .upper .profile_info .po_inf_mid p.kits{ color:#CBB056; font-family:verdana; font-size:12px; line-height:20px; padding:10px 0 10px 20px; width:380px;}
 .sub_body .upper .profile_info .po_inf_mid p.kits a{ color:#CBB056; font-family:verdana; font-size:14px; line-height:20px; text-decoration:none; font-weight:bold;}
 .sub_body .upper .profile_info .po_inf_mid p.kits a:hover{ color:#000;}
 .po_inf_mid h2.up_heading{ color: #A6663A; font-family: arial; font-size: 16px; padding-left: 20px;}
@@ -172,7 +172,7 @@ body { background:#f2ce87 url(../img/bg.gif) repeat-x; font-family:calibri; font
 
 .sub_body .upper .profile_info .po_inf_mid p.axe1{ color:#CBB056; font-family:verdana; font-size:12px; line-height:20px; padding:10px 0 10px 20px; width:442px;}
 
-.sub_body .upper .profile_info .po_inf_mid p.kits{ color:#CBB056; font-family:verdana; font-size:12px; line-height:20px; padding:10px 0 10px 20px; width:550px;}
+.sub_body .upper .profile_info .po_inf_mid p.kits{ color:#CBB056; font-family:verdana; font-size:12px; line-height:20px; padding:10px 0 10px 20px; width:380px;}
 
 .visitor .vis_mid img.notsurewhatthisisforreyeng { padding-bottom:20px; border-bottom:1px solid #DED097; margin:0 40px;}
 
@@ -182,9 +182,7 @@ body { background:#f2ce87 url(../img/bg.gif) repeat-x; font-family:calibri; font
 
 .sub_body .upper .profile_info ul li{}
 
-.sub_body .upper img.line{ padding:15px 30px;}
-
-.sub_body .upper img.line1{ padding: 5px 20px;}
+.sub_body .upper img.line{ padding:5px 30px;}
 
 .sub_body .upper p.top1{ color:#994F26; font-family:verdana; font-size:12px; padding:20px 0 0 30px; font-weight:bold;}
 
@@ -194,11 +192,11 @@ body { background:#f2ce87 url(../img/bg.gif) repeat-x; font-family:calibri; font
 
 .sub_body .upper h3.top8{ color:#994F26; font-family:verdana; font-weight:bold; padding:20px 0 0 30px;}
 
-.sub_body .upper .profile_info h3{ color:#994F26; font-family:verdana; font-size:12px; padding:12px 0 0 20px;}
+.sub_body .upper .profile_info h3{ color:#994F26; font-family:verdana; font-size:12px;}
 
 .sub_body .upper .profile_info h3.plus{ color:#994F26; font-family:verdana; font-size:12px; padding:45px 0 0 20px;}
 
-.sign_in{ background:url(../img/log_in.png) no-repeat; width:23%;float:right; }
+.sign_in{ background:url(../img/log_in.png) no-repeat; width:23%; float:right; }
 
 .sub_body .upper span{ color:#cbb056; font-size:12px; font-family: verdana;}
 
@@ -274,7 +272,7 @@ body { background:#f2ce87 url(../img/bg.gif) repeat-x; font-family:calibri; font
 
 .form_box1{margin:0; padding:7px 0 0 50px; width:150px; float:left;}
 
-.form_box59{margin:0; float:left;}
+.form_box59{margin: 15px 0 0 0; float:left;}
 
 .form_box3{margin:0; padding:7px 0 0 21px; width:320px; float:left;}
 
@@ -454,26 +452,7 @@ body { background:#f2ce87 url(../img/bg.gif) repeat-x; font-family:calibri; font
 
 .panne25 h3{ padding: 16px 0 0 20px; color:#994f26;}
 
-.poll{ float:left; width:189px; height:121px; background:#feefcd; border-right: 1px solid #e7d5a3;}
 
-.poll1{ float:left; width:189px; height:121px; background:#feefcd; border-right: 1px solid #e7d5a3;}
-
-.poll2{ float:left; width:189px; height:121px; background:#feefcd; border-right: 1px solid #e7d5a3;}
-
-.poll3{ float:left; width:190px; height:121px; background:#feefcd; }
-
-.magic{ float:left; width:189px; height:63px; background:#f8e6c1; border-bottom: 1px solid #e7d5a3;}
-.magic1{ float:left; width:189px; height:63px; background:#FEEFCD; border-bottom: 1px solid #e7d5a3;}
-
-.magic21{ height: 50px; width: 760px; background:#F3DEB5;}
-
-.doom1{ float:left; width:189px; height:29px; background:#feefcd; border-bottom: 1px solid #e7d5a3;}
-
-.doom0{ float:left; width:189px; height:30px; background:#f8e6c1; border-bottom: 1px solid #e7d5a3;}
-
-.doom55{ float:left; width:190px; height:14px; background:#feefcd; border-bottom: 1px solid #e7d5a3;}
-
-.doom50{ float:left; width:190px; height:15px; background:#f8e6c1; border-bottom: 1px solid #e7d5a3;}
 
 .panne20{ float: right; margin: 10px 180px;}
 
@@ -643,7 +622,7 @@ cursor:pointer}
 
 .fonto{ overflow: hidden;}
 
-.form_box59 input.visson{ /* margin-top: 13px; reyeng */ float:left;}
+.form_box59 input.visson{ /* margin-top: 13px; reyeng */ }
 
 .form_box input.visson{ width:140px; /* reyeng */	}
 
@@ -1074,7 +1053,7 @@ table.listbox tr:hover td *{ color:#fff; }
 
 .alert_box{ background:#fff; border:1px solid #000; width:450px; padding:7px;}
 .sub_body .upper img.line{ padding:15px 30px;}
-.sub_body .upper img.line1{ padding:15px 20px;}
+.sub_body .upper img.line1{width: 707px; padding: 5px 20px; height: 1px;}
 .sub_body .upper p.top1{ color:#994F26; font-family:verdana; font-size:12px; padding:20px 0 0 30px; font-weight:bold;}
 .sub_body .upper p.alert{ color:#994F26; font-family:verdana; font-size:12px; font-weight:bold;}
 .sub_body .upper .profile_info ul li a{ color:#CBB056; font-family:verdana; font-size:13px; line-height:20px; text-decoration:none;}
@@ -1085,9 +1064,9 @@ table.listbox tr:hover td *{ color:#fff; }
 .sub_body .upper span.common{ color:#cbb056; font-size:16px; font-family: verdana;}
 .sub_body .upper span a{ text-decoration:none; color:#a48931; float:left;}
 
-.sign_in { background:#EFBB7A; width:30%; float:right; overflow:hidden; top:160px; left:50px; background: #FEEFCD; padding: 3px;}
+.sign_in { background:#EFBB7A; width:auto; float:right; overflow:hidden; top:160px; left:50px; background: #FEEFCD; padding: 3px;}
 
-.sign_in div { float:left; padding: 5px 2px 2px 2px;}
+.sign_in div { float:left; padding: 3px 2px 2px 2px;}
 
 
 
@@ -1095,7 +1074,7 @@ table.listbox tr:hover td *{ color:#fff; }
 
 .sign_in input.sign_in2{ background:url(../img/log_in_btn.png) no-repeat 0 0; border: 0; color:#FFF; font-weight:bold; padding:0; margin: 4px 0 0 0; width: 30px; height: 18px;}
 
-.sign_in input.sign_in1{ border:1px solid #DBCB90; width:100px; color:#969696; height:20px;}
+.sign_in input.sign_in1{ padding-left: 4px; border:1px solid #DBCB90; width:100px; color:#969696; height:20px;}
 
 
 .sub_body .upper .profile_info .po_inf_mid ul.brand{ list-style:none; margin: 0 25px;}
@@ -1241,7 +1220,7 @@ a.close img.btn_close {
 /* added on 23-6-2011 */
 .sub_body .upper .profile_info { background: #feefcd; width:762px; margin-bottom: 15px; overflow: hidden; float: left;}
 .visitor{ width:176px; }
-.sub_body .upper{ background:url(../img/sub_body_bg.gif) repeat-y; overflow:hidden; width: 964px; min-height: 670px !important; padding: 0 22px;}
+.sub_body .upper { background-color: #FFFBEC; overflow:hidden; width: 964px; min-height: 670px !important; padding: 0 22px;}
 .sub_body .upper h1.top{ color:#994F26; font-family:verdana; font-size:16px; padding-bottom: 15px; width: 762px; float: left;}
 .sub_body .upper .content{ width:762px; height:246px; float:left; border-top:1px solid #cbb056; padding-top:18px;}
 .sub_body .upper .profile_info_search { width:760px; padding:0px; margin-top: 33px;}
@@ -1251,7 +1230,7 @@ a.close img.btn_close {
 .personal_info22 { padding:0px; background:url(../img/search_2.png) 0 0 no-repeat; width:260px; height:33px; text-align:center; font:bold 14px/33px "Verdana", Arial, Helvetica, sans-serif; color:#ffffff; cursor:pointer; z-index:100; }
 
 
-.sub_body .upper .profile_info .po_inf_mid { padding: 7px; width:760px; overflow:hidden; margin:0;} /* reyeng - changed background image to color, and added padding */
+.sub_body .upper .profile_info .po_inf_mid { padding: 7px; width:750px; overflow:hidden; margin:0;} /* reyeng - changed background image to color, and added padding */
 
 
 .email_confirmation22 { position:absolute; left:528px;/* reyeng top:280px;  */padding:0px; background:url(../img/search_2.png) 0 0 no-repeat; width:260px; height:33px; text-align:center; font:bold 14px/33px "Verdana", Arial, Helvetica, sans-serif; color:#ffffff; cursor:pointer; z-index:60; }
@@ -1262,7 +1241,7 @@ a.close img.btn_close {
 .payment_details22_active { background:url(../img/search_1.png) 0 0 no-repeat;	width:260px; height:33px; text-align:center; font:bold 14px/33px "Verdana", Arial, Helvetica, sans-serif; color:#b39f5a; position:absolute; left:275px;  cursor:pointer; padding:0px; z-index:400;	 } 
 
 .line_para .same p{ width: 115px; color: #994F26; font-family: verdana; font-size: 14px; font-weight: bold; margin: 0 35px 0 0; line-height:25px;}
-.panne25{ width:760px; height:171px; background:#f3deb5; margin: 46px 0 10px 0; border: 1px solid #e7d5a3;}
+.panne25{ width:auto; height:218px; background:#f3deb5; margin: 46px 0 10px 0; border: 1px solid #e7d5a3;}
 
 
 /* 28.6 */
@@ -1375,7 +1354,7 @@ span.checkboxtextreyeng {padding-left: 10px; color: #994F26;}
 
 .tooltip {background-color: #BE9036; border: 1px solid #CCCCCC; color: #FFFFFF; display: none; font-size: 12px; padding: 7px 10px;}
 
-#searchthreecolumntabsreyeng div {height: 33px; float: left; position: absolute;}
+#searchthreecolumntabsreyeng div {}
 #searchthreecolumntabsreyeng:nth-child(2) {left: 274px;}
 #searchthreecolumntabsreyeng:nth-child(3) {left: 526px; z-index: 40;}
 
@@ -1390,15 +1369,22 @@ span.checkboxtextreyeng {padding-left: 10px; color: #994F26;}
 .float_left {float: left;}
 .top-margin { margin-top: 10px;}
 
-.button-reyeng { padding:5px 20px; border:none; font-family: verdana; font-size:12px; font-weight:bold; color:#fff; background-color: #7e7e57; margin-top: 7px;}
+.button-reyeng { text-align: center; padding:5px 20px; border:none; font-family: verdana; font-size:12px; font-weight:bold; color:#fff; background-color: #7e7e57; margin-top: 7px;}
 .button-reyeng:hover {background-color: #a7a76f; }
 
 .button-reyeng.sutble { padding:5px 20px; border:none; font-family: verdana; font-size:11px; font-weight: bold; color:#fff; background-color: #a7a76f; }
-.button-reyeng.sutble:hover { background-color: #CFCE92; }
+.button-reyeng.sutble:hover { background-color: #CFCE92;  }
+
+.button-reyeng.reset { background-color: #4c2a03;  }
+
+.button-reyeng.reset:hover { background-color: #663f14;  }
+
 
 .button-reyeng.login-button { padding: 2px; width: 155px;}
 
-.button-reyeng.small { padding: 3px 20px;}
+.button-reyeng.small { padding: 3px 20px; }
+.button-reyeng.small.searchresults {margin-top: 10px;}
+
 
 /* Side bar elements */
 
@@ -1414,12 +1400,96 @@ span.checkboxtextreyeng {padding-left: 10px; color: #994F26;}
 .no-padding {padding: 0;}
 
 .sidebarreyengwrapper {position: absolute; top: 173px;} /* controls the position of the sidebar (login/usermenu/advertisment) */
-.sidebartopreyeng {} /* controls the position of the top sidebar (login/usermenu) */
 .advertisementbarreyeng {margin-top: 10px;} /* controls the position of bottom sidebar (ads) while user is logged in*/
+
+#sidebarloggedinuserwrapperreyeng { padding: 5px 8px 0 8px; }
+
+.button-reyeng-welcome {padding:5px 0; margin: auto; border:none; font-family: verdana; font-size:12px; font-weight:bold; color:#fff;  text-align: center;}
+.button-reyeng-welcome.welcome { font-size:14px; width: 150px; background-color: #7e7e57;}
+.button-reyeng-welcome.username { width: 130px; background-color: #d2832b;}
+
 
 /* searchbannertop */
 
 .dropdownnarrowreyeng { width: 66px;}
+
+
+/* SEARCH TABS - deactivated  */
+
+.searchtabreyeng { width: 381px; height: 33px; background-color: #ecc77d; }
+.activesearchreyeng { background-color: #feefcd; }
+.searchtabreyeng h3 {text-align: center; font-size: 19px; font-weight:bold; color:#994F26; padding: 3px;}
+
+/* SEARCH FORM */
+
+.mainsearchfieldreyeng { height: 30px; width: 200px; font-size: 15px;}
+
+#searchnamefiltercontainerreyeng {width: 180px; height: 170px; float: left; margin: 30px 0 30px 70px;}
+
+#siredamsearchboxreyeng {width: 269px; height: 170px; float: right; margin: 30px 70px 30px 0; }
+.siresearchboxreyeng {height: 85px; margin-left: 89px; background: #ecc77d;}
+.damsearchboxreyeng {height: 85px; margin-left: 89px; background: #fffbec;}
+#siredamsearchboxreyeng input {margin: 32px 15px; border: none; height: 21px; font-size: 14px; }
+
+.reset-searchbuttonwrapperreyeng { float: right; margin: 0 67px 15px 0; }
+
+
+/* HORSE SEARCH RESULTS */
+
+#horsesearchresultwrapperreyeng { height: auto; margin: 20px 10px;}
+.horseserachresultsdetailsimagereyeng { width: 102px; height: 102px; float: left; margin: 0 30px 0 20px;}
+.horsesearchresultsdetailswrapperreyeng { height: 103px; margin: 30px 10px 10px 10px; width: 549px; }
+.horsesearchresultdetailsnamegenderbreedreyeng { width:720px; height: auto; }
+.horsesearchresultdetailsreyeng {padding: 2px; width: 433px;}
+.horsesearchresultdetailsreyeng a.name {color:#994F26; font-family:verdana; font-size:13px; font-weight: bold; }
+.horsesearchresultdetailsreyeng.name {margin: 3px 0 9px 0; width: 433px; ! important}
+
+
+#horsesearchresultdetailsiredamreyeng {height: 100px; float: right; padding-right: 20px;
+    width: auto;}
+.horsesearchresultdetailssirereyeng { min-width: 140px; height: 50px; background: #ecc77d; line-height: 50px; padding: 0 15px;}
+.horsesearchresultdetailsdamreyeng { min-width: 140px; height: 50px;  background: #fffbec; line-height: 50px; padding: 0 15px;}
+#horsesearchresultdetailsiredamreyeng h3 { color:#994F26; font-family:verdana; font-size:12px; text-align: center;}
+
+/* Horse profile */
+
+#horseprofilemainimagewrapperreyeng { width: 300px; height: 300px; background-color: #fff; float: right; margin: 40px 35px 0 0;}
+.horseprofiledetailnamereyeng {color:#994F26; font-family:verdana; font-size:16px; float: left; margin-bottom: 20px;}
+#horseprofiledetailswrapperreyeng { width: 766px; height: auto;}
+#horseprofiledetailsotherwrapperreyeng {margin-left: 20px; width: 410px; height: auto; float: left; }
+
+/* pedigree chart */
+
+#pedigreeboxcontainerreyeng { margin: 30px 20px 30px 20px;width: 720px; height: auto;}
+#pedigreechartcontainerreyeng { width: inherit; height: 328px; background-color: ; border-color: #994F26;}
+
+.pedigreecharttitlereyeng{ height: 50px; background:#b39f5a; width: inherit;}
+
+
+.collumn { float:left;}
+
+.infocontainer { margin: 10px 10px;text-align: center; border: 1px solid; border-bottom: 1px solid; border-color: #994F26;}
+
+.collumn1infocontainers{line-height: 120px; height:123px; margin: 26px 10px; }
+
+.collumn2infocontainers {line-height: 60px; height:61px; margin: 16px;}
+
+.collumn3infocontainers {line-height: 30px; height:30px; margin: 8.5px 10px;}
+
+.pedigreechartwidthofcollumn {width:240px;}
+
+.sirebgcolor { background:#ecc77d; }
+.dambgcolor {background:#fffbec;}
+
+
+
+/* colored banners */
+
+#forsalebannerreyeng { width: 720px; height: 60px; background-color: #7e7e57; margin: 5px 20px 20px 20px;}
+#forsalebannerreyeng p.header {color:#fffbec; font-family:verdana; font-size:18px; font-weight: bold; text-align: center; line-height: 60px;}
+#notforsalebannerreyeng {width: 740px; height: 60px; background-color: #4c2a03; margin: 20px;}
+
+
 
 /* width: 400px; height: 150px; border: 1px solid #EBE5CF; border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px; color: #666; padding: 0 10px; position: absolute; margin: 0; */
 

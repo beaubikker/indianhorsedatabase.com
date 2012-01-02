@@ -69,11 +69,15 @@ if(count($settingarr)>0) {
 <div class="header" style="background:url(/indianhorsedatabase.com/img/settingimages/<?php e($headerimage);?>) no-repeat; height:182px;"><a href="<?php echo $html->url(array("controller" => "content","action" => "front"));?>"><img src="<?php e($this->webroot);?>img/settingimages/<?php e($logo);?>" alt=""  width="343" height="117"/></a></div>
 			<div class="nav">			                                                            
  				<ul>
-					<li><a href="<?php echo $html->url(array("controller" => "content","action" => "front"));?>" <?php if($currpage=="indianhorse" || $currpage=="" || $currpage=="homeforpaiduser" || $currpage=="homeforpaiduser") { ?>class="active" <?php } ?>>Home</a></li>
-					<li><a href="<?php echo $html->url(array("controller" => "horse","action" => "findahorse"));?>" <?php if($currpage=="findahorse" || $currpage=="findstable" || $currpage=="findamembers") { ?> class="active" <?php } ?>>Search the Database</a></li>
+
+					<li><a href="<?php echo $html->url(array("controller" => "horse","action" => "findahorse"));?>" <?php if($currpage=="findahorse") { ?> class="active" <?php } ?>>Horses</a></li>
+					<li><a href="<?php echo $html->url(array("controller" => "horse","action" => "findstable"));?>" <?php if($currpage=="findstable") { ?> class="active" <?php } ?>>Stables</a></li>
+					
 					<li><a href="<?php echo $html->url(array("controller" => "horse","action" => "addhorse"));?>" <?php if($currpage=="addhorse"|| $currpage=="addhorsebyfreemember") { ?>class="active" <?php } ?>>Add a Horse</a></li>
-					<li><a href="<?php echo $html->url(array("controller" => "horse","action" => "salehorse"));?>" <?php if($currpage=="salehorse") { ?>class="active" <?php } ?>>Horses for Sale &amp; Stud</a></li>
+					<li><a href="<?php echo $html->url(array("controller" => "horse","action" => "salehorse"));?>" <?php if($currpage=="salehorse") { ?>class="active" <?php } ?>>Sales &amp; Stud</a></li>
 					<li><a href="<?php echo $html->url(array("controller" => "help","action" => "showall"));?>" <?php if(strstr($_SERVER['REQUEST_URI'],'help')) { ?> class="active" <?php } ?>>Help</a></li>
 					<li><a href="<?php e($html->url('/content/contact'));?>" <?php if($currpage=="contact") { ?> class="active" <?php } ?>>Contact Us</a></li>
 				</ul>					
 			</div>
+
+

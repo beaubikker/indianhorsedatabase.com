@@ -4,7 +4,7 @@ e($this->renderelement('topheader'));
 <script language="javascript">
 			function details(hornamename,horseid) {
 				if(parseInt(horseid)) {
-					window.location.href='<?php e($html->url('/horse/horsedetailsforsale/'));?>'+hornamename+'/'+horseid ;		
+					window.location.href='<?php e($html->url('/horse/details/'));?>'+hornamename+'/'+horseid ;		
 				}	
 			}
 			function liststate() {

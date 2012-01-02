@@ -38,6 +38,21 @@ e($this->renderelement('topheader'));
 		}	
 	}
 </script>
+<script language="javascript">
+	function removefromsale(horseid,salesid) {
+		if(parseInt(horseid)) {
+			//if(confirm("Are you sure to delete this")) {
+			window.location.href='<?php e($html->url('/horse/reasonofremoving/'));?>'+horseid+'/'+salesid
+			//}		
+		}	
+	}
+	function details(hornamename,horseid) {
+		if(parseInt(horseid)) {
+			window.location.href='<?php e($html->url('/horse/details/'));?>'+hornamename+'/'+horseid ;
+		
+		}	
+	}
+</script>
 </head>
 <body>		
 	<div id="wrapper_parrent">		
@@ -134,12 +149,81 @@ e($this->renderelement('topheader'));
 								</select>								
 							</div>						
 							<div>&nbsp;</div>	
+							
 							<input class="submit_btn_other" type="button" value="Submit"  onClick="Chkvalid()"/>
 							<input class="submit_btn_other" type="button" value="Back"  onClick="window.history.back();"/>
 							<div>&nbsp;</div>
 							<div>&nbsp;</div>
 						</div>
-						<div class="po_inf_btm">&nbsp;</div>						
+						<div class="po_inf_btm">&nbsp;</div>	
+						
+						
+						<div class="po_inf_mid">
+							<?php
+							if(count($listhorseforsale)>0) {
+								if(is_array($listhorseforsale)) { 
+									foreach($listhorseforsale as $key=>$val) :
+									$horsedetailsarr=$this->requestAction('/horse/horsedetails/'.$val['Horsesale']['horse_id']);
+								?>
+							<div class="pannel">
+								<div class="big1" style="width: 112px;">
+												<?php
+												$imagedirectory="horseimage";
+												$image=$horsedetailsarr['Horse']['image'];
+												if($image!="") {
+													if(file_exists(rootpth()."/".$imagedirectory."/".$image)) {
+														$xy = $rsz->imgResize(rootpth()."horseimage/".$horsedetailsarr['Horse']['image'],90,91);								
+														?>									
+														<img src="<?php e($this->webroot);?>img/horseimage/<?php e($image);?>" alt="" width="<?php e($xy[0]);?>"  height="<?php e($xy[1]);?>">
+													<?php
+													}
+													else {
+														?>
+														<img src="<?php e($this->webroot);?>img/noimage.jpg" alt="" width="112" />
+														<?php
+													}
+												}
+												else {
+													?>
+														<img src="<?php e($this->webroot);?>img/noimage.jpg" alt="" width="112" />
+													<?php
+												}
+												?>								
+								</div>
+								<div class="big2" style="width: 540px;"><p class="kits" style="width: 500px; padding-left: 20px; padding-right: 20px; padding-top: 0;">
+								<span  style="cursor:pointer" onClick="details('<?php e(str_replace(" ", "-",$horsedetailsarr['Horse']['name']));?>','<?php e($horsedetailsarr['Horse']['id']);?>')"><a href="javascript:void(0)"><?php e($horsedetailsarr['Horse']['name']);?></a></span><br />
+								<div style="float: left; width: 230px; padding-left: 20px;">
+								<span>Date put up for sale:<br><?php e(date(' d F Y', strtotime($val['Horsesale']['posted_date']))); ?></span><br /><br />
+								<span>For Sale:<br><?php							
+								$pricerangename=$this->requestAction('/pricerange/pricerangename/'.$val['Horsesale']['pricerange_fromid']);								
+								$pricerangenameto=$this->requestAction('/pricerange/pricerangename/'.$val['Horsesale']['pricerange_toid']);
+								e($pricerangename['Pricerange']['pricefrom']."--".$pricerangenameto['Pricerange']['pricetoo']);								
+								?></span>
+								</div>
+								<div style="float: left; width: 230px; margin-left: 20px;">
+								<span><?php e($val['Horsesale']['salesdescription']);?></span>
+								</div>
+								<div style="clear: both; line-height: 0; font-size: 0;"></div>
+								</p>
+								</div>
+								<div class="big4">
+									<input class="submit_btn9" type="button" value="Edit"  onClick="window.location.href='<?php e($html->url('/horse/edithorseforsale/'.$val['Horsesale']['id']));?>'"/>
+									<input class="submit_btn10" type="button" value="Remove"  onClick="removefromsale('<?php e($horsedetailsarr['Horse']['id']);?>','<?php e($val['Horsesale']['id']);?>')"/>	
+									<input class="submit_btn9" type="button" value="View"  onClick="details('<?php e(str_replace(" ", "-",$horsedetailsarr['Horse']['name']));?>','<?php e($horsedetailsarr['Horse']['id']);?>')"/>
+								</div>						
+							</div>																		
+							<div>&nbsp;</div>	
+							<?php
+									endforeach;
+								}
+							 }							
+							else {
+								e("<div align=center><em><font color=#FF0000>There is no horse for sale </font></em></div>");
+							}
+							?>												
+						</div>
+						
+											
 					</div>	
 					</form>	
 					</div>

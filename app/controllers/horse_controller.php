@@ -1233,7 +1233,7 @@ class HorseController  extends AppController
 
 			}
 
-			$this->redirect('/horse/successfulladd/'.str_replace(" ", "-",$this->data['Horse']['name']).'/'.$lastid);
+			$this->redirect('/horse/details/'.str_replace(" ", "-",$this->data['Horse']['name']).'/'.$lastid);
 
 		}
 
@@ -2998,7 +2998,6 @@ class HorseController  extends AppController
 
 				$horsename=str_replace(" ", "-",$horsearr['Horse']['name']);
 
-				$this->redirect('/horse/horsedetailsforsale/'.$horsename.'/'.$horseid);
 
 			}		
 

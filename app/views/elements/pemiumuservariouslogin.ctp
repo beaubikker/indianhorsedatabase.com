@@ -7,8 +7,13 @@ $userarr=$this->requestaction('/user/userdetails');
 <div class="visitor sidebarreyengwrapper">
 <div class="visitor sidebartopreyeng">	
 						<div class="vis_mid">
-							
-<h2 style="text-align: left; padding-left: 10px;">Welcome<br /><?php e($userarr['User']['firstname']);?></h2> 													
+	
+<div id="sidebarloggedinuserwrapperreyeng">					
+	<div class="button-reyeng-welcome welcome">Welcome</div>
+	<div class="button-reyeng-welcome username">
+	<?php e($userarr['User']['firstname']);?></h2> 
+	</div>
+	</div>														
 							<?php
 							$imagedirectory="profileimage";
 							$image=$userarr['User']['image'];
@@ -34,9 +39,8 @@ $userarr=$this->requestaction('/user/userdetails');
 							?>
 							<ul>
 								<li><a href="<?php e($html->url('/user/premiumuserwelcomepage'));?>">Dashboard</a></li>
-								<li><a href="<?php e($html->url('/user/profile'));?>">Personal Profile</a></li>
-								<li><a href="<?php e($html->url('/user/userpaiduseaccount'));?>">Account Details</a></li>
-								<?php
+								<li><a href="<?php e($html->url('/horse/mylistedhorse'));?>">My Horses</a></li>	
+																<?php
 								$stablearr=$this->requestAction('/stable/viewuserstabename');
 								if(count($stablearr)>0) {
 								?>
@@ -45,16 +49,19 @@ $userarr=$this->requestaction('/user/userdetails');
 								}
 								else {								
 								?>
-									<li><a href="<?php e($html->url('/stable/stableprofile/'));?>">Add your stable!</a></li>
+																<li><a href="<?php e($html->url('/stable/stableprofile/'));?>">Add your stable!</a></li>
+
 								<?php
 								}
-								?>								
+								?>		
+								<li><a>------------------</a></li>
+								<li><a href="<?php e($html->url('/user/userpaiduseaccount'));?>">Account details</a></li>
+							
 								<li><a href="<?php e($html->url('/horse/myhorsesforsale'));?>">My Horses For Sale</a></li>
 								<li><a href="<?php e($html->url('/horse/myhorsesforstud'));?>">My Horses For Stud</a></li>
-								<li><a href="<?php e($html->url('/horse/addhorse'));?>">Add horse</a></li>
-								<li><a href="<?php e($html->url('/horse/mylistedhorse'));?>">My Horses</a></li>								
 							</ul>
-							<input class="button-reyeng" type="button" value="Logout"  style="cursor:pointer" onClick="window.location.href='<?php e($html->url('/user/freeuserlogout'));?>'"/></div>
+							<div align="center">
+							<input class="button-reyeng login-button" type="button" value="Logout"  style="cursor:pointer" onClick="window.location.href='<?php e($html->url('/user/freeuserlogout'));?>'"/></div></div>
 						<!-- added on 23.6 -->
 						</div>	
 						<!-- added on 23.6 -->

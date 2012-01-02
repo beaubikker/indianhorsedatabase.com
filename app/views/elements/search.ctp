@@ -12,9 +12,6 @@ $searchby=@$_GET['searchby'];
 		<div class="sign_in_parrent" style="position:absolute; top:22px; left:0;">
 				<div class="sign_in">
 					<div class="">
-						<h3 class="sign_in3">Search</h3>
-					</div>
-					<div class="">
 						<input class="sign_in1" type="text" id="search" name="search" <?php if(@$_GET['search']!="" || @$_GET['horsename']!="") { ?> value="<?php e($searchval);?>" <?php } else {?> value="Search" onFocus="if(this.value=='Search')this.value='';" onBlur="if(this.value=='')this.value='Search';" <?php } ?>/>
 					</div>
 					<div class="">

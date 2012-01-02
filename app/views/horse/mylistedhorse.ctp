@@ -15,6 +15,22 @@ function del_horse(horse_id) {
 		}	
 	}
 </script>
+<script language="javascript">
+	function removefromsale(horseid,salesid) {
+		if(parseInt(horseid)) {
+			//if(confirm("Are you sure to delete this")) {
+			window.location.href='<?php e($html->url('/horse/reasonofremoving/'));?>'+horseid+'/'+salesid
+			//}		
+		}	
+	}
+	function details(hornamename,horseid) {
+		if(parseInt(horseid)) {
+			window.location.href='<?php e($html->url('/horse/details/'));?>'+hornamename+'/'+horseid ;
+		
+		}	
+	}
+</script>
+
 </head>
 <body>		
 	<div id="wrapper_parrent">		
@@ -106,20 +122,20 @@ function del_horse(horse_id) {
 											</div>
 											<!--<div class="big3" style="width:315"><p class="axe"><?php //e(substr($val['Horse']['other_details'],0,300));?></p></div>-->		
 										  <div class="big4">
-												<input class="submit_btn9" type="button" value="Edit"  onClick="window.location.href='<?php e($html->url('/horse/edithorseinfo/'.$val['Horse']['id']));?>'"/>
+												<input class="button-reyeng" type="button" value="Edit"  onClick="window.location.href='<?php e($html->url('/horse/edithorseinfo/'.$val['Horse']['id']));?>'"/>
 												<br>
 												<?php
 												if($val['Horse']['sales_status']=="S" || $val['Horse']['sales_status']=="Stud" || $val['Horse']['sales_status']=="") {
 													$chksalestatus=$this->requestAction('/horse/chksalesstatus/'.$val['Horse']['id']);
 													if(count($chksalestatus)>0) {
 														?>
-															<input  type="button" value="Already For sale"  onClick="window.location.href='<?php e($html->url('/horse/edithorseforsale/'.$chksalestatus[0]['Horsesale']['id']));?>'" class="newbutton"/>
+															<input  type="button" value="Edit sale details"  onClick="window.location.href='<?php e($html->url('/horse/edithorseforsale/'.$chksalestatus[0]['Horsesale']['id']));?>'" class="button-reyeng reset"/>
 														<?php
 													}
 													else {	
 														if($val['Horse']['deathstat']!='Y') {									
 														?>												
-															<input  type="button" value="Put For Sale"   onClick="window.location.href='<?php e($html->url('/horse/putforsale/'.$val['Horse']['id']));?>'" class="newbutton"/>	
+															<input  type="button" value="Put for sale"   onClick="window.location.href='<?php e($html->url('/horse/putforsale/'.$val['Horse']['id']));?>'" class="button-reyeng"/>	
 													<?php
 														}
 													}													
@@ -134,14 +150,14 @@ function del_horse(horse_id) {
 													$chksalestatus=$this->requestAction('/horse/chkstudstatussstatus/'.$val['Horse']['id']);
 													if(count($chksalestatus)>0) {
 														?>
-															<input  type="button" value="Already For Stud" onClick="window.location.href='<?php e($html->url('/horse/edithorseforstud/'.$chksalestatus[0]['Horseforstud']['id']));?>'" class="newbutton"/>&nbsp;&nbsp;
+															<input  type="button" value="Edit stud details" onClick="window.location.href='<?php e($html->url('/horse/edithorseforstud/'.$chksalestatus[0]['Horseforstud']['id']));?>'" class="button-reyeng reset"/>&nbsp;&nbsp;
 														<?php
 													}
 													else {
 															if($val['Horse']['deathstat']!='Y') {	
 																if($val['Horse']['gender']==2) {								    	
 															?>												
-															<input  type="button" value="Put For Stud"   onClick="window.location.href='<?php e($html->url('/horse/putahorseforstud/'.$val['Horse']['id']));?>'" class="newbutton"/>	
+															<input  type="button" value="Put for stud"   onClick="window.location.href='<?php e($html->url('/horse/putahorseforstud/'.$val['Horse']['id']));?>'" class="button-reyeng"/>	
 														<?php
 																}
 															}
@@ -149,7 +165,7 @@ function del_horse(horse_id) {
 													}														
 												}
 												?>																						
-												<input class="submit_btn9" type="button" value="View"  onClick="details('<?php e(str_replace(" ", "-",$val['Horse']['name']));?>','<?php e($val['Horse']['id']);?>')"/>										
+												<input class="button-reyeng" type="button" value="View"  onClick="details('<?php e(str_replace(" ", "-",$val['Horse']['name']));?>','<?php e($val['Horse']['id']);?>')"/>										
 											</div>						
 										</div>		
 										<img class="line1" src="<?php e($this->webroot);?>img/line1.jpg" alt="" />	

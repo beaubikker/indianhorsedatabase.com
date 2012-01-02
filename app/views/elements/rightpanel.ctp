@@ -24,8 +24,7 @@
 		else {
 			 document.getElementById("emaillogfront").style.border = "1px solid #7F9DB9";
 		}
-		if(err==0) {
-			document.getElementById("loginmsgfront").innerHTML="<font color=#FF0000>Please Wait ...</font>";	
+		if(err==0) {	
 			if(window.XMLHttpRequest)
 			{
 				req = new XMLHttpRequest();
