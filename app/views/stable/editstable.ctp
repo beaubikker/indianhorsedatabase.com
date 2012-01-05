@@ -86,7 +86,7 @@ e($html->css('jScrollPane'));
 				{			
 					if(req.responseText==1) {
 						document.getElementById("valid").disabled=true;
-						document.getElementById("horsemessage").innerHTML="<font color=#FF0000><b><em>Stable Aready exists</em></b></font>";
+						document.getElementById("horsemessage").innerHTML="<font color=#FF0000><b><em>Stable already exists</em></b></font>";
 					}
 					else {
 						document.getElementById("valid").disabled=false;
@@ -483,7 +483,15 @@ style="width: 10px;" class="jScrollPaneDragBottom"></div></div></div><div
 									<div class="right"><div class=pox style="padding:6px 10px; 0 0"><strong>Image1</strong><input type="file" name="image_1"></div></div>
 									<div class="left"><div class=pox style="padding:6px 10px; 0 0"><strong>Image2</strong><input type="file" name="image_2"></div></div>	
 									<div class="right"><div class=pox style="padding:6px 10px; 0 0"><strong>Image3</strong><input type="file" name="image_3"></div></div>	
-									<div class="left"><div class=pox style="padding:6px 10px; 0 0"><strong>Image4</strong><input type="file" name="image_4"></div></div>																						
+									<div class="left"><div class=pox style="padding:6px 10px; 0 0"><strong>Image4</strong><input type="file" name="image_4"></div></div>		
+									<div class="left"><div class=pox style="padding:6px 10px; 0 0"><strong>Image5</strong><input type="file" name="image_5"></div></div>		
+									<div class="left"><div class=pox style="padding:6px 10px; 0 0"><strong>Image6</strong><input type="file" name="image_6"></div></div>		
+									<div class="left"><div class=pox style="padding:6px 10px; 0 0"><strong>Image7</strong><input type="file" name="image_7"></div></div>
+									<div class="left"><div class=pox style="padding:6px 10px; 0 0"><strong>Image8</strong><input type="file" name="image_8"></div></div>		
+									<div class="left"><div class=pox style="padding:6px 10px; 0 0"><strong>Image9</strong><input type="file" name="image_9"></div></div>			
+									<div class="left"><div class=pox style="padding:6px 10px; 0 0"><strong>Image10</strong><input type="file" name="image_10"></div></div>		
+									<div class="left"><div class=pox style="padding:6px 10px; 0 0"><strong>Image11</strong><input type="file" name="image_11"></div></div>		
+									<div class="left"><div class=pox style="padding:6px 10px; 0 0"><strong>Image12</strong><input type="file" name="image_12"></div></div>																				
 									<input class="submit_btn100" type="button" value="Upload"  onclick="closepic()" style="cursor:pointer; width: 120px; margin-top: 0; margin-bottom: 20px; padding-left: 10px;"/>	
 									<input type="hidden" id="hiddval" name="hiddval" value="4">
 								</div>							

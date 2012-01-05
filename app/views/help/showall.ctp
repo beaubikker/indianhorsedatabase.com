@@ -54,7 +54,6 @@ p { padding: 5px 0; color:#994F26; }
 <body>		
 	<div id="wrapper_parrent">		
 		<?php e($this->renderelement('search'));?>
-		<br clear="all" />
 		<div id="wrapper">
 		<?php
 		e($this->renderelement('frontheader'));			

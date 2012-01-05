@@ -233,7 +233,7 @@ class StableController  extends AppController
 				$this->redirect('/stable/editstable/'.$stable_arr[0]['Stable']['id']);
 			}
 			else {
-				$this->redirect('/stable/viewmystableprofileprofile/'.$stable_arr[0]['Stable']['id']);
+				$this->redirect('/stable/mystable/'.$stable_arr[0]['Stable']['id']);
 			}
 		}
 		else {
@@ -380,14 +380,14 @@ class StableController  extends AppController
 		if(is_numeric($userid)) {
 			$ownstable_arr=$this->Stable->FindAll('userid='.$userid.' AND id='.$stable_id) ;
 			if(count($ownstable_arr)>0) {
-				$this->redirect('/stable/viewmystableprofileprofile/'.$stable_id);
+				$this->redirect('/stable/mystable/'.$stable_id);
 			}
 		}
 		//parent::chkusertype();
 		$mulimage_sql="SELECT * FROM tbl_stableimages Stableimage WHERE stable_id=".$stable_id ;
 		$mulimage_arr=$this->Stable->query($mulimage_sql) ;
 		$horsearr=$this->Horse->FindAll("stable_id=".$stable_id);
-		$horselistarr=$this->Horse->FindAll("stable_id=".$stable_id." LIMIT 0, 7");
+		$horselistarr=$this->Horse->FindAll("stable_id=".$stable_id." LIMIT 0, 11");
 		$this->set('horselistarr',$horselistarr);
 		$this->set('mulimage_arr',$mulimage_arr);
 		
@@ -405,7 +405,7 @@ class StableController  extends AppController
 		$this->set('listhorsesalearr',$listhorsesalearr);		
 	}	
 	
-	function viewmystableprofileprofile($stable_id=NULL) {		
+	function mystable($stable_id=NULL) {		
 		parent::blanklayout();
 		$stablearr=$this->Stable->FindByid($stable_id) ;
 		$userid=$this->Session->Read("userid") ;

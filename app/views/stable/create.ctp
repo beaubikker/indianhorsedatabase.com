@@ -418,7 +418,15 @@ Please make sure to select your best one. If you are unsure what image is best, 
 									<div class="right"><div class=pox style="padding:6px 10px; 0 0"><strong>Image1</strong><input type="file" name="image_1"></div></div>
 									<div class="left"><div class=pox style="padding:6px 10px; 0 0"><strong>Image2</strong><input type="file" name="image_2"></div></div>	
 									<div class="right"><div class=pox style="padding:6px 10px; 0 0"><strong>Image3</strong><input type="file" name="image_3"></div></div>	
-									<div class="left"><div class=pox style="padding:6px 10px; 0 0"><strong>Image4</strong><input type="file" name="image_4"></div></div>																						
+									<div class="left"><div class=pox style="padding:6px 10px; 0 0"><strong>Image4</strong><input type="file" name="image_4"></div></div>		
+										<div class="left"><div class=pox style="padding:6px 10px; 0 0"><strong>Image5</strong><input type="file" name="image_5"></div></div>		
+											<div class="left"><div class=pox style="padding:6px 10px; 0 0"><strong>Image6</strong><input type="file" name="image_6"></div></div>		
+												<div class="left"><div class=pox style="padding:6px 10px; 0 0"><strong>Image7</strong><input type="file" name="image_7"></div></div>
+													<div class="left"><div class=pox style="padding:6px 10px; 0 0"><strong>Image8</strong><input type="file" name="image_8"></div></div>		
+														<div class="left"><div class=pox style="padding:6px 10px; 0 0"><strong>Image9</strong><input type="file" name="image_9"></div></div>			
+															<div class="left"><div class=pox style="padding:6px 10px; 0 0"><strong>Image10</strong><input type="file" name="image_10"></div></div>		
+																<div class="left"><div class=pox style="padding:6px 10px; 0 0"><strong>Image11</strong><input type="file" name="image_11"></div></div>		
+																	<div class="left"><div class=pox style="padding:6px 10px; 0 0"><strong>Image12</strong><input type="file" name="image_12"></div></div>																							
 									<input class="submit_btn100" type="button" value="Close"  onclick="closepic()" style="cursor:pointer"/>	
 								</div>																				
 							</div>

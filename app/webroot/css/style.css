@@ -470,8 +470,6 @@ body { background:#f2ce87 url(../img/bg.gif) repeat-x; font-family:calibri; font
 
 .combo .vtop{ float:left;}
 
-.combo .vtop img{	 margin-left: 17px;}
-
 .combo .ytop{ float:left; width: 400px;}
 
 .sub_body .upper .combo .ytop p{ }
@@ -1369,7 +1367,7 @@ span.checkboxtextreyeng {padding-left: 10px; color: #994F26;}
 .float_left {float: left;}
 .top-margin { margin-top: 10px;}
 
-.button-reyeng { text-align: center; padding:5px 20px; border:none; font-family: verdana; font-size:12px; font-weight:bold; color:#fff; background-color: #7e7e57; margin-top: 7px;}
+.button-reyeng {text-decoration: none; text-align: center; padding:5px 20px; border:none; font-family: verdana; font-size:12px; font-weight:bold; color:#fff; background-color: #7e7e57; margin-top: 7px;}
 .button-reyeng:hover {background-color: #a7a76f; }
 
 .button-reyeng.sutble { padding:5px 20px; border:none; font-family: verdana; font-size:11px; font-weight: bold; color:#fff; background-color: #a7a76f; }
@@ -1458,12 +1456,27 @@ span.checkboxtextreyeng {padding-left: 10px; color: #994F26;}
 #horseprofiledetailswrapperreyeng { width: 766px; height: auto;}
 #horseprofiledetailsotherwrapperreyeng {margin-left: 20px; width: 410px; height: auto; float: left; }
 
+/* STABLE PROFILE */
+
+.stablenamereyeng { display: block; background: white; width: 300px; height: 50px; margin: 0 220px; line-height: 50px; text-align: center; font-size: 18px; font-weight: bold; position: absolute; top: 1;}
+.stabledetailscontainer { margin: auto; width: 732px;}
+.stablethumbnailswrapper {width: 738px; margin: auto;}
+.stablethumbnailswrapper a {text-decoration: none;}
+img.thumbnailstablereyeng {width: 114px; margin: 3px; margin-top: 6px; margin-bottom: 0;}
+.stableimageswrapperreyeng {width: 732px; margin: auto;}
+
+
+.horseslivingherecontainerreyeng {margin: 20px 0; padding: 0; background:#FCE7B9; float: left;}
+
+.horsesthumbnailsforstablereyeng {padding: 5px 10px;}
+
+
 /* pedigree chart */
 
 #pedigreeboxcontainerreyeng { margin: 30px 20px 30px 20px;width: 720px; height: auto;}
 #pedigreechartcontainerreyeng { width: inherit; height: 328px; background-color: ; border-color: #994F26;}
 
-.pedigreecharttitlereyeng{ height: 50px; background:#b39f5a; width: inherit;}
+.pedigreecharttitlereyeng{ height: 50px; background:#b39f5a; width: inherit;  }
 
 
 .collumn { float:left;}
@@ -1488,6 +1501,16 @@ span.checkboxtextreyeng {padding-left: 10px; color: #994F26;}
 #forsalebannerreyeng { width: 720px; height: 60px; background-color: #7e7e57; margin: 5px 20px 20px 20px;}
 #forsalebannerreyeng p.header {color:#fffbec; font-family:verdana; font-size:18px; font-weight: bold; text-align: center; line-height: 60px;}
 #notforsalebannerreyeng {width: 740px; height: 60px; background-color: #4c2a03; margin: 20px;}
+
+/* general */
+
+.fadedbgforpopupreyeng { position: fixed; top: 0; left: 0; bottom: 0; right: 0; width: 100%; height: 100%; background-image: url(../img/resources/black50.png); }
+.popupreyeng { width: 600px; height: 400px; background-color: #fffbec; margin: auto; position: relative; margin-top: 100px; opacity: none;}
+.horseprofilethumbnail { width: 120px; height: 120px;}
+
+
+/* see horse living here test element */
+
 
 
 

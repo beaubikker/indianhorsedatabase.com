@@ -35,31 +35,41 @@
 								<div class="collumn pedigreechartwidthofcollumn">
 									<div class="infocontainer collumn1infocontainers sirebgcolor">
 										<div>
-
-<!-- reyeng added on JANUARY 5th 2012 - this code selects the name from the row of the current horse sire_id -->
-
-<?php
-/* this defines the sire_id into a variable */
-	$sireid = $horsearr['Horse']['sire_id'];
-	
-/* this finds the row of that sire_id defined above */
-	$query = sprintf("SELECT * FROM tbl_horses WHERE id=".$sireid."",
-	mysql_real_escape_string($sireid));
-	$result = mysql_query($query);
-
-/* this tell the code what column to show from that row defined above */
-	while ($row = mysql_fetch_assoc($result)) {
-	$sirename = $row['name'];
-	}
-?>
-
-<!-- this says what to display and making it into a link based upon the variables defined above -->
-<p class="domen"  style="cursor:pointer" onClick="details('<?php e(str_replace(" ", "-",$sirename));?>','<?php e($sireid);?>')">
-<?php echo $sirename;?>
-</p>
-    
-<!-- end reyeng added on JANUARY 5th 2012 - this code selects the name from the row of the current horse sire_id -->
-										  
+										  	<?php
+									if($horsearr['Horse']['sireunknowoption']!="Y") {
+										if($horsearr['Horse']['sire']) {
+											if($horsearr['Horse']['sire_id']=="") {
+										?>
+										
+												<p class="domen"  style="cursor:pointer" onClick="details('<?php e(str_replace(" ", "-",$horsesirearr[0]['Horse']['name']));?>','<?php e($horsesirearr[0]['Horse']['id']);?>')"><?php e($horsearr['Horse']['sire']);?>
+												</p>
+										<?php
+											}
+											else {
+												$siredetailsarr=$this->requestAction('/horse/siredetails/'.$horsearr['Horse']['sire_id']);
+											?>
+												<p class="domen" style="cursor:pointer" onClick="details('<?php e(str_replace(" ", "-",$siredetailsarr['Horse']['name']));?>','<?php e($siredetailsarr['Horse']['id']);?>')"><?php e($siredetailsarr['Horse']['name']);?>
+												</p>
+											<?php
+											}											
+										}
+										else {
+											?>
+											<p class="domen">
+												
+											</p>
+										<?php
+										}
+									}
+									else {
+										?>
+										<p class="domen">
+											<a style="text-decoration:underline; color:#C7AB4C" href ="<?php e($html->url('/horse/addhorse/addasire/'.str_replace(" ", "-",$horsearr['Horse']['name']).'/'.$horsearr['Horse']['id']));?>"><font size="-1">Add this horse </font></a>
+										</p>
+										<?php
+									}
+									?>
+										
 									</div>
 									</div>
 									<div class="infocontainer collumn1infocontainers dambgcolor">

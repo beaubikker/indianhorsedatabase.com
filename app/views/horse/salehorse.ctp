@@ -105,133 +105,67 @@ e($this->renderelement('topheader'));
 					<div class="profile_info">
 						<div class="po_inf_up">&nbsp;</div>
 						<div class="po_inf_mid">
-							<div class="form_box1">
-								<label>Gender</label>
-									<select name="gender" size="1" class="dropdown98">
-										<option selected="selected" value=""></option>
-											<?php
-											if(is_array($genderarr)) {
-												foreach($genderarr as $key=>$val) :
-													 if($gender==$val['Gender']['id']) {
-													 	$sel='selected=selected';
-													 }
-													 else {
-													 	$sel='';
-													 }
-													e("<option value=".$val['Gender']['id']." $sel>".$val['Gender']['gender']."</option>");
-												endforeach;
-											}
-											?>
-									</select>
-								<div class="clear"></div>							
-								<label>Country</label>
-								<select name="country_id" class="dropdown98" id="HorseCountry" onChange="liststate()">
-											<option value="">Select Country </option>
-											<?php
-											if(is_array($country_arr)) {
-												foreach($country_arr as $key=>$val) :	
-													if($val['Country']['id']==$country_id) {
-														$sel='selected=selected';
-													}							
-													else {
-														$sel='';
-													}	
-													e("<option value=".$val['Country']['id']." $sel>".$val['Country']['country']."</option>");								
-												endforeach;							
-											}					
-											?>						
-										</select>
-								<div class="clear"></div>
-								<label>Sire</label>
-								<input type="text" name="sire" value="<?php e($_REQUEST['sire']);?>" class="visson" style="margin-top: 4px; width:140px;">
-								<div class="clear"></div>
-							</div>
-							
-							<div class="form_box1">
-								<label>Age</label>
-								<select name="age" size="1" class="dropdown98">
-                                   <option selected="selected"></option>
-									  <?php
-									  for($i=1;$i<=25;$i++) {
-									  	if($i==$age) {
-											$sel='selected=selected';
-										}
-										else {
-											$sel='';
-										}
-										e("<option value=".$i." $sel>".$i."</option>");										  
-									  }											  
-									  ?>
-                                </select>
-								<div class="clear"></div>					
-								<label>State</label>
-									<span id="showregion">
-												<select name="state_id" class="dropdown98" id="Horsestate" onChange="listtown()">
-													<option value="">Select state  </option>
-													<?php
-													if(is_array($state_arr)) {
-														foreach($state_arr as $key=>$val) :		
-															if($val['State']['id']==$state_id) {
-																$sel='selected=selected';
-																
-															}							
-															else {
-																$sel='';
-															}							
-															e("<option value=".$val['State']['id']." $sel>".$val['State']['statename']."</option>");								
-														endforeach;							
-													}					
-													?>
-												</select>
-											</span>
-								<div class="clear"></div>
-								<label>Dam</label>
-								<input type="text" name="dam" value="<?php e($_REQUEST['dam']);?>" class="visson" style="margin-top: 4px; width:140px;">
-								<div class="clear"></div>
-							</div>
-							
-							<div class="form_box1">								
-								<div class="clear"></div>							
-								<label>Breed</label>
-								<select name="breed" size="1" class="dropdown98">
-								  <option selected="selected" value=""></option>
-										<?php
-										if(is_array($breed_arr)) {
-											foreach($breed_arr as $key=>$val) :		
-												if($val['Breed']['id']==$breed) {
-													$sel="selected=selected";
-												}
-												else {
-													$sel='';
-												}						
-												e("<option value=".$val['Breed']['id']." $sel>".$val['Breed']['breed']."</option>");								
-											endforeach;							
-										}					
-										?>
-								</select>
-								<div class="clear"></div>
-								<label>Town</label>
-									<span id="showtown">
-											<select name="town_id" class="dropdown98" id="HorseLocation" >
-												<option value="">Select Town </option>
-												<?php
-												if(is_array($town_arr)) {
-													foreach($town_arr as $key=>$val) :
-														if($val['Town']['id']==$town_id) {
-															$sel='selected=selected';
-															
-														}							
-														else {
-															$sel='';
-														}									
-														e("<option value=".$val['Town']['id']." $sel>".$val['Town']['town']."</option>");								
-													endforeach;							
-												}					
-												?>						
-											</select>	
-								</span>
-								<div class="clear"></div>
-							</div>
+														<div class="fonto">		
+														<div class="form_box59">
+														
+														<div class="searchfilterwrapperreyeng">
+														<select name="gender" id="gender" size="1" class="dropdown98">
+															<option selected="selected" value="">Gender</option>
+															<?php
+																if(is_array($genderarr)) {
+																	foreach($genderarr as $key=>$val) :
+																		 if($gender==$val['Gender']['id']) {
+																			$sel='selected=selected';
+																		 }
+																		 else {
+																			$sel='';
+																		 }
+																		e("<option value=".$val['Gender']['id']." $sel>".$val['Gender']['gender']."</option>");
+																	endforeach;
+																	}
+															?>
+														</select>
+													</div>
+													
+													<div class="searchfilterwrapperreyeng">
+																<select name="breed" id="breed" size="1" class="dropdown98">
+																	<option selected="selected" value="">Breed</option>
+																	<?php
+																	if(is_array($breed_arr)) {
+																	foreach($breed_arr as $key=>$val) :	
+																	if($val['Breed']['id']==$breed) {
+																	$sel='selected=selected' ;
+																	}
+																	else {
+																	$sel='';
+																	}							
+																	e("<option value=".$val['Breed']['id']." $sel>".$val['Breed']['breed']."</option>");
+																	endforeach;							
+																	}					
+																	?>
+																</select>
+																<div class="clear"></div>
+															</div>	
+																<div class="searchfilterwrapperreyeng">
+																<select name="color"  id="color" size="1" class="dropdown98">
+																<option selected="selected" value="">Color</option>
+																	<?php
+																	if(is_array($coatcolor_arr)) {
+																	foreach($coatcolor_arr as $key=>$val) :
+																	if($val['Coatcolor']['id']==$color) {
+																	$sel='selected=selected' ;
+																	}
+																	else {
+																	$sel='';
+																	}
+																	e("<option value=".$val['Coatcolor']['id']." $sel>".$val['Coatcolor']['color']."</option>");								
+																	endforeach;							
+																	}					
+																	?>
+																</select>
+																</div>	
+																</div>
+																</div>
 														
 							<div class="radio_box" style="padding-left: 25px; float: left; width: auto;">
 								<input type="radio" value="S" name="salestaus" <?php if($salestaus=="S" || $salestaus=="" || $salestaus=="Sale" ) { ?> checked="checked" <?php } ?> ><a>Sale</a><br />
@@ -239,11 +173,10 @@ e($this->renderelement('topheader'));
 								<input class="submit_btn" type="submit" value="Search" name="search" />
 							</div>
 							<div class="clear"></div>
-						  <div>&nbsp;</div>
-						</div>						
-						<div class="po_inf_btm">&nbsp;</div>						
-					</div>	
-					</form>				
+						</div>	
+					</form>	
+					
+								
 					<h1 class="top" style="width: auto;">Filter The Search Result </h1>
 					<div class="link">						
 						<ul>
@@ -253,13 +186,12 @@ e($this->renderelement('topheader'));
 							<li>|</li>
 							<li><a href="<?php e($html->url('/horse/salehorse'.$pagelink));?>&orderby=price">Price</a></li>
 						</ul>
-					</div>					
+					</div>			
+					
+							
 					<div class="profile_info">
-						<div class="po_inf_up">&nbsp;</div>
 						<div class="po_inf_mid">
 							<?php
-							//e($salestaus);
-							//if($searchcondition=='yes') {
 							if(count($horslistarr)>0) {
 									if(is_array($horslistarr)) {
 										foreach($horslistarr as $key=>$val):
@@ -298,15 +230,6 @@ e($this->renderelement('topheader'));
 											 e("<b>Sale</b>");								
 											 ?></span>
 											 <br>
-											 <span>Year :
-											 <?php 
-												if($val['Horse']['year']) {
-													e($val['Horse']['year']);
-												}
-												else {
-													e("NA");
-												}									
-											 ?></span>
 											 <br /><span>Price :
 											 <?php
 											 if($val['Sale']['pricerange_fromid']) {
@@ -335,10 +258,6 @@ e($this->renderelement('topheader'));
 											 <div style="float: left; width: 240px; margin-left: 25px;">
 											 <span><?php 
 											e($val['Sale']['salesdescription']);
-											e("<br>");
-											e($val['Horse']['sire']);
-											e("<br>");
-											e($val['Horse']['dam']);
 											?></span>
 											 </div>
 											 <div style="clear: both; line-height: 0; font-size: 0;"></div>									

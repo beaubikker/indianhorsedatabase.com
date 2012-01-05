@@ -35,31 +35,48 @@
 								<div class="collumn pedigreechartwidthofcollumn">
 									<div class="infocontainer collumn1infocontainers sirebgcolor">
 										<div>
+																							<?php
+// This could be supplied by a user, for example
+$sireid = $horsearr['Horse']['sire_id'];
 
-<!-- reyeng added on JANUARY 5th 2012 - this code selects the name from the row of the current horse sire_id -->
+// Formulate Query
+// This is the best way to perform an SQL query
+// For more examples, see mysql_real_escape_string()
+$query = sprintf("SELECT * FROM tbl_horses WHERE id=".$sireid."",
+    mysql_real_escape_string($sireid));
 
-<?php
-/* this defines the sire_id into a variable */
-	$sireid = $horsearr['Horse']['sire_id'];
-	
-/* this finds the row of that sire_id defined above */
-	$query = sprintf("SELECT * FROM tbl_horses WHERE id=".$sireid."",
-	mysql_real_escape_string($sireid));
-	$result = mysql_query($query);
+// Perform Query
+$result = mysql_query($query);
 
-/* this tell the code what column to show from that row defined above */
-	while ($row = mysql_fetch_assoc($result)) {
-	$sirename = $row['name'];
-	}
-?>
+// Check result
+// This shows the actual query sent to MySQL, and the error. Useful for debugging.
+if (!$result) {
+    $message  = 'Invalid query: ' . mysql_error() . "\n";
+    $message .= 'Whole query: ' . $query;
+    die($message);
+}
 
-<!-- this says what to display and making it into a link based upon the variables defined above -->
-<p class="domen"  style="cursor:pointer" onClick="details('<?php e(str_replace(" ", "-",$sirename));?>','<?php e($sireid);?>')">
-<?php echo $sirename;?>
-</p>
-    
-<!-- end reyeng added on JANUARY 5th 2012 - this code selects the name from the row of the current horse sire_id -->
-										  
+// Use result
+// Attempting to print $result won't allow access to information in the resource
+// One of the mysql result functions must be used
+// See also mysql_result(), mysql_fetch_array(), mysql_fetch_row(), etc.
+while ($row = mysql_fetch_assoc($result)) {
+    echo $row['name'];
+ 
+}
+
+// Free the resources associated with the result set
+// This is done automatically at the end of the script
+mysql_free_result($result);										
+									else {
+										?>
+										<p class="domen">
+											<a style="text-decoration:underline; color:#C7AB4C" href ="<?php e($html->url('/horse/addhorse/addasire/'.str_replace(" ", "-",$horsearr['Horse']['name']).'/'.$horsearr['Horse']['id']));?>"><font size="-1">Add this horse </font></a>
+										</p>
+										<?php
+									}
+									?>
+										
 									</div>
 									</div>
 									<div class="infocontainer collumn1infocontainers dambgcolor">

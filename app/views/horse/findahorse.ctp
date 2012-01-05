@@ -430,8 +430,11 @@ e($this->renderelement('topheader'));
 														</div>
 														<div class="horsesearchresultdetailsdamreyeng">
 															<h3>
+															
+															
+															
 																<?php
-																 e($val['Horse']['dam']);
+																 e($val['Horse']['dam_id']);
 																 ?>	
 															</h3>
 														</div>
@@ -504,6 +507,10 @@ e($this->renderelement('topheader'));
 									?>			
 								</form>		
 							</div>
+							
+							
+							
+							
 							</div>
 							<div style="clear: both; line-height: 0; font-size: 0;"></div>
 						</div>

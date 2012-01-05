@@ -51,6 +51,9 @@
 
 	<div id="horseprofiledetailsotherwrapperreyeng">
 								<div class="line_para">
+	
+
+
 
 							<h1 class="horseprofiledetailnamereyeng"><?php e($horsearr['Horse']['name']);?></h1>
 </div>

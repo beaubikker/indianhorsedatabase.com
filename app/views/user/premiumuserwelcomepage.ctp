@@ -72,6 +72,14 @@ e($javascript->link('jquery1'));
 						<div class="profile_info">
 						 
 						<div class="po_inf_mid">
+						
+						<?php 
+															$data = mysql_query("SELECT DISTINCT name FROM tbl_horses") 
+															 or die(mysql_error());
+															echo($data);
+															 ?>
+						
+						
 						<?php
 						if(count($notificationarr)<=0 && count($liststablearr)<=0 && count($listuserarr)<=0  && count($newuserhorsepostarr)<=0 && count($changenotiarr)<=0 && $pendingcntr<=0 && count($breederarr)<=0 && count($adderarr)<=0 && count($oldownerarr)<=0 && count($oldbrederarr)<=0)  {?>
 							<h2 class="up_heading">You have no notifications</h2>	

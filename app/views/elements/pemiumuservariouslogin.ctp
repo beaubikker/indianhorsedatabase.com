@@ -44,7 +44,7 @@ $userarr=$this->requestaction('/user/userdetails');
 								$stablearr=$this->requestAction('/stable/viewuserstabename');
 								if(count($stablearr)>0) {
 								?>
-									<li><a href="<?php e($html->url('/stable/viewmystableprofileprofile/'.$stablearr[0]['Stable']['id']));?>"><?php e($stablearr[0]['Stable']['stable_name']);?></a></li>
+									<li><a href="<?php e($html->url('/stable/mystable/'.$stablearr[0]['Stable']['id']));?>"><?php e($stablearr[0]['Stable']['stable_name']);?></a></li>
 								<?php								
 								}
 								else {								

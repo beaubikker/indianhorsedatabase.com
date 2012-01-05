@@ -2,6 +2,34 @@
 e($this->renderelement('topheader'));
 ?>
 <?php e($html->css('skin1'));?>
+
+<!-- reyeng adding this -->
+
+<script language="javascript">	
+	function toggleview(id) {
+		$("#changeemail_"+id).toggle("slow");
+	}
+	function assignhidval(id) {
+		document.getElementById("hidval").value=id;	
+	}
+	function changeemailclose(id) {
+		document.getElementById("changeemail_"+id).style.display="none";
+	}
+</script>
+<script type="text/javascript">
+jQuery(document).ready(function() {
+  jQuery(".content6").hide();
+  //toggle the componenet with class msg_body
+  jQuery(".heading").click(function()
+  {
+    jQuery(this).next(".content6").slideToggle(300);
+  });
+});
+</script>
+
+<!-- end of reyeng added this -->
+
+
 <script type="text/javascript">
 	jQuery(document).ready(function() {
 		jQuery('#mycarousel').jcarousel();
@@ -26,10 +54,10 @@ e($this->renderelement('topheader'));
 		jQuery('#mycarouse2').jcarousel();
 	});
 	function imagereplace(image,width,height) {
-		document.getElementById("mainimage").innerHTML="<img src=<?php e($this->webroot);?>img/multiplestableimage/"+image+" height="+height+" width="+width+" align=middle style=padding-left:30px>";
+		document.getElementById("mainimage").innerHTML="<img src=<?php e($this->webroot);?>img/multiplestableimage/"+image+" height="+height+" width="+width+" align=middle>";
 	}
 	function mainimagereplace(imagedirectory,image,width,height) {
-		document.getElementById("mainimage").innerHTML="<img src=<?php e($this->webroot);?>img/"+imagedirectory+"/"+image+" height="+height+" width="+width+"+ align=middle style=padding-left:30px>";
+		document.getElementById("mainimage").innerHTML="<img src=<?php e($this->webroot);?>img/"+imagedirectory+"/"+image+" height="+height+" width="+width+"+ align=middle >";
 	}
 	function showimage(id) {
 		document.getElementById("ownerhorse_"+id).style.display="block";
@@ -52,6 +80,7 @@ e($this->renderelement('topheader'));
 		}
 	}
 </script>
+
 </head>
 <body>		
 	<div id="wrapper_parrent">

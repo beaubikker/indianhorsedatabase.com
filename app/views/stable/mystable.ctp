@@ -2,6 +2,33 @@
 e($this->renderelement('topheader'));
 ?>
 <?php e($html->css('skin1'));?>
+
+<!-- reyeng adding this -->
+
+
+<script language="javascript">	
+	function toggleview(id) {
+		$("#changeemail_"+id).toggle("slow");
+	}
+	function assignhidval(id) {
+		document.getElementById("hidval").value=id;	
+	}
+	function changeemailclose(id) {
+		document.getElementById("changeemail_"+id).style.display="none";
+	}
+</script>
+<script type="text/javascript">
+jQuery(document).ready(function() {
+  jQuery(".horsesthumbnailsforstablereyeng").hide();
+  //toggle the componenet with class msg_body
+  jQuery(".heading").click(function()
+  {
+    jQuery(this).next(".horsesthumbnailsforstablereyeng").slideToggle(300);
+  });
+});
+</script>
+
+<!-- end of reyeng added this -->
 <script type="text/javascript">
 	jQuery(document).ready(function() {
 		jQuery('#mycarousel').jcarousel();
@@ -26,10 +53,10 @@ e($this->renderelement('topheader'));
 		jQuery('#mycarouse2').jcarousel();
 	});
 	function imagereplace(image,width,height) {
-		document.getElementById("mainimage").innerHTML="<img src=<?php e($this->webroot);?>img/multiplestableimage/"+image+" height="+height+" width="+width+" align=middle style=padding-left:30px>";
+		document.getElementById("mainimage").innerHTML="<img src=<?php e($this->webroot);?>img/multiplestableimage/"+image+" height="+height+" width="+width+" align=middle>";
 	}
 	function mainimagereplace(imagedirectory,image,width,height) {
-		document.getElementById("mainimage").innerHTML="<img src=<?php e($this->webroot);?>img/"+imagedirectory+"/"+image+" height="+height+" width="+width+"+ align=middle style=padding-left:30px>";
+		document.getElementById("mainimage").innerHTML="<img src=<?php e($this->webroot);?>img/"+imagedirectory+"/"+image+" height="+height+" width="+width+"+ align=middle>";
 	}
 	function showimage(id) {
 		document.getElementById("ownerhorse_"+id).style.display="block";
@@ -58,7 +85,6 @@ e($this->renderelement('topheader'));
 		<div class="sign_in_parrent">
 			<?php e($this->renderelement('search'));?>
 		</div>
-		<br clear="all" />	
 		<div id="wrapper">		
 		<?php
 		e($this->renderelement('frontheader'));			

@@ -61,7 +61,14 @@ $currpage=basename($_SERVER['REQUEST_URI']);
 	e($html->css('style'));
 	//e($html->css('stylenew'));	
 	?>
+		<?php 
+	e($html->css('colorbox'));
+	//e($html->css('stylenew'));	
+	?>
 	
 	<?php e($javascript->link('jquery-1'));?> 
 	<?php e($javascript->link('jquery'));?>
+	<?php e($javascript->link('jquery.colorbox-min'));?>
+	<?php e($javascript->link('jquery.colorbox'));?>
+
 	<link rel="shortcut icon" type="image/ico" href="http://indianhorsedatabase.com/app/webroot/img/favicon.ico" />
