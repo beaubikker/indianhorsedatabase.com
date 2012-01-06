@@ -43,15 +43,7 @@ jQuery(document).ready(function() {
 					}
 					?>
 					<div>
-					<?php
-			echo['Horse']['id']
- $data = mysql_query("SELECT * FROM tbl_horses WHERE id='14'") 
- or die(mysql_error()); 
 
- $info = mysql_fetch_array( $data );
- Print "<b>Name:</b> ".$info['name'] . " "; 
- Print "<b>ID:</b> ".$info['id'] . " <br>"; ?>
-								</div>
 				
 					<?php 
 					$horsesalearr=$this->requestAction('horse/listlatesthorseforsale') ;

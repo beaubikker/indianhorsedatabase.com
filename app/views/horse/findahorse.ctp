@@ -423,19 +423,26 @@ e($this->renderelement('topheader'));
 												<div id="horsesearchresultdetailsiredamreyeng">
 														<div class="horsesearchresultdetailssirereyeng">
 															<h3>
-																<?php										
-																e($val['Horse']['sire']);
-																?>
+																<?php
+																	if($val['Horse']['sire']!="") { 
+																	$siretextname = $val['Horse']['sire'];
+																	echo $siretextname;
+																
+																	}else {
+																		e($val['Horse']['sire_id']); }
+																 ?>
 															</h3>
 														</div>
 														<div class="horsesearchresultdetailsdamreyeng">
 															<h3>
-															
-															
-															
 																<?php
-																 e($val['Horse']['dam_id']);
-																 ?>	
+																	if($val['Horse']['dam']!="") { 
+																	$damtextname = $val['Horse']['dam'];
+																	echo $damtextname;
+																
+																	}else {
+																			e($val['Horse']['dam_id']); }
+																?>
 															</h3>
 														</div>
 														<div class="clear"></div>
@@ -507,7 +514,6 @@ e($this->renderelement('topheader'));
 									?>			
 								</form>		
 							</div>
-							
 							
 							
 							

@@ -39,6 +39,9 @@
 <!-- reyeng added on JANUARY 5th 2012 - this code selects the name from the row of the current horse sire_id -->
 
 <?php
+
+if($horsearr['Horse']['sireunknowoption']!="Y") { 
+
 /* this defines the sire_id into a variable */
 	$sireid = $horsearr['Horse']['sire_id'];
 	
@@ -51,54 +54,63 @@
 	while ($row = mysql_fetch_assoc($result)) {
 	$sirename = $row['name'];
 	}
-?>
-
+	
+	?>
 <!-- this says what to display and making it into a link based upon the variables defined above -->
-<p class="domen"  style="cursor:pointer" onClick="details('<?php e(str_replace(" ", "-",$sirename));?>','<?php e($sireid);?>')">
+
+	<p class="domen"  style="cursor:pointer" onClick="details('<?php e(str_replace(" ", "-",$sirename));?>','<?php e($sireid);?>')">
 <?php echo $sirename;?>
 </p>
-    
-<!-- end reyeng added on JANUARY 5th 2012 - this code selects the name from the row of the current horse sire_id -->
-										  
-									</div>
-									</div>
-									<div class="infocontainer collumn1infocontainers dambgcolor">
-										<div>
-										
-																		<?php
-								if($horsearr['Horse']['damunknownoption']!="Y") {
-									if($horsearr['Horse']['dam']) {
-									?>
-									
-										<p class="domen"  style="cursor:pointer" onClick="details('<?php e(str_replace(" ", "-",$horsedamarr[0]['Horse']['name']));?>','<?php e($horsedamarr[0]['Horse']['id']);?>')">
-										
-											<?php
-											
-												e($horsearr['Horse']['dam']) ;										
-											?>			
-																
-										</p>
-									<?php
-									}
-									else {
-										?>
-										<p class="domen">
-											
-										</p>
-										<?php
-									}
-								}
-								else {
-									?>
-										<p class="domen">
-											<a style="text-decoration:underline; color:#C7AB4C" href ="<?php e($html->url('/horse/addhorse/adddam/'.str_replace(" ", "-",$horsearr['Horse']['name']).'/'.$horsearr['Horse']['id']));?>"><font size="-1">Add this horse</font> </a>
-										</p>
-										<?php
-								}
-								?>
-										  
-										  </div>
+<?php
+	} else {
+  // if the sire is unknown, so we show the “Add this horse button”
+?>
+<p class="domen">
+		<a style="text-decoration:underline; color:#C7AB4C" href ="<?php e($html->url('/horse/addhorse/addasire/'.str_replace(" ", "-",$horsearr['Horse']['name']).'/'.$horsearr['Horse']['id']));?>"><font size="-1">Add Sire</font></a>
+	</p>
+<?
+}
+?>
 
+	</div>
+</div>
+<div class="infocontainer collumn1infocontainers dambgcolor">
+	<div>
+				<?php
+
+if($horsearr['Horse']['damunknownoption']!="Y") {
+/* this defines the sire_id into a variable */
+	$damid = $horsearr['Horse']['dam_id'];
+	
+/* this finds the row of that sire_id defined above */
+	$query = sprintf("SELECT * FROM tbl_horses WHERE id=".$damid."",
+	mysql_real_escape_string($damid));
+	$result = mysql_query($query);
+
+/* this tell the code what column to show from that row defined above */
+	while ($row = mysql_fetch_assoc($result)) {
+	$damname = $row['name'];
+	}
+	?>
+<!-- this says what to display and making it into a link based upon the variables defined above -->
+
+	<p class="domen"  style="cursor:pointer" onClick="details('<?php e(str_replace(" ", "-",$damname));?>','<?php e($damid);?>')">
+<?php echo $damname;?>
+</p>
+<?php
+	} else {
+  // if the sire is unknown, so we show the “Add this horse button”
+?>
+<p class="domen">
+		<a style="text-decoration:underline; color:#C7AB4C" href ="<?php e($html->url('/horse/addhorse/adddam/'.str_replace(" ", "-",$horsearr['Horse']['name']).'/'.$horsearr['Horse']['id']));?>"><font size="-1">Add Dam</font></a>
+	</p>
+<?
+}
+?>						
+
+ </div>
+	<!-- end reyeng added on JANUARY 5th 2012 - this code selects the name from the row of the current horse sire_id -->										  
+						
 								</div>
 								</div>
 								<div class="collumn pedigreechartwidthofcollumn">
@@ -106,25 +118,39 @@
 									//if(count($firstsirenamearr)>0) {		
 									?>									
 										<div class="infocontainer collumn2infocontainers sirebgcolor">
-											<div>
-																						  
+											<div>					  
 											<?php
-											  if($frststendsire[0]['Horse']['sire']!="") {
-													$chksirearr=$this->requestAction('/horse/showfirsrdam/'.$frststendsire[0]['Horse']['sire_id']);
-													$hierchsire=$this->requestAction('/horse/showfirsrdam/'.$frststendsire[0]['Horse']['sire_id']);
-													if(count($chksirearr)>0) {
-														?>
-														
-														
-														<a href="javascript:void(0)" onClick="details('<?php e(str_replace(" ", "-",$firstsirenamearr[0]['Horse']['sire']));?>','<?php e($chksirearr[0]['Horse']['id']);?>')"><?php e($chksirearr[0]['Horse']['name']);?></a>
-														
-													<?php
-													}	
-													else {
-														 e($frststendsire[0]['Horse']['sire']);
+											
+											
+												/* this defines the sire_id into a variable */
+													$sireid = $horsearr['Horse']['sire_id'];
+													
+												/* this finds the row of that sire_id defined above */
+													$query = sprintf("SELECT * FROM tbl_horses WHERE id=".$sireid."",
+													mysql_real_escape_string($sireid));
+													$result = mysql_query($query);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result)) {
+													$siresireid = $row['sire_id'];
 													}
-											  }
-											  ?>
+													$query2 = sprintf("SELECT * FROM tbl_horses WHERE id=".$siresireid."",
+													mysql_real_escape_string($siresireid));
+													$result2 = mysql_query($query2);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result2)) {
+													$siresirename = $row['name'];
+													}
+
+													
+													
+													?>
+												<!-- this says what to display and making it into a link based upon the variables defined above -->
+												
+													<p class="domen"  style="cursor:pointer" onClick="details('<?php e(str_replace(" ", "-",$siresirename));?>','<?php e($siresireid);?>')">
+												<?php echo $siresirename;?>
+												</p>
 											  
 											  </div>
 											 					
@@ -133,23 +159,37 @@
 										<div class="infocontainer collumn2infocontainers dambgcolor">
 											<div>											
 											<?php
-											  if($frststendsire[0]['Horse']['dam']!="") {
-													$chksirearr=$this->requestAction('/horse/showfirsrdam/'.$frststendsire[0]['Horse']['dam_id']);
-													$fifthheirh=$this->requestAction('/horse/showfirsrdam/'.$frststendsire[0]['Horse']['dam_id']);
-													if(count($chksirearr)>0) {
-														?>
-														
-														
-														<a href="javascript:void(0)" onClick="details('<?php e(str_replace(" ", "-",$firstsirenamearr[0]['Horse']['dam']));?>','<?php e($chksirearr[0]['Horse']['id']);?>')"><?php e($chksirearr[0]['Horse']['name']);?></a>
-														
-														
-													<?php
-													}	
-													else {
-														 e($frststendsire[0]['Horse']['dam']);
+											
+											
+												/* this defines the sire_id into a variable */
+													$sireid = $horsearr['Horse']['sire_id'];
+													
+												/* this finds the row of that sire_id defined above */
+													$query = sprintf("SELECT * FROM tbl_horses WHERE id=".$sireid."",
+													mysql_real_escape_string($sireid));
+													$result = mysql_query($query);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result)) {
+													$siredamid = $row['dam_id'];
 													}
-											  }
-											  ?>
+													$query2 = sprintf("SELECT * FROM tbl_horses WHERE id=".$siredamid."",
+													mysql_real_escape_string($siredamid));
+													$result2 = mysql_query($query2);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result2)) {
+													$siredamname = $row['name'];
+													}
+
+													
+													
+													?>
+												<!-- this says what to display and making it into a link based upon the variables defined above -->
+												
+													<p class="domen"  style="cursor:pointer" onClick="details('<?php e(str_replace(" ", "-",$siredamname));?>','<?php e($siredamid);?>')">
+												<?php echo $siredamname;?>
+												</p>
 											  </div>
 											  
 										</div>
@@ -163,20 +203,37 @@
 										<div class="infocontainer collumn2infocontainers sirebgcolor">
 											<div>
 											<?php
-											  if($seconddam[0]['Horse']['sire']!="") {
-													$chksirearr=$this->requestAction('/horse/showfirsrdam/'.$seconddam[0]['Horse']['sire_id']);
-													$fourthdam=$this->requestAction('/horse/showfirsrdam/'.$seconddam[0]['Horse']['sire_id']);
-													if(count($chksirearr)>0) {
-														?>
-																												
-														<a href="javascript:void(0)" onClick="details('<?php e(str_replace(" ", "-",$chksirearr[0]['Horse']['name']));?>','<?php e($chksirearr[0]['Horse']['id']);?>')"><?php e($chksirearr[0]['Horse']['name']);?></a>
-													<?php
-													}	
-													else {
-														 e($seconddam[0]['Horse']['sire']);
+											
+											
+												/* this defines the sire_id into a variable */
+													$damid = $horsearr['Horse']['dam_id'];
+													
+												/* this finds the row of that sire_id defined above */
+													$query = sprintf("SELECT * FROM tbl_horses WHERE id=".$damid."",
+													mysql_real_escape_string($damid));
+													$result = mysql_query($query);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result)) {
+													$damsireid = $row['sire_id'];
 													}
-											  }
-											  ?>
+													$query2 = sprintf("SELECT * FROM tbl_horses WHERE id=".$damsireid."",
+													mysql_real_escape_string($damsireid));
+													$result2 = mysql_query($query2);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result2)) {
+													$damsirename = $row['name'];
+													}
+
+													
+													
+													?>
+												<!-- this says what to display and making it into a link based upon the variables defined above -->
+												
+													<p class="domen"  style="cursor:pointer" onClick="details('<?php e(str_replace(" ", "-",$damsirename));?>','<?php e($damsireid);?>')">
+												<?php echo $damsirename;?>
+												</p>
 											  </div>
 											  
 										</div>
@@ -184,20 +241,37 @@
 										<div class="infocontainer collumn2infocontainers  dambgcolor">
 											<div>
 											<?php
-											  if($seconddam[0]['Horse']['dam']!="") {
-													$chksirearr=$this->requestAction('/horse/showfirsrdam/'.$seconddam[0]['Horse']['dam_id']);
-													$fourthdam1=$this->requestAction('/horse/showfirsrdam/'.$seconddam[0]['Horse']['dam_id']);
-													if(count($chksirearr)>0) {
-														?>
-														
-														<a href="javascript:void(0)" onClick="details('<?php e(str_replace(" ", "-",$chksirearr[0]['Horse']['name']));?>','<?php e($chksirearr[0]['Horse']['id']);?>')"><?php e($chksirearr[0]['Horse']['name']);?></a>
-													<?php
-													}	
-													else {
-														 e($seconddam[0]['Horse']['dam']);
+											
+											
+												/* this defines the sire_id into a variable */
+													$damid = $horsearr['Horse']['dam_id'];
+													
+												/* this finds the row of that sire_id defined above */
+													$query = sprintf("SELECT * FROM tbl_horses WHERE id=".$damid."",
+													mysql_real_escape_string($damid));
+													$result = mysql_query($query);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result)) {
+													$damdamid = $row['dam_id'];
 													}
-											  }
-											  ?>
+													$query2 = sprintf("SELECT * FROM tbl_horses WHERE id=".$damdamid."",
+													mysql_real_escape_string($damdamid));
+													$result2 = mysql_query($query2);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result2)) {
+													$damdamname = $row['name'];
+													}
+
+													
+													
+													?>
+												<!-- this says what to display and making it into a link based upon the variables defined above -->
+												
+													<p class="domen"  style="cursor:pointer" onClick="details('<?php e(str_replace(" ", "-",$damdamname));?>','<?php e($damdamid);?>')">
+												<?php echo $damdamname;?>
+												</p>
 											  </div>
 											  
 											  
@@ -210,18 +284,45 @@
 									<div class="infocontainer collumn3infocontainers sirebgcolor">
 										<div>
 										<?php
-										  if($hierchsire[0]['Horse']['sire']!="") {
-												$chksirearr=$this->requestAction('/horse/showfirsrdam/'.$hierchsire[0]['Horse']['sire_id']);
-												if(count($chksirearr)>0) {
+											
+											
+												/* this defines the sire_id into a variable */
+													$sireid = $horsearr['Horse']['sire_id'];
+													
+												/* this finds the row of that sire_id defined above */
+													$query = sprintf("SELECT * FROM tbl_horses WHERE id=".$sireid."",
+													mysql_real_escape_string($sireid));
+													$result = mysql_query($query);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result)) {
+													$siresireid = $row['sire_id'];
+													}
+													$query2 = sprintf("SELECT * FROM tbl_horses WHERE id=".$siresireid."",
+													mysql_real_escape_string($siresireid));
+													$result2 = mysql_query($query2);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result2)) {
+													$siresiresireid = $row['sire_id'];
+													}
+													$query3 = sprintf("SELECT * FROM tbl_horses WHERE id=".$siresiresireid."",
+													mysql_real_escape_string($siresiresireid));
+													$result3 = mysql_query($query3);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result3)) {
+													$siresiresirename = $row['name'];
+													}
+
+													
+													
 													?>
-													<a href="javascript:void(0)" style="color: #CBB056;font-family:verdana;font-size: 12px;" onMouseOver="firsthirerchysiredamfirst()" onMouseOut="notfirsthirerchysiredamfirst()" onClick="details('<?php e(str_replace(" ", "-",$chksirearr[0]['Horse']['name']));?>','<?php e($chksirearr[0]['Horse']['id']);?>')"><?php e($chksirearr[0]['Horse']['name']);?></a>
-												<?php
-												}	
-												else {
-													 e($chksirearr[0]['Horse']['sire']);
-												}
-										  }
-										  ?>
+												<!-- this says what to display and making it into a link based upon the variables defined above -->
+												
+													<p class="domen"  style="cursor:pointer" onClick="details('<?php e(str_replace(" ", "-",$siresiresirename));?>','<?php e($siresiresireid);?>')">
+												<?php echo $siresiresirename;?>
+												</p>
 										  </div>
 										  
 										  
@@ -230,18 +331,45 @@
 									<div class="infocontainer collumn3infocontainers dambgcolor">
 											<div>
 											<?php
-											  if($hierchsire[0]['Horse']['dam']!="") {
-													$chksirearr=$this->requestAction('/horse/showfirsrdam/'.$hierchsire[0]['Horse']['dam_id']);
-													if(count($chksirearr)>0) {
-														?>
-														<a href="javascript:void(0)" style="color: #CBB056;font-family:verdana;font-size: 12px;" onMouseOver="firsthirerchysiredamsecond()" onMouseOut="notfirsthirerchysiredamsecond()" onClick="details('<?php e(str_replace(" ", "-",$chksirearr[0]['Horse']['name']));?>','<?php e($chksirearr[0]['Horse']['id']);?>')"><?php e($chksirearr[0]['Horse']['name']);?></a>
-													<?php
-													}	
-													else {
-														 e($hierchsire[0]['Horse']['dam']);
+											
+											
+												/* this defines the sire_id into a variable */
+													$sireid = $horsearr['Horse']['sire_id'];
+													
+												/* this finds the row of that sire_id defined above */
+													$query = sprintf("SELECT * FROM tbl_horses WHERE id=".$sireid."",
+													mysql_real_escape_string($sireid));
+													$result = mysql_query($query);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result)) {
+													$siresireid = $row['sire_id'];
 													}
-											  }
-											  ?>
+													$query2 = sprintf("SELECT * FROM tbl_horses WHERE id=".$siresireid."",
+													mysql_real_escape_string($siresireid));
+													$result2 = mysql_query($query2);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result2)) {
+													$siresiredamid = $row['dam_id'];
+													}
+													$query3 = sprintf("SELECT * FROM tbl_horses WHERE id=".$siresiredamid."",
+													mysql_real_escape_string($siresiredamid));
+													$result3 = mysql_query($query3);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result3)) {
+													$siresiredamname = $row['name'];
+													}
+
+													
+													
+													?>
+												<!-- this says what to display and making it into a link based upon the variables defined above -->
+												
+													<p class="domen"  style="cursor:pointer" onClick="details('<?php e(str_replace(" ", "-",$siresiredamname));?>','<?php e($siresiredamid);?>')">
+												<?php echo $siresiredamname;?>
+												</p>
 											  </div>
 											 
 									</div>
@@ -249,36 +377,90 @@
 									<div class="infocontainer collumn3infocontainers sirebgcolor">
 											<div>																						
 											<?php
-											  if($fifthheirh[0]['Horse']['sire']!="") {
-													$chksirearr=$this->requestAction('/horse/showfirsrdam/'.$fifthheirh[0]['Horse']['sire_id']);
-													if(count($chksirearr)>0) {
-														?>
-														<a href="javascript:void(0)" style="color: #CBB056;font-family:verdana;font-size: 12px;" onMouseOver="firsthirerchysiredamthird()" onMouseOut="notfirsthirerchysiredamthird()" onClick="details('<?php e(str_replace(" ", "-",$firsthirerchysiredam2[0]['Horse']['name']));?>','<?php e($chksirearr[0]['Horse']['id']);?>')"><?php e($chksirearr[0]['Horse']['name']);?></a>
-													<?php
-													}	
-													else {
-														 e($fifthheirh[0]['Horse']['sire']);
+											
+											
+												/* this defines the sire_id into a variable */
+													$sireid = $horsearr['Horse']['sire_id'];
+													
+												/* this finds the row of that sire_id defined above */
+													$query = sprintf("SELECT * FROM tbl_horses WHERE id=".$sireid."",
+													mysql_real_escape_string($sireid));
+													$result = mysql_query($query);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result)) {
+													$siresireid = $row['dam_id'];
 													}
-											  }
-											  ?>
+													$query2 = sprintf("SELECT * FROM tbl_horses WHERE id=".$siresireid."",
+													mysql_real_escape_string($siresireid));
+													$result2 = mysql_query($query2);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result2)) {
+													$siredamsireid = $row['sire_id'];
+													}
+													$query3 = sprintf("SELECT * FROM tbl_horses WHERE id=".$siredamsireid."",
+													mysql_real_escape_string($siredamsireid));
+													$result3 = mysql_query($query3);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result3)) {
+													$siredamsirename = $row['name'];
+													}
+
+													
+													
+													?>
+												<!-- this says what to display and making it into a link based upon the variables defined above -->
+												
+													<p class="domen"  style="cursor:pointer" onClick="details('<?php e(str_replace(" ", "-",$siredamsirename));?>','<?php e($siredamsireid);?>')">
+												<?php echo $siredamsirename;?>
+												</p>
 											  </div>
 											  								  
 									</div>
 									<div class="infocontainer collumn3infocontainers dambgcolor">
 											<div>
 											<?php
-											  if($fifthheirh[0]['Horse']['dam']!="") {
-													$chksirearr=$this->requestAction('/horse/showfirsrdam/'.$fifthheirh[0]['Horse']['dam_id']);
-													if(count($chksirearr)>0) {
-														?>
-														<a href="javascript:void(0)" style="color: #CBB056;font-family:verdana;font-size: 12px;" onMouseOver="firsthirerchysiredamfourth()" onMouseOut="notfirsthirerchysiredamfourth()" onClick="details('<?php e(str_replace(" ", "-",$chksirearr[0]['Horse']['sire']));?>','<?php e($chksirearr[0]['Horse']['id']);?>')"><?php e($chksirearr[0]['Horse']['name']);?></a>
-													<?php
-													}	
-													else {
-														 e($fifthheirh[0]['Horse']['dam']);
+											
+											
+												/* this defines the sire_id into a variable */
+													$sireid = $horsearr['Horse']['sire_id'];
+													
+												/* this finds the row of that sire_id defined above */
+													$query = sprintf("SELECT * FROM tbl_horses WHERE id=".$sireid."",
+													mysql_real_escape_string($sireid));
+													$result = mysql_query($query);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result)) {
+													$siresireid = $row['dam_id'];
 													}
-											  }
-											  ?>
+													$query2 = sprintf("SELECT * FROM tbl_horses WHERE id=".$siresireid."",
+													mysql_real_escape_string($siresireid));
+													$result2 = mysql_query($query2);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result2)) {
+													$siredamdamid = $row['dam_id'];
+													}
+													$query3 = sprintf("SELECT * FROM tbl_horses WHERE id=".$siredamdamid."",
+													mysql_real_escape_string($siredamdamid));
+													$result3 = mysql_query($query3);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result3)) {
+													$siredamdamname = $row['name'];
+													}
+
+													
+													
+													?>
+												<!-- this says what to display and making it into a link based upon the variables defined above -->
+												
+													<p class="domen"  style="cursor:pointer" onClick="details('<?php e(str_replace(" ", "-",$siredamdamname));?>','<?php e($siredamdamid);?>')">
+												<?php echo $siredamdamname;?>
+												</p>
 											  </div>
 											  
 											  
@@ -286,18 +468,45 @@
 									<div class="infocontainer collumn3infocontainers sirebgcolor">
 										<div>
 											<?php
-											  if($fourthdam[0]['Horse']['sire']!="") {
-													$chksirearr=$this->requestAction('/horse/showfirsrdam/'.$fourthdam[0]['Horse']['sire_id']);
-													if(count($chksirearr)>0) {
-														?>
-														<a href="javascript:void(0)" style="color: #CBB056;font-family:verdana;font-size: 12px;" onMouseOver="firsthirerchysiredamfifth()" onMouseOut="notfirsthirerchysiredamfifth()" onClick="details('<?php e(str_replace(" ", "-",$chksirearr[0]['Horse']['name']));?>','<?php e($chksirearr[0]['Horse']['id']);?>')"><?php e($chksirearr[0]['Horse']['name']);?></a>
-													<?php
-													}	 
-													else {
-														 e($fourthdam[0]['Horse']['sire']);
+											
+											
+												/* this defines the sire_id into a variable */
+													$damid = $horsearr['Horse']['dam_id'];
+													
+												/* this finds the row of that sire_id defined above */
+													$query = sprintf("SELECT * FROM tbl_horses WHERE id=".$damid."",
+													mysql_real_escape_string($damid));
+													$result = mysql_query($query);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result)) {
+													$damsireid = $row['sire_id'];
 													}
-											  }
-											  ?>
+													$query2 = sprintf("SELECT * FROM tbl_horses WHERE id=".$damsireid."",
+													mysql_real_escape_string($damsireid));
+													$result2 = mysql_query($query2);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result2)) {
+													$damsiresireid = $row['sire_id'];
+													}
+													$query3 = sprintf("SELECT * FROM tbl_horses WHERE id=".$damsiresireid."",
+													mysql_real_escape_string($damsiresireid));
+													$result3 = mysql_query($query3);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result3)) {
+													$damsiresirename = $row['name'];
+													}
+
+													
+													
+													?>
+												<!-- this says what to display and making it into a link based upon the variables defined above -->
+												
+													<p class="domen"  style="cursor:pointer" onClick="details('<?php e(str_replace(" ", "-",$damsiresirename));?>','<?php e($damsiresireid);?>')">
+												<?php echo $damsiresirename;?>
+												</p>
 											  </div>
 											  
 											  
@@ -305,18 +514,45 @@
 									<div class="infocontainer collumn3infocontainers dambgcolor">
 											<div>
 											<?php
-											  if($fourthdam[0]['Horse']['dam']!="") {
-													$chksirearr=$this->requestAction('/horse/showfirsrdam/'.$fourthdam[0]['Horse']['dam_id']);
-													if(count($chksirearr)>0) {
-														?>
-														<a href="javascript:void(0)" style="color: #CBB056;font-family:verdana;font-size: 12px;" onMouseOver="firsthirerchysiredamsixth()" onMouseOut="notfirsthirerchysiredamsixth()" onClick="details('<?php e(str_replace(" ", "-",$firsthirerchysiredam3[0]['Horse']['dam']));?>','<?php e($chksirearr[0]['Horse']['id']);?>')"><?php e($chksirearr[0]['Horse']['name']);?></a>
-													<?php
-													}	
-													else {
-														 e($fourthdam[0]['Horse']['dam']);
+											
+											
+												/* this defines the sire_id into a variable */
+													$damid = $horsearr['Horse']['dam_id'];
+													
+												/* this finds the row of that sire_id defined above */
+													$query = sprintf("SELECT * FROM tbl_horses WHERE id=".$damid."",
+													mysql_real_escape_string($damid));
+													$result = mysql_query($query);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result)) {
+													$damsireid = $row['sire_id'];
 													}
-											  }
-											  ?>
+													$query2 = sprintf("SELECT * FROM tbl_horses WHERE id=".$damsireid."",
+													mysql_real_escape_string($damsireid));
+													$result2 = mysql_query($query2);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result2)) {
+													$damsiredamid = $row['dam_id'];
+													}
+													$query3 = sprintf("SELECT * FROM tbl_horses WHERE id=".$damsiredamid."",
+													mysql_real_escape_string($damsiredamid));
+													$result3 = mysql_query($query3);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result3)) {
+													$damsiredamname = $row['name'];
+													}
+
+													
+													
+													?>
+												<!-- this says what to display and making it into a link based upon the variables defined above -->
+												
+													<p class="domen"  style="cursor:pointer" onClick="details('<?php e(str_replace(" ", "-",$damsiredamname));?>','<?php e($damsiredamid);?>')">
+												<?php echo $damsiredamname;?>
+												</p>
 											  </div>
 											  
 											  										
@@ -324,18 +560,45 @@
 									<div class="infocontainer collumn3infocontainers sirebgcolor">
 										<div>
 										<?php
-											 if($fourthdam1[0]['Horse']['sire']!="") {
-													$chksirearr=$this->requestAction('/horse/showfirsrdam/'.$fourthdam1[0]['Horse']['sire_id']);
-													if(count($chksirearr)>0) {
-														?>
-														<a href="javascript:void(0)" style="color: #CBB056;font-family:verdana;font-size: 12px;" onMouseOver="firsthirerchysiredamseventh()" onMouseOut="notfirsthirerchysiredamseventh()" onClick="details('<?php e(str_replace(" ", "-",$chksirearr[0]['Horse']['name']));?>','<?php e($chksirearr[0]['Horse']['id']);?>')"><?php e($chksirearr[0]['Horse']['name']);?></a>
-													<?php
-													}	
-													else {
-														 e($fourthdam1[0]['Horse']['sire']);
+											
+											
+												/* this defines the sire_id into a variable */
+													$damid = $horsearr['Horse']['dam_id'];
+													
+												/* this finds the row of that sire_id defined above */
+													$query = sprintf("SELECT * FROM tbl_horses WHERE id=".$damid."",
+													mysql_real_escape_string($damid));
+													$result = mysql_query($query);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result)) {
+													$damdamid = $row['dam_id'];
 													}
-											  }
-											  ?>
+													$query2 = sprintf("SELECT * FROM tbl_horses WHERE id=".$damdamid."",
+													mysql_real_escape_string($damdamid));
+													$result2 = mysql_query($query2);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result2)) {
+													$damdamsireid = $row['sire_id'];
+													}
+													$query3 = sprintf("SELECT * FROM tbl_horses WHERE id=".$damdamsireid."",
+													mysql_real_escape_string($damdamsireid));
+													$result3 = mysql_query($query3);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result3)) {
+													$damdamsirename = $row['name'];
+													}
+
+													
+													
+													?>
+												<!-- this says what to display and making it into a link based upon the variables defined above -->
+												
+													<p class="domen"  style="cursor:pointer" onClick="details('<?php e(str_replace(" ", "-",$damdamsirename));?>','<?php e($damdamsireid);?>')">
+												<?php echo $damdamsirename;?>
+												</p>
 											  </div>
 											  
 											  
@@ -343,18 +606,45 @@
 									<div class="infocontainer collumn3infocontainers dambgcolor">
 										<div>
 										<?php
-											  if($fourthdam1[0]['Horse']['dam']!="") {
-													$chksirearr=$this->requestAction('/horse/showfirsrdam/'.$fourthdam1[0]['Horse']['dam_id']);
-													if(count($chksirearr)>0) {
-														?>
-														<a href="javascript:void(0)" style="color: #CBB056;font-family:verdana;font-size: 12px;" onMouseOver="firsthirerchysiredameight()" onMouseOut="notfirsthirerchysiredameight()" onClick="details('<?php e(str_replace(" ", "-",$chksirearr[0]['Horse']['name']));?>','<?php e($chksirearr[0]['Horse']['id']);?>')"><?php e($chksirearr[0]['Horse']['name']);?></a>
-													<?php
-													}	
-													else {
-														 e($fourthdam1[0]['Horse']['dam']);
+											
+											
+												/* this defines the sire_id into a variable */
+													$damid = $horsearr['Horse']['dam_id'];
+													
+												/* this finds the row of that sire_id defined above */
+													$query = sprintf("SELECT * FROM tbl_horses WHERE id=".$damid."",
+													mysql_real_escape_string($damid));
+													$result = mysql_query($query);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result)) {
+													$damdamid = $row['dam_id'];
 													}
-											  }
-											  ?>
+													$query2 = sprintf("SELECT * FROM tbl_horses WHERE id=".$damdamid."",
+													mysql_real_escape_string($damdamid));
+													$result2 = mysql_query($query2);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result2)) {
+													$damdamdamid = $row['dam_id'];
+													}
+													$query3 = sprintf("SELECT * FROM tbl_horses WHERE id=".$damdamdamid."",
+													mysql_real_escape_string($damdamdamid));
+													$result3 = mysql_query($query3);
+												
+												/* this tell the code what column to show from that row defined above */
+													while ($row = mysql_fetch_assoc($result3)) {
+													$damdamdamname = $row['name'];
+													}
+
+													
+													
+													?>
+												<!-- this says what to display and making it into a link based upon the variables defined above -->
+												
+													<p class="domen"  style="cursor:pointer" onClick="details('<?php e(str_replace(" ", "-",$damdamdamname));?>','<?php e($damdamdamid);?>')">
+												<?php echo $damdamdamname;?>
+												</p>
 											  </div>
 											  
 									</div>	
